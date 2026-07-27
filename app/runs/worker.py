@@ -1,11 +1,17 @@
-"""Deterministic pipeline orchestration ("pipeline" mode): every stage is a
-direct Python/LLM-structured-output call with no agent tool-loop in between.
-This is the reliable default -- a flaky agent loop can never lose the
-artifacts -- and it is what the demo, API, and tests exercise.
+"""Two orchestration modes for the intake+ingestion portion of a run; every
+stage after that (claim extraction, dedupe, conflicts, clustering, gaps,
+rendering) is identical regardless of mode -- reusing the same functions.
 
-"agent" mode (`app.agents.graph.build_orchestrator`) exercises the same
-adapters/validators through the deepagents subagent topology described in
-the README, but is not required for artifact correctness.
+"pipeline" (default): intake and ingestion are direct Python calls with
+deterministic query templates. No agent tool-loop, so a flaky loop can never
+lose the artifacts -- this is what the demo and tests exercise.
+
+"agent": intake and ingestion are delegated to the `intake_validator` and
+`research_scout` subagents via the deepagents orchestrator's `task()` tool
+(`app.agents.graph.build_orchestrator`). The orchestrator and subagents share
+the run's `DocumentStore`, so whatever they fetch or record lands in the same
+place the deterministic mode would have put it -- the downstream stages
+below can't tell the difference.
 """
 
 from collections.abc import Awaitable, Callable
@@ -13,6 +19,7 @@ from pathlib import Path
 
 from langchain_core.messages import HumanMessage
 
+from app.agents.graph import build_orchestrator
 from app.agents.schemas import ClaimBatch, PainPointBatch
 from app.agents.store import DocumentStore
 from app.agents.subagents import build_claim_extractor, build_pain_point_clusterer
@@ -62,6 +69,42 @@ def _query_templates(company_name: str) -> list[str]:
         f"{company_name} vs",
         f"{company_name} support experience",
     ]
+
+
+async def _run_intake_and_research_via_agent(
+    store: DocumentStore,
+    company_name: str,
+    company_description: str,
+    seed_competitors: list[str],
+) -> None:
+    """Delegate intake + research to the deepagents orchestrator instead of
+    calling the deterministic helpers directly. The orchestrator's tools are
+    bound to this same `store`, so whatever `record_intake`/`search_*` calls
+    it makes (directly, or via `task()` to a subagent) land exactly where the
+    deterministic path would have put them.
+    """
+    orchestrator = build_orchestrator(store)
+    task_prompt = (
+        f"Target company: {company_name}\n"
+        f"Target description: {company_description}\n"
+        f"Seed competitors: {', '.join(seed_competitors)}\n\n"
+        "1. Delegate to `intake_validator` via `task()` with this target and competitor list. "
+        "Wait for it to call `record_intake`.\n"
+        "2. For the target and every accepted competitor, delegate to `research_scout` via "
+        "`task()` to gather documents.\n"
+        "3. Report a short summary of what was gathered and stop -- do not attempt claim "
+        "extraction, pain-point clustering, or report writing."
+    )
+    result = await orchestrator.ainvoke(
+        {"messages": [HumanMessage(content=task_prompt)]},
+        config={"recursion_limit": 60},
+    )
+    final_message = result["messages"][-1].content if result.get("messages") else ""
+    if store.intake_target is None:
+        raise RuntimeError(
+            "agent mode did not complete intake -- intake_validator never called record_intake. "
+            f"Orchestrator's final message: {final_message!r}"
+        )
 
 
 async def _ingest_company(company_id: str, company_name: str, store: DocumentStore, settings: Settings) -> None:
@@ -118,18 +161,31 @@ async def run_pipeline(
     on_progress: ProgressCallback | None = None,
 ) -> dict:
     store = DocumentStore()
-    target = make_competitor(company_name, None, company_description, is_target=True)
-    proposed = [make_competitor(name, None, f"Seed competitor: {name}") for name in seed_competitors]
-    _, resolved_competitors, meets_minimum = resolve_intake(target, proposed, settings.min_competitors)
-    store.record_intake(target, resolved_competitors)
-    await _report(on_progress, "intake")
+
+    if settings.orchestration_mode == "agent":
+        await _run_intake_and_research_via_agent(store, company_name, company_description, seed_competitors)
+        target = store.intake_target
+        resolved_competitors = store.intake_competitors
+        accepted_count = sum(1 for c in resolved_competitors if c.status == CompetitorStatus.ACCEPTED)
+        meets_minimum = accepted_count >= settings.min_competitors
+        await _report(on_progress, "intake")
+        await _report(on_progress, "ingesting")
+    else:
+        target = make_competitor(company_name, None, company_description, is_target=True)
+        proposed = [make_competitor(name, None, f"Seed competitor: {name}") for name in seed_competitors]
+        _, resolved_competitors, meets_minimum = resolve_intake(target, proposed, settings.min_competitors)
+        store.record_intake(target, resolved_competitors)
+        await _report(on_progress, "intake")
+
+        accepted = [c for c in resolved_competitors if c.status == CompetitorStatus.ACCEPTED]
+        companies_to_research = [target, *accepted]
+
+        for i, company in enumerate(companies_to_research):
+            await _ingest_company(company.id, company.name, store, settings)
+            await _report(on_progress, "ingesting", (i + 1) / len(companies_to_research))
 
     accepted = [c for c in resolved_competitors if c.status == CompetitorStatus.ACCEPTED]
     companies_to_research = [target, *accepted]
-
-    for i, company in enumerate(companies_to_research):
-        await _ingest_company(company.id, company.name, store, settings)
-        await _report(on_progress, "ingesting", (i + 1) / len(companies_to_research))
 
     validator = GroundingValidator(min_quote_chars=settings.min_quote_chars, max_quote_chars=settings.max_quote_chars)
     extractor_runnable = build_claim_extractor()["runnable"]
@@ -205,7 +261,7 @@ async def run_pipeline(
         grounding=grounding_report,
         skipped_sources=store.skipped,
         config={
-            "orchestration_mode": "pipeline",
+            "orchestration_mode": settings.orchestration_mode,
             "model": settings.llm_model,
             "sources_enabled": available_sources(),
             "competitor_count": len(accepted),
