@@ -1,6 +1,6 @@
 # Competitive Brief: Flowdeck
 
-_Generated 2026-07-27T12:38:32.793009+00:00 · run `demo-48e37774`_
+_Generated 2026-07-27T12:49:05.370228+00:00 · run `demo-be3837bd`_
 
 ## Company Overview
 
@@ -19,50 +19,76 @@ _Generated 2026-07-27T12:38:32.793009+00:00 · run `demo-48e37774`_
 
 | Company | Stance | Claim | Evidence |
 |---|---|---|---|
-| Flowdeck | positive | FlowDeck allows developers to trigger builds without switching over to Xcode. | [1] |
+| Flowdeck | positive | FlowDeck allows developers to trigger builds without having to switch to Xcode. | [1] |
+| Flowdeck | positive | Flowdeck allows users to create professional cockpit flows and link errors directly to specific flows for review. | [2] |
+| Flowdeck | positive | FlowDeck allows users to have an AI agent build and run their applications. | [5] |
+| Monday.com | positive | monday.com offers flexible customization for its boards. | [12] |
+| Monday.com | positive | monday.com includes strong automation capabilities. | [13] |
+### Pricing
+
+| Company | Stance | Claim | Evidence |
+|---|---|---|---|
+| Flowdeck | neutral | Flowdeck offers an annual access tier for €49.99 per year that includes all features. | [3] |
+| Flowdeck | neutral | Flowdeck provides bulk pricing ranging from €35 to €50 per pilot per year based on team size. | [4] |
 ### Positioning
 
 | Company | Stance | Claim | Evidence |
 |---|---|---|---|
-| Flowdeck | positive | Flowdock is widely used for communication within small or closed groups. | [2] |
-| Flowdeck | positive | FlowDock is recommended as a suitable alternative following Grove.io's shutdown. | [4] |
-| Monday.com | neutral | Monday.com is positioned as a work management platform. | [5] |
-| Monday.com | positive | Monday.com is considered a viable alternative for teams where Linear is not a good fit. | [6] |
-| Monday.com | negative | Monday.com is suitable for small projects but isn't viable or easy to use in enterprise or large organizations. | [7] |
-| Trello | neutral | Clubhouse is positioned as an alternative to Trello for software teams. | [8] |
-### Ux
+| Flowdeck | positive | The author felt no need to explore alternative tools because FlowDeck fully satisfied their requirements. | [6] |
+| Flowdeck | neutral | Flowdeck positions itself as a macOS IDE designed for AI agents to build and test software. | [7] |
+| Monday.com | neutral | Monday.com is recognized as a benchmark work management tool against which alternatives are positioned. | [8] |
+| Monday.com | positive | Monday.com is listed as a potential alternative for teams that find Linear unsuitable. | [9] |
+| Monday.com | negative | Monday.com is suitable for small projects but is not viable for enterprise context or larger organizations. | [10] |
+| Trello | neutral | Trello is positioned as a project management application. | [14] |
+| Trello | neutral | Trello is recognized as a project management solution for software teams against which alternatives like Clubhouse are positioned. | [15] |
+### Support
 
 | Company | Stance | Claim | Evidence |
 |---|---|---|---|
-| Flowdeck | positive | Flowdock receives praise for its conversation organization and threading capabilities. | [3] |
+| Monday.com | positive | Monday's support team resolved the issue quickly and handled everything without requiring effort from the user. | [11] |
 
 ## Conflicting Signals
 
 **monday-com|positioning** -- opinions diverge:
 
-- _positive_: "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com." [6]
-- _negative_: "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context." [7]
+- _positive_: "If you’ve given Linear a try, but it just doesn’t work for you, some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com." [9]
+- _negative_: "None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context." [10]
 
 ## Domain-Wide Pain Points
 
-### Lack of scalability for enterprise organizations (company_specific)
+### Inability to scale to enterprise needs (company_specific)
 
-Work management tools may work well for small projects but lack the viability and ease of use required for large enterprise organizations.
+Tools are perceived as suitable for small projects but failing to support larger enterprise organizations.
 
 Companies affected: monday-com. Platforms: hackernews.
 
-"some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context." [7]
+"None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context." [10]
+
+### Established tools serving as competitive benchmarks (domain_wide)
+
+Mainstream work management solutions serve as standard reference points against which alternative products are compared.
+
+Companies affected: monday-com, trello. Platforms: hackernews.
+
+"opensource work management (monday.com alternative)" [8]; "Clubhouse: Trello Alternative for Software Teams." [15]
+
+### Tiered annual and volume pricing models (company_specific)
+
+Software products offer annual seat licenses and tiered bulk pricing based on team size.
+
+Companies affected: flowdeck. Platforms: web.
+
+"Access Yearly €49.99per year → Every feature." [3]; "Bulk €35-50per pilot/yr → Volume pricing based on team size." [4]
 
 
 ## Opportunities & Gaps for Flowdeck
 
-- **[features · target_ahead]** The target has documented features discussion that no seed competitor has grounded evidence for.
-- **[ux · target_ahead]** The target has documented ux discussion that no seed competitor has grounded evidence for.
+- **[support · target_behind]** No grounded discussion found about the target's support, while 1 competitor(s) have documented opinions here.
 
 ## Methodology & Limitations
 
-- 8 candidate claims were proposed; 8 passed verbatim-quote grounding and 0 were rejected and excluded from this brief.
-- Sources skipped during this run: 28.
+- 18 candidate claims were proposed; 15 passed verbatim-quote grounding and 3 were rejected and excluded from this brief.
+- Sources skipped during this run: 29.
 - reddit (Flowdeck review): blocked -- Reddit returned 403
 - reddit (Flowdeck pricing complaints): blocked -- Reddit returned 403
 - hackernews (Flowdeck pricing complaints): empty -- no results
@@ -72,6 +98,7 @@ Companies affected: monday-com. Platforms: hackernews.
 - hackernews (Flowdeck support experience): empty -- no results
 - reddit (Asana review): blocked -- Reddit returned 403
 - reddit (Asana pricing complaints): blocked -- Reddit returned 403
+- hackernews (Asana pricing complaints): empty -- no results
 - reddit (Asana alternatives): blocked -- Reddit returned 403
 - reddit (Asana vs): blocked -- Reddit returned 403
 - reddit (Asana support experience): blocked -- Reddit returned 403
@@ -95,10 +122,17 @@ Companies affected: monday-com. Platforms: hackernews.
 ## References
 
 [1] hackernews -- https://flowdeck.studio/ -- "Stop switching to Xcode just to hit Build."
-[2] hackernews -- https://news.ycombinator.com/item?id=7611714 -- "For small&#x2F;closed groups, the popular ones are Hipchat and Flowdock."
-[3] hackernews -- https://news.ycombinator.com/item?id=7611714 -- "Flowdock gets a lot of great reviews because of how it organizes and threads conversations."
-[4] hackernews -- https://news.ycombinator.com/item?id=4535262 -- "I recommend FlowDock as a good alternative."
-[5] hackernews -- https://news.ycombinator.com/item?id=40431240 -- "opensource work management (monday.com alternative)"
-[6] hackernews -- https://news.ycombinator.com/item?id=33140431 -- "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com."
-[7] hackernews -- https://news.ycombinator.com/item?id=33140431 -- "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context."
-[8] hackernews -- https://clubhouse.io/vs/trello -- "Clubhouse: Trello Alternative for Software Teams."
+[2] web -- https://flowdeck.es/ -- "Create Professional Cockpit Flows. Link errors to specific Flowdeck flows for review."
+[3] web -- https://flowdeck.es/ -- "Access Yearly €49.99per year → Every feature."
+[4] web -- https://flowdeck.es/ -- "Bulk €35-50per pilot/yr → Volume pricing based on team size."
+[5] web -- https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/ -- "How I use FlowDeck to let my AI agent build and run my apps."
+[6] web -- https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/ -- "FlowDeck fell into my lap and I had no reason to try something else."
+[7] web -- https://flowdeck.studio/ -- "FlowDeck, the macOS IDE where AI agents build, test, and ...."
+[8] hackernews -- https://news.ycombinator.com/item?id=40431240 -- "opensource work management (monday.com alternative)"
+[9] hackernews -- https://news.ycombinator.com/item?id=33140431 -- "If you’ve given Linear a try, but it just doesn’t work for you, some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com."
+[10] hackernews -- https://news.ycombinator.com/item?id=33140431 -- "None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context."
+[11] web -- https://www.reddit.com/r/mondaydotcom/comments/111ar8v/mondaycom_review_my_honest_thoughts_after_using/ -- "They helped me solve my problem quickly and I didn't have to do anything on my side."
+[12] web -- https://project-management.com/monday-software-review/ -- "flexible board customization"
+[13] web -- https://project-management.com/monday-software-review/ -- "strong automation capabilities"
+[14] hackernews -- http://duetapp.com/ -- "project management and billing app (Trello alternative)"
+[15] hackernews -- https://clubhouse.io/vs/trello -- "Clubhouse: Trello Alternative for Software Teams."
