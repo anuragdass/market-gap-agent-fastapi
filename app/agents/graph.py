@@ -4,6 +4,7 @@ lives in this file and `subagents.py` -- a version bump touches only these two.
 
 from deepagents import CompiledSubAgent, SubAgent, create_deep_agent
 from langgraph.checkpoint.memory import InMemorySaver
+from langgraph.graph.state import CompiledStateGraph
 
 from app.agents.llm import get_llm
 from app.agents.prompts import ORCHESTRATOR_PROMPT
@@ -18,7 +19,7 @@ from app.config import get_settings
 from app.domain.state import MarketGapState
 
 
-def build_orchestrator(store: DocumentStore) -> object:
+def build_orchestrator(store: DocumentStore) -> CompiledStateGraph:
     settings = get_settings()
     subagents: list[SubAgent | CompiledSubAgent] = [
         *build_research_subagents(store),

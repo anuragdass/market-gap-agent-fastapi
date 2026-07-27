@@ -164,6 +164,8 @@ async def run_pipeline(
 
     if settings.orchestration_mode == "agent":
         await _run_intake_and_research_via_agent(store, company_name, company_description, seed_competitors)
+        # _run_intake_and_research_via_agent raises if this is still None.
+        assert store.intake_target is not None
         target = store.intake_target
         resolved_competitors = store.intake_competitors
         accepted_count = sum(1 for c in resolved_competitors if c.status == CompetitorStatus.ACCEPTED)
