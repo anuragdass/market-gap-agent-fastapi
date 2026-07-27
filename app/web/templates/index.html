@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Market Gap Agent{% endblock %}
+
+{% block body %}
+<main class="wrap">
+  <header>
+    <h1>Market Gap Agent</h1>
+    <p class="subtitle">
+      Competitive intelligence grounded in verbatim quotes from Reddit, web search, and
+      Hacker News.
+    </p>
+  </header>
+
+  <section class="panel" aria-labelledby="form-heading">
+    <h2 id="form-heading">Start an analysis</h2>
+    <form id="run-form" novalidate>
+      <div class="field">
+        <label for="company_name">Company name</label>
+        <input type="text" id="company_name" name="company_name" required maxlength="120"
+               autocomplete="off" placeholder="e.g. Flowdeck" />
+      </div>
+
+      <div class="field">
+        <label for="company_description">Company description</label>
+        <textarea id="company_description" name="company_description" required
+                  minlength="20" maxlength="1000" rows="4"
+                  placeholder="What it does, the product, the target user..."></textarea>
+      </div>
+
+      <fieldset class="field">
+        <legend>Seed competitors (3&ndash;8)</legend>
+        <div id="competitor-list" role="group" aria-describedby="competitor-hint"></div>
+        <div class="field-actions">
+          <button type="button" class="btn" id="add-competitor">Add competitor</button>
+          <span id="competitor-hint" class="hint" aria-live="polite"></span>
+        </div>
+      </fieldset>
+
+      <div class="field-actions form-actions">
+        <button type="submit" class="btn btn-primary" id="submit-btn">Run analysis</button>
+        <button type="button" class="btn" id="load-sample">Load sample input</button>
+      </div>
+
+      <p class="error" id="form-error" role="alert"></p>
+    </form>
+  </section>
+
+  <section class="panel" id="status-panel" aria-labelledby="status-heading" hidden>
+    <h2 id="status-heading">Run status</h2>
+    <div class="status-line" aria-live="polite">
+      <span class="dot" id="status-dot" aria-hidden="true"></span>
+      <div>
+        <div id="status-text">Queued&hellip;</div>
+        <div class="hint" id="status-sub"></div>
+      </div>
+    </div>
+    <dl class="counts" id="status-counts"></dl>
+    <p class="error" id="status-error" role="alert"></p>
+  </section>
+
+  <section class="panel" id="results-panel" aria-labelledby="results-heading" hidden>
+    <h2 id="results-heading">Results</h2>
+    <ul class="results-links">
+      <li><a id="brief-link" href="#" target="_blank" rel="noopener">Open competitive_brief.md</a></li>
+      <li><a id="evidence-link" href="#" target="_blank" rel="noopener">Open evidence.json</a></li>
+    </ul>
+  </section>
+</main>
+
+<script src="{{ url_for('static', path='js/app.js') }}" defer></script>
+{% endblock %}

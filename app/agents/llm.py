@@ -5,7 +5,6 @@ from langchain_core.language_models import BaseChatModel
 
 from app.config import get_settings
 
-
 _API_KEY_FIELD = {
     "anthropic": "anthropic_api_key",
     "openai": "openai_api_key",
