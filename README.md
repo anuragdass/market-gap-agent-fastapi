@@ -78,9 +78,24 @@ LLM "decide" them is exactly how a plausible-sounding but wrong gap gets invente
   deterministic query templates for ingestion, the compiled `claim_extractor` /
   `pain_point_clusterer` subagents invoked as plain runnables, everything else in Python.
   A flaky agent tool-loop can never lose the artifacts.
-- **`agent`**: the full `create_deep_agent` graph in `app/agents/graph.py`, with the
-  orchestrator delegating intake and research to subagents via `task()`. Same adapters and
-  validators underneath. Set `ORCHESTRATION_MODE=agent` to use it.
+- **`agent`**: the full `create_deep_agent` graph in `app/agents/graph.py`. The orchestrator
+  delegates intake to `intake_validator` and research to `research_scout` via `task()`, both
+  bound to the same `DocumentStore` the pipeline path writes to, so every downstream stage
+  (claim extraction, dedupe, conflicts, gaps, rendering) runs unmodified either way. Set
+  `ORCHESTRATION_MODE=agent` to use it.
+
+  Verified with a real end-to-end run (Gemini + Reddit/Serper/Hacker News): `intake_validator`
+  resolved every competitor's real domain from its own knowledge (`asana.com`, `clickup.com`,
+  ...) — something `pipeline` mode never attempts, which is why its brief always shows "domain
+  unknown." `research_scout` also wrote its own varied queries per company instead of the
+  pipeline's five fixed templates, which pulled in noticeably more documents and claims (43
+  claims vs. ~10 in an equivalent pipeline run) — but also more noise: because the test target
+  name "Flowdeck" happens to collide with several unrelated real products (a CFD simulator, a
+  macOS IDE, a livestream-commerce studio), the richer queries surfaced citations about all of
+  them under the target's name. Every quote is still real and correctly attributed to its
+  actual source — this is a keyword-search name collision, not a grounding failure — but it's
+  a concrete reason to pick a target name that isn't already a real product when using `agent`
+  mode with a fictional company.
 
 ## Ingestion, step by step, per competitor
 
