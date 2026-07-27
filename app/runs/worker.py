@@ -8,6 +8,7 @@ adapters/validators through the deepagents subagent topology described in
 the README, but is not required for artifact correctness.
 """
 
+from collections.abc import Awaitable, Callable
 from pathlib import Path
 
 from langchain_core.messages import HumanMessage
@@ -27,6 +28,30 @@ from app.domain.models import Claim, Competitor, Document
 from app.reporting.brief import render_brief, write_brief
 from app.reporting.evidence import build_evidence_bundle, write_evidence_json
 from app.sources.registry import available_sources, get_source
+
+ProgressCallback = Callable[[str, float], Awaitable[None]]
+
+# (stage, percent-at-start-of-stage, percent-at-end-of-stage). Progress within
+# a stage is linearly interpolated from work actually completed (companies
+# ingested, documents extracted) -- not a fixed timer -- so it reflects real
+# state, not a guess.
+STAGE_BANDS: list[tuple[str, float, float]] = [
+    ("intake", 0.0, 5.0),
+    ("ingesting", 5.0, 45.0),
+    ("extracting_claims", 45.0, 85.0),
+    ("clustering_pain_points", 85.0, 90.0),
+    ("computing_gaps", 90.0, 93.0),
+    ("rendering", 93.0, 100.0),
+]
+_STAGE_RANGE = {stage: (lo, hi) for stage, lo, hi in STAGE_BANDS}
+
+
+async def _report(on_progress: ProgressCallback | None, stage: str, fraction: float = 1.0) -> None:
+    if on_progress is None:
+        return
+    lo, hi = _STAGE_RANGE[stage]
+    percent = lo + (hi - lo) * max(0.0, min(1.0, fraction))
+    await on_progress(stage, percent)
 
 
 def _query_templates(company_name: str) -> list[str]:
@@ -90,35 +115,45 @@ async def run_pipeline(
     seed_competitors: list[str],
     settings: Settings,
     artifacts_dir: Path | None = None,
+    on_progress: ProgressCallback | None = None,
 ) -> dict:
     store = DocumentStore()
     target = make_competitor(company_name, None, company_description, is_target=True)
     proposed = [make_competitor(name, None, f"Seed competitor: {name}") for name in seed_competitors]
     _, resolved_competitors, meets_minimum = resolve_intake(target, proposed, settings.min_competitors)
     store.record_intake(target, resolved_competitors)
+    await _report(on_progress, "intake")
 
     accepted = [c for c in resolved_competitors if c.status == CompetitorStatus.ACCEPTED]
     companies_to_research = [target, *accepted]
 
-    for company in companies_to_research:
+    for i, company in enumerate(companies_to_research):
         await _ingest_company(company.id, company.name, store, settings)
+        await _report(on_progress, "ingesting", (i + 1) / len(companies_to_research))
 
     validator = GroundingValidator(min_quote_chars=settings.min_quote_chars, max_quote_chars=settings.max_quote_chars)
     extractor_runnable = build_claim_extractor()["runnable"]
+
+    company_documents = [
+        (company, document)
+        for company in companies_to_research
+        for document in _rank_and_cap(store.all(), company.id, settings.max_documents_per_company)
+    ]
 
     all_claims: list[Claim] = []
     claims_proposed_total = 0
     rejections_total: list = []
 
-    for company in companies_to_research:
-        docs = _rank_and_cap(store.all(), company.id, settings.max_documents_per_company)
-        for document in docs:
-            claims, proposed_count, rejections = await _extract_claims_for_document(
-                extractor_runnable, company, document, validator
-            )
-            all_claims.extend(claims)
-            claims_proposed_total += proposed_count
-            rejections_total.extend(rejections)
+    if not company_documents:
+        await _report(on_progress, "extracting_claims")
+    for i, (company, document) in enumerate(company_documents):
+        claims, proposed_count, rejections = await _extract_claims_for_document(
+            extractor_runnable, company, document, validator
+        )
+        all_claims.extend(claims)
+        claims_proposed_total += proposed_count
+        rejections_total.extend(rejections)
+        await _report(on_progress, "extracting_claims", (i + 1) / len(company_documents))
 
     merged_claims = merge_claims(all_claims)
     conflicts = detect_conflicts(merged_claims)
@@ -144,8 +179,10 @@ async def run_pipeline(
         pain_points = build_pain_points(
             [c.model_dump() for c in batch.clusters], claims_by_id, settings.domain_wide_min_companies
         )
+    await _report(on_progress, "clustering_pain_points")
 
     gaps = compute_gaps(target.id, merged_claims)
+    await _report(on_progress, "computing_gaps")
 
     from app.domain.models import GroundingReport
 
@@ -180,6 +217,7 @@ async def run_pipeline(
     write_evidence_json(bundle, artifacts_dir / "evidence.json")
     markdown = render_brief(bundle)
     write_brief(markdown, artifacts_dir / "competitive_brief.md")
+    await _report(on_progress, "rendering")
 
     status = RunStatus.SUCCEEDED
     if store.skipped or not meets_minimum:

@@ -33,8 +33,11 @@ async def _execute(run_id: str, request: AnalysisRequest) -> None:
     run_store = get_run_store()
     semaphore = get_run_semaphore(settings)
 
+    async def on_progress(stage: str, progress: float) -> None:
+        await run_store.update(run_id, stage=stage, progress=progress)
+
     async with semaphore:
-        await run_store.update(run_id, status=RunStatus.RUNNING, stage="ingesting")
+        await run_store.update(run_id, status=RunStatus.RUNNING, stage="intake", progress=0.0)
         try:
             result = await asyncio.wait_for(
                 run_pipeline(
@@ -43,6 +46,7 @@ async def _execute(run_id: str, request: AnalysisRequest) -> None:
                     company_description=request.company_description,
                     seed_competitors=request.competitors,
                     settings=settings,
+                    on_progress=on_progress,
                 ),
                 timeout=settings.run_timeout_seconds,
             )
@@ -50,6 +54,7 @@ async def _execute(run_id: str, request: AnalysisRequest) -> None:
                 run_id,
                 status=result["status"],
                 stage="done",
+                progress=100.0,
                 counts=result["counts"],
             )
         except Exception as exc:  # noqa: BLE001
@@ -90,6 +95,7 @@ def _status_response(record: RunRecord) -> RunStatusResponse:
         run_id=record.run_id,
         status=record.status,
         stage=record.stage,
+        progress=record.progress,
         counts=record.counts,
         error=record.error,
         artifacts=_artifact_links(record.run_id),
@@ -136,10 +142,7 @@ async def stream_run_events(run_id: str, request: Request) -> EventSourceRespons
 async def list_runs() -> list[RunStatusResponse]:
     run_store = get_run_store()
     records = await run_store.list()
-    return [
-        RunStatusResponse(run_id=r.run_id, status=r.status, stage=r.stage, counts=r.counts, error=r.error)
-        for r in records
-    ]
+    return [_status_response(r) for r in records]
 
 
 @router.get("/runs/{run_id}/brief")

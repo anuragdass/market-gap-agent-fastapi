@@ -211,6 +211,45 @@ textarea {
   }
 }
 
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+progress {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: none;
+  background: var(--border);
+}
+
+progress::-webkit-progress-bar {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+progress::-webkit-progress-value {
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+progress::-moz-progress-bar {
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+#status-percent {
+  min-width: 3.2em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 .counts {
   display: flex;
   gap: 20px;

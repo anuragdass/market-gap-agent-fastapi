@@ -12,8 +12,22 @@ const statusPanel = document.getElementById("status-panel");
 const statusDot = document.getElementById("status-dot");
 const statusText = document.getElementById("status-text");
 const statusSub = document.getElementById("status-sub");
+const statusProgress = document.getElementById("status-progress");
+const statusPercent = document.getElementById("status-percent");
 const statusCounts = document.getElementById("status-counts");
 const statusError = document.getElementById("status-error");
+
+const STAGE_LABELS = {
+  queued: "Queued",
+  intake: "Resolving competitors",
+  ingesting: "Fetching Reddit, search, and Hacker News results",
+  extracting_claims: "Extracting grounded claims from documents",
+  clustering_pain_points: "Clustering domain-wide pain points",
+  computing_gaps: "Computing feature and positioning gaps",
+  rendering: "Rendering brief and evidence files",
+  done: "Done",
+  failed: "Failed",
+};
 
 const resultsPanel = document.getElementById("results-panel");
 const briefLink = document.getElementById("brief-link");
@@ -151,16 +165,20 @@ function subscribeToRun(runId) {
 function renderStatus(data) {
   statusDot.className = `dot ${data.status}`;
 
-  const labels = {
+  const statusLabels = {
     queued: "Queued",
-    running: "Running",
+    running: STAGE_LABELS[data.stage] || "Running",
     succeeded: "Succeeded",
     partial: "Partial — some sources were skipped",
     failed: "Failed",
   };
-  statusText.textContent = labels[data.status] || data.status;
+  statusText.textContent = statusLabels[data.status] || data.status;
   statusSub.textContent = `run ${data.run_id} · stage: ${data.stage}`;
   statusError.textContent = data.error || "";
+
+  const progress = Math.max(0, Math.min(100, data.progress ?? 0));
+  statusProgress.value = progress;
+  statusPercent.textContent = `${Math.round(progress)}%`;
 
   statusCounts.innerHTML = "";
   for (const [key, value] of Object.entries(data.counts || {})) {

@@ -25,6 +25,7 @@ class RunRecord(BaseModel):
     run_id: str
     status: RunStatus = RunStatus.QUEUED
     stage: str = "queued"
+    progress: float = 0.0
     created_at: datetime
     finished_at: datetime | None = None
     error: str | None = None
@@ -36,6 +37,7 @@ class RunRecord(BaseModel):
             run_id=row.run_id,
             status=RunStatus(row.status),
             stage=row.stage,
+            progress=row.progress,
             created_at=row.created_at,
             finished_at=row.finished_at,
             error=row.error,

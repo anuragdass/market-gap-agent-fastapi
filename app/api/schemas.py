@@ -19,6 +19,7 @@ class RunStatusResponse(BaseModel):
     run_id: str
     status: RunStatus
     stage: str
+    progress: float
     counts: dict[str, int]
     error: str | None = None
     artifacts: dict[str, str] = {}
