@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "run_id": "demo-be3837bd",
-  "generated_at": "2026-07-27T12:49:05.370228Z",
+  "run_id": "b999fe06-5526-46a3-a270-8f23c21e40cc",
+  "generated_at": "2026-07-27T13:07:36.325039Z",
   "target": {
     "id": "flowdeck",
     "name": "Flowdeck",
@@ -62,30 +62,12 @@
   "sources": {
     "documents": [
       {
-        "id": "050f589fd958e962",
+        "id": "cb3579b3f50a54cc",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flowdeck.es/",
-        "title": "Flowdeck - Create Professional Cockpit Flows",
-        "text_excerpt": "Flowdeck - Create Professional Cockpit Flows. Link errors to specific Flowdeck flows for review. Access Yearly \u20ac49.99per year \u2192 Every feature. Bulk \u20ac35-50per pilot/yr \u2192 Volume pricing based on team size.",
-        "published_at": null
-      },
-      {
-        "id": "25e5245a8168dba9",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/",
-        "title": "How I use FlowDeck to let my AI agent build and run my apps",
-        "text_excerpt": "How I use FlowDeck to let my AI agent build and run my apps. My experience with XcodeBuildMCP is very limited, mainly because FlowDeck fell into my lap and I had no reason to try something else.",
-        "published_at": null
-      },
-      {
-        "id": "ce7d5fb983b08470",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://flowdeck.studio/",
-        "title": "FlowDeck, the macOS IDE where AI agents build, test, and ...",
-        "text_excerpt": "FlowDeck, the macOS IDE where AI agents build, test, and .... Get help, share workflows, and see what others are building with FlowDeck. $59/year after curl. Learn Documentation Videos Blog Changelog License",
+        "url": "https://www.youtube.com/watch?v=TY10TPXGGVA",
+        "title": "Flowdeck X Review",
+        "text_excerpt": "Flowdeck X Review. We managed to get our hands on the Flowdeck X Electric Skateboard, so we thought we'd take it for a spin and let you know more about it!",
         "published_at": null
       },
       {
@@ -98,48 +80,66 @@
         "published_at": null
       },
       {
-        "id": "a173d786de2bc030",
+        "id": "ce7d5fb983b08470",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.flow-deck.com/",
-        "title": "FlowDeck | On-demand CFD in your browser",
-        "text_excerpt": "FlowDeck | On-demand CFD in your browser. FlowDeck puts Computational Fluid Dynamics in your browser, accurate fluid simulation in minutes, no specialist expertise required. Get early access.",
+        "url": "https://flowdeck.studio/",
+        "title": "FlowDeck, the macOS IDE where AI agents build, test, and ...",
+        "text_excerpt": "FlowDeck, the macOS IDE where AI agents build, test, and .... Get help, share workflows, and see what others are building with FlowDeck. $59/year after curl. Learn Documentation Videos Blog Changelog License",
         "published_at": null
       },
       {
-        "id": "00386786c537f418",
+        "id": "1b8952549b344ffd",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.reddit.com/r/pcgaming/comments/17did01/whats_your_opinion_on_and_experience_with_the/",
+        "title": "What's your opinion on and experience with the steam deck?",
+        "text_excerpt": "What's your opinion on and experience with the steam deck?. Like the title says, what is your opinion on and experience with the Steam Deck? Is it good or bad? What makes it good or bad?I have a big catalog of untouched ...",
+        "published_at": null
+      },
+      {
+        "id": "e126759b5f8e2c4e",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.ultrabookreview.com/56132-steam-deck-review/",
+        "title": "My Steam Deck review - as an Aya Neo, GPD Win and ...",
+        "text_excerpt": "My Steam Deck review - as an Aya Neo, GPD Win and .... It's larger than the Aya Neo I reviewed last year, and it's a complete beast compared to the Nintendo Switch. This isn't necessarily a bad thing ...",
+        "published_at": null
+      },
+      {
+        "id": "d1ebd8fa64fc7f2a",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.youtube.com/watch?v=zxcvwuaXC_w",
+        "title": "Steam Deck Review - I Love This Thing!",
+        "text_excerpt": "Steam Deck Review - I Love This Thing!. My review of the Valve Steam Deck with AMDs RDNA2 GPU. Steam Deck OLED Review",
+        "published_at": null
+      },
+      {
+        "id": "af0d4265e88270ec",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.pcmag.com/reviews/elgato-stream-deck",
+        "title": "Elgato Stream Deck Review",
+        "text_excerpt": "Elgato Stream Deck Review. The Elgato Stream Deck isn't an essential tool for every PC gamer, but it's a legitimately useful and fun shortcut panel for consistent, serious streamers.",
+        "published_at": null
+      },
+      {
+        "id": "3f78f87c068f731c",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://flowdeck.studio/learn/",
+        "title": "Learn",
+        "text_excerpt": "Learn. Let an AI agent test your iOS app. Hand your app to an agent for an exploratory QA sweep: screen review, feature tests, edge cases, fixes, and a summary report.",
+        "published_at": null
+      },
+      {
+        "id": "396aa46780f91cce",
         "platform": "g2",
         "source_name": "serper",
-        "url": "https://www.g2.com/products/appfire-flow/reviews",
-        "title": "Flow Reviews 2026: Details, Pricing, & Features",
-        "text_excerpt": "Flow Reviews 2026: Details, Pricing, & Features. Users consistently praise the ease of use and intuitive interface of Flow, which allows for efficient task management and workflow visualization.",
-        "published_at": null
-      },
-      {
-        "id": "7c66bf16e13eb7ad",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://flowdeck.studio/docs/macos/introduction",
-        "title": "FlowDeck for Mac",
-        "text_excerpt": "FlowDeck for Mac. FlowDeck is a native Mac app for iOS and macOS development. You get a complete IDE \u2014 build, run, test, debug, manage simulators and devices, stream logs, ...",
-        "published_at": null
-      },
-      {
-        "id": "b575f3cf0dfe2d33",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://medium.com/@danielcardosodev/flow-club-my-honest-review-fc8d8926e4f4",
-        "title": "Flow Club: My honest review - by Daniel Cardoso",
-        "text_excerpt": "Flow Club: My honest review - by Daniel Cardoso. Flow Club keeps me accountable with my sessions scheduled in advance, I find it a little bit expensive, the experience is great but 40$ monthly ...",
-        "published_at": null
-      },
-      {
-        "id": "c4f444365521deeb",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://uk.trustpilot.com/review/flowneuroscience.com",
-        "title": "Flow Neuroscience Reviews | Read Customer Service ...",
-        "text_excerpt": "Flow Neuroscience Reviews | Read Customer Service .... This is one of the few products I have tried which has definitely helped and I know mental health professionals who are suggesting it to their clients.",
+        "url": "https://www.g2.com/products/flipdeck/reviews",
+        "title": "Flipdeck Reviews 2026: Details, Pricing, & Features",
+        "text_excerpt": "Flipdeck Reviews 2026: Details, Pricing, & Features. Filter Reviews \u00b7 1. Flipdeck takes a lot of time to create a blog which makes the customer frustrated \u00b7 2. Marketing team is not very supportable \u00b7 3.",
         "published_at": null
       },
       {
@@ -170,57 +170,75 @@
         "published_at": "2024-02-02T04:31:32+00:00"
       },
       {
-        "id": "dd7d43024d82c895",
-        "platform": "web",
+        "id": "9098fe9d87c0abc1",
+        "platform": "g2",
         "source_name": "serper",
-        "url": "https://forum.bitcraze.io/viewtopic.php?t=3469",
-        "title": "Flowdeck v2 failing calibration with CF 2.1",
-        "text_excerpt": "Flowdeck v2 failing calibration with CF 2.1. My new CF2.1 is failing calibration when Flowdeckv2 is connected. Running most up-to-date firmware. No prior problems with this same Flowdeck ...",
+        "url": "https://www.g2.com/products/flow-ai/reviews",
+        "title": "Flow.ai Reviews 2026: Details, Pricing, & Features",
+        "text_excerpt": "Flow.ai Reviews 2026: Details, Pricing, & Features. some users note that it can be overpriced compared to similar tools. Found it a bit overpriced, rest, We have no complaints about the tool, Pricing details for ...",
         "published_at": null
       },
       {
-        "id": "d4ed9cee826f41e1",
+        "id": "0758ff7d42bbc8ed",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://github.com/bitcraze/crazyflie-firmware/issues/523",
-        "title": "Problems in kalman estimator using LPS and Flow deck at ...",
-        "text_excerpt": "Problems in kalman estimator using LPS and Flow deck at .... There seems to be some sort of clash in the kalman filter when using a Flow deck and LPS at the same time. Reported symptoms is that it works ...",
+        "url": "https://sarahburk.com/flodesk-review/",
+        "title": "My Honest Flodesk Review: Pros + Cons for Growing Your List",
+        "text_excerpt": "My Honest Flodesk Review: Pros + Cons for Growing Your List. The Everything plan starts at $54 per month for up to 1,000 subscribers ($49 per month annually). No matter which Flodesk plan you choose, Flodesk's pricing is ...",
         "published_at": null
       },
       {
-        "id": "1e517c54ba7fc304",
+        "id": "e530605abe98f225",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=XngYathBrAY",
-        "title": "FlowDeck - Get a Clear Space Ready in 1 Slide for Deep Work.",
-        "text_excerpt": "FlowDeck - Get a Clear Space Ready in 1 Slide for Deep Work.. A desk set that gives instant clarity for seamless work-rest transitions. Cultivate deep work, effortless flow, and focused performance.",
+        "url": "https://firstsales.io/brand-review/flowdev/",
+        "title": "FlowDev Review: Features, Pricing, Pros & Cons | AI Tools",
+        "text_excerpt": "FlowDev Review: Features, Pricing, Pros & Cons | AI Tools. Good value for the price Common Complaints: Advanced features can have a learning curve Some users report occasional bugs Mobile app limitations Desire for ...",
         "published_at": null
       },
       {
-        "id": "aac6f2a9b85f3453",
+        "id": "2e8d370929782ff2",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flowdeck.studio/cli/videos/",
-        "title": "FlowDeck in Action - Real Sessions, No Scripts",
-        "text_excerpt": "FlowDeck in Action - Real Sessions, No Scripts. FlowDeck handle real iOS and macOS workflows. Studio CLI Pricing Learn Blog Community Customer Portal ... find bugs, fix them. $59/year after curl -sSL",
+        "url": "https://www.softwareadvice.com/product/24651-Flow/",
+        "title": "Flow Software Reviews, Demo & Pricing - 2026",
+        "text_excerpt": "Flow Software Reviews, Demo & Pricing - 2026. Pricing Starting at $8.00 per user per month. Starting price: $8.00 per month Free ... a personalized pricing breakdown tailored to your specific needs\u2014no ...",
         "published_at": null
       },
       {
-        "id": "ec29a9656d7c18f4",
+        "id": "ed36fbe384a600f6",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.instagram.com/p/DZe2I1FjGBu/",
-        "title": "they love it! Instead of passively reading manuals and ...",
-        "text_excerpt": "they love it! Instead of passively reading manuals and .... Flowdeck helps pilots practise, review, and build confidence before stepping into the cockpit. Reviewed and approved by flight instructors, ...",
+        "url": "https://www.trustpilot.com/review/flow.ai",
+        "title": "Read Customer Service Reviews of flow.ai",
+        "text_excerpt": "Read Customer Service Reviews of flow.ai. 1.7 Bad TrustScore 1.5 out of 5 20 reviews. This company hasn't invited customers recently, so reviews may not be representative Hasn't replied ...",
         "published_at": null
       },
       {
-        "id": "cb3579b3f50a54cc",
+        "id": "4f778f94b84e62f0",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=TY10TPXGGVA",
-        "title": "Flowdeck X Review",
-        "text_excerpt": "Flowdeck X Review. We managed to get our hands on the Flowdeck X Electric Skateboard, so we thought we'd take it for a spin and let you know more about it!",
+        "url": "https://www.techradar.com/reviews/flodesk-review",
+        "title": "Flodesk Review: Pros & Cons, Features, Ratings, Pricing ...",
+        "text_excerpt": "Flodesk Review: Pros & Cons, Features, Ratings, Pricing .... One drawback we observed is that Flodesk's analytical tools aren't as sophisticated as what you'd find on some rival platforms. run up to ...",
+        "published_at": null
+      },
+      {
+        "id": "3472ec0fb71751a4",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.emailtooltester.com/en/reviews/flodesk/pricing/",
+        "title": "Flodesk Pricing (2026): Is it too good to be true?",
+        "text_excerpt": "Flodesk Pricing (2026): Is it too good to be true?. The Worst Very basic automation No free plan Starting From $25 per month Review. However, you're restricted to 1 automated workflow and can't ...",
+        "published_at": null
+      },
+      {
+        "id": "c0393fbee188c86a",
+        "platform": "g2",
+        "source_name": "serper",
+        "url": "https://www.capterra.com/p/150388/Flow/reviews/",
+        "title": "Flow Reviews 2026. Verified Reviews, Pros & Cons",
+        "text_excerpt": "Flow Reviews 2026. Verified Reviews, Pros & Cons. Flow is great for organizing teams effectively, on a smaller scale. The cost is great for what you get. It is easy to use and well organized!",
         "published_at": null
       },
       {
@@ -269,15 +287,6 @@
         "published_at": null
       },
       {
-        "id": "932e7a6eb079f806",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://crozdesk.com/software/flow-ai/alternatives",
-        "title": "Flow.ai Alternatives",
-        "text_excerpt": "Flow.ai Alternatives. The best alternative solutions to Flow.ai are: Adobe Firefly ChatGPT UserWay Webtap.ai Midjourney Jasper AI Deepseek",
-        "published_at": null
-      },
-      {
         "id": "eba4aac32a39d3ca",
         "platform": "web",
         "source_name": "serper",
@@ -302,6 +311,15 @@
         "url": "https://www.capterra.com/p/150388/Flow/alternatives/",
         "title": "Best Flow Alternatives 2026",
         "text_excerpt": "Best Flow Alternatives 2026. Alternatives to Flow \u00b7 Top Flow Alternatives \u00b7 Connecteam \u00b7 Airtable \u00b7 Wrike \u00b7 Trello \u00b7 Jira \u00b7 Any.do \u00b7 Microsoft To Do. by Microsoft. 4.6 (3073) \u00b7 View Profile.",
+        "published_at": null
+      },
+      {
+        "id": "729a14f97cfb6bb2",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://launchpad.io/best-no-code-workflow-automation-platforms",
+        "title": "12 Best No-Code Workflow Automation Platforms in 2026",
+        "text_excerpt": "12 Best No-Code Workflow Automation Platforms in 2026. Compare the 12 best no-code workflow automation tools, including Launchpad, Zapier, and Outfunnel, based on pricing, integrations, ...",
         "published_at": null
       },
       {
@@ -395,12 +413,21 @@
         "published_at": "2017-01-18T22:59:01+00:00"
       },
       {
+        "id": "25e5245a8168dba9",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/",
+        "title": "How I use FlowDeck to let my AI agent build and run my apps",
+        "text_excerpt": "How I use FlowDeck to let my AI agent build and run my apps. My experience with XcodeBuildMCP is very limited, mainly because FlowDeck fell into my lap and I had no reason to try something else.",
+        "published_at": null
+      },
+      {
         "id": "d359c5422f5b5b1b",
         "platform": "web",
         "source_name": "serper",
         "url": "https://flowdeck.studio/docs/introduction",
         "title": "What is FlowDeck CLI?",
-        "text_excerpt": "What is FlowDeck CLI?. FlowDeck CLI is a single command-line interface for iOS/macOS development, replacing xcodebuild , simctl , devicectl , and other Apple tools with a clean, ...",
+        "text_excerpt": "What is FlowDeck CLI?. FlowDeck CLI is a single command-line interface for iOS/macOS development, replacing xcodebuild , simctl , devicectl , and other Apple tools",
         "published_at": null
       },
       {
@@ -419,6 +446,15 @@
         "url": "https://www.threads.com/@slowbrewed.studio/post/DTdGSTNkv-Y/you-can-actually-live-outside-of-xcode-few-things-flow-deck-in-any-vscode",
         "title": "You can actually live outside of Xcode. Few things",
         "text_excerpt": "You can actually live outside of Xcode. Few things. FlowDeck also does have an extension for Cursor and all VSCode variants. I think it's ease of use and deterministic outputs. I was part of ...",
+        "published_at": null
+      },
+      {
+        "id": "a173d786de2bc030",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.flow-deck.com/",
+        "title": "FlowDeck | On-demand CFD in your browser",
+        "text_excerpt": "FlowDeck | On-demand CFD in your browser. FlowDeck puts Computational Fluid Dynamics in your browser, accurate fluid simulation in minutes, no specialist expertise required. Get early access.",
         "published_at": null
       },
       {
@@ -476,84 +512,66 @@
         "published_at": "2017-01-19T04:47:06+00:00"
       },
       {
-        "id": "1b8492c8e851a0f2",
-        "platform": "hackernews",
-        "source_name": "hackernews",
-        "url": "https://changani.me/blog/2020/07/25/Generating-Typescript-interfaces-from-JSON-on-VS-Code/",
-        "title": "Generating TypeScript Interfaces from JSON on vs Code",
-        "text_excerpt": "Generating TypeScript Interfaces from JSON on vs Code.",
-        "published_at": "2020-07-27T22:42:43+00:00"
-      },
-      {
-        "id": "0f9d5659f969d689",
-        "platform": "hackernews",
-        "source_name": "hackernews",
-        "url": "https://news.ycombinator.com/item?id=10424303",
-        "title": "Elevated levels of diesel compounds in groundwater derive from surface activity",
-        "text_excerpt": "Elevated levels of diesel compounds in groundwater derive from surface activity. This is not about diesel or gasoline fuel. &quot;Diesel range organics&quot; are hydrocarbons with 10-28 carbon atoms, &quot;gasoline range organics&quot; have 6-10 carbon atoms. Data: &quot;To address this research gap, we sampled 64 private residential groundwater wells, ranging from 9\u2013213 m deep, over a 3-y period (2012\u20132014) in northeastern Pennsylvania (n = 62) and in southern New York (n = 2) for analyses of GC-amenable organic compounds. Fifty-nine samples were analyzed for volatile organic compounds (VOCs) and gasoline range organic compounds (GRO; defined as the hydrocarbons eluting between 2-methylpentane and 1,2,4-trimethylbenzene; approximately between nC_6 and nC_10), and 41 were also analyzed for diesel range organic compounds (DRO; defined as the hydrocarbons eluting between nC_10 and nC_28)&quot; Results: &quot;Trace levels of GRO and DRO compounds were detected in 9 of 59 (0\u20138.8 ppb total ",
-        "published_at": "2015-10-21T08:40:06+00:00"
-      },
-      {
-        "id": "63b32d93fc9989ad",
+        "id": "7c66bf16e13eb7ad",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flowdeck.studio/docs/support",
-        "title": "Getting Help",
-        "text_excerpt": "Getting Help. Resources for support and community Choose your product to view available support options. FlowDeck CLI License activation and email support for the command- ...",
+        "url": "https://flowdeck.studio/docs/macos/introduction",
+        "title": "FlowDeck for Mac",
+        "text_excerpt": "FlowDeck for Mac. FlowDeck is a native Mac app for iOS and macOS development. You get a complete IDE \u2014 build, run, test, debug, manage simulators and devices,",
         "published_at": null
       },
       {
-        "id": "cb31c48aa2c29dae",
+        "id": "050f589fd958e962",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flowdeck.studio/docs/cli/support",
-        "title": "CLI Support",
-        "text_excerpt": "CLI Support. For direct assistance with FlowDeck CLI, reach out to our support team. Email Support Contact support@flowdeck.studio for CLI-related questions and issues",
+        "url": "https://flowdeck.es/",
+        "title": "Flowdeck - Create Professional Cockpit Flows",
+        "text_excerpt": "Flowdeck - Create Professional Cockpit Flows. Get in touch with us at help@flowdeck.es. Start creating better training materials today. No credit card required.",
         "published_at": null
       },
       {
-        "id": "4fb4ce1461e98ed1",
+        "id": "ec29a9656d7c18f4",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.flowwork.ai/products/flowdesk",
-        "title": "AI Helpdesk Software for Growing Teams | FlowDesk by ...",
-        "text_excerpt": "AI Helpdesk Software for Growing Teams | FlowDesk by .... FlowDesk is an AI-native customer support platform that understands conversations, predicts issues, automates actions, and continuously optimizes your support ...",
+        "url": "https://www.instagram.com/p/DZe2I1FjGBu/",
+        "title": "they love it! Instead of passively reading manuals and ...",
+        "text_excerpt": "they love it! Instead of passively reading manuals and .... Flowdeck helps pilots practise, review, and build confidence before stepping into the cockpit. iCloud support, extensive user experience ...",
         "published_at": null
       },
       {
-        "id": "e440a365d55dc52a",
+        "id": "ee261e83e1a4e260",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flowdeck.studio/cli/teams/",
-        "title": "FlowDeck for Teams",
-        "text_excerpt": "FlowDeck for Teams. Questions? support@flowdeck.studio. Get help, share workflows, and see what others are building with FlowDeck. $59/year after curl. Learn Documentation Videos ...",
+        "url": "https://flowdeck.studio/docs/cli/introduction",
+        "title": "CLI Introduction",
+        "text_excerpt": "CLI Introduction. With flowdeck , you can: Build, run, test, and debug apps from the terminal; Automate development and testing with powerful UI automation workflows; Manage ...",
         "published_at": null
       },
       {
-        "id": "f55755f938d58d0c",
+        "id": "faadd9d325310994",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://supportdeck.io/",
-        "title": "SupportDeck",
-        "text_excerpt": "SupportDeck. SupportDeck turns your PDFs into a 24/7 AI assistant. Upload your documents, embed one snippet, go live today. Start free trial See how it works.",
+        "url": "https://www.seeedstudio.com/blog/2017/08/11/the-flow-deck-cheap-autonomous-flight-for-crazyflie/?srsltid=AfmBOooRJAcTR6TAtQ1XTSVTWWY6QIqz5AbyWzcGrLElAHnLYkareauT",
+        "title": "The Flow Deck - Cheap Autonomous Flight for Crazyflie!",
+        "text_excerpt": "The Flow Deck - Cheap Autonomous Flight for Crazyflie!. This deck can be used to help manually fly the drone its true use and power lies in the ability to grant the drone autonomous flight without an expensive ...",
         "published_at": null
       },
       {
-        "id": "a88b64ceb56802a4",
+        "id": "2ce3110a7becf490",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://flipdeck.com/testimonials",
-        "title": "Customer Testimonials",
-        "text_excerpt": "Customer Testimonials. It's easy to use, the support team is great, and clients love the personalized messaging.\u201d Tyler Smith. EOS Implementer. \"Flipdeck ...",
+        "url": "https://www.facebook.com/zebuluneziuche.nnah/videos/flowdeck-explainer-video-motion-design-project-day-5-just-wrapped-up-this-explai/618629954599815/",
+        "title": "Flowdeck Explainer Video \u2013 Motion Design Project Day 5. Just ...",
+        "text_excerpt": "Flowdeck Explainer Video \u2013 Motion Design Project Day 5. Just .... Flowdeck makes it all easy, secure and seamless. One platform, one experience, no clutter, no chaos. Just your work, and your flow. Ready to ...",
         "published_at": null
       },
       {
-        "id": "b2ea274e6e870da8",
+        "id": "fc75029e45b80dea",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://thedigitalprojectmanager.com/tools/asana-review/",
-        "title": "Asana Project Management Software Review for 2026",
-        "text_excerpt": "Asana Project Management Software Review for 2026. Asana is a cloud-based project management platform that helps teams manage their work through Rating 4.5 /5 Pricing From $10.99/user/month. ...",
+        "url": "https://laurentaylar.com/blog/asana-project-management-tool",
+        "title": "Asana Review: Why It's My Favorite Project Management ...",
+        "text_excerpt": "Asana Review: Why It's My Favorite Project Management .... Asana will help you become so organized that you'll end up saving time. No more needing to scroll through endless emails -- all your client projects and ...",
         "published_at": null
       },
       {
@@ -566,12 +584,30 @@
         "published_at": null
       },
       {
-        "id": "fc75029e45b80dea",
+        "id": "ce7610de614bd36f",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://laurentaylar.com/blog/asana-project-management-tool",
-        "title": "Asana Review: Why It's My Favorite Project Management ...",
-        "text_excerpt": "Asana Review: Why It's My Favorite Project Management .... Asana will help you become so organized that you'll end up saving time. No more needing to scroll through endless emails -- all your client projects and ...",
+        "url": "https://www.reddit.com/r/Asana/comments/twvt6a/why_you_should_avoid_asana_at_all_costs/",
+        "title": "WHY YOU SHOULD - AVOID ASANA AT ALL COSTS",
+        "text_excerpt": "WHY YOU SHOULD - AVOID ASANA AT ALL COSTS.",
+        "published_at": null
+      },
+      {
+        "id": "70c0834f0c57e550",
+        "platform": "g2",
+        "source_name": "serper",
+        "url": "https://www.g2.com/discussions/is-asana-worth-it",
+        "title": "Is Asana worth it?",
+        "text_excerpt": "Is Asana worth it?.",
+        "published_at": null
+      },
+      {
+        "id": "b2ea274e6e870da8",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://thedigitalprojectmanager.com/tools/asana-review/",
+        "title": "Asana Project Management Software Review for 2026",
+        "text_excerpt": "Asana Project Management Software Review for 2026. Asana is a cloud-based project management platform that helps teams manage their work through Rating 4.5 /5 Pricing From $10.99/user/month. ...",
         "published_at": null
       },
       {
@@ -602,30 +638,21 @@
         "published_at": null
       },
       {
-        "id": "07a7d8d6beff1fde",
+        "id": "2b7e100e32cb156a",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.crazyegg.com/blog/asana-review/",
-        "title": "Asana Review--The Good and Bad",
-        "text_excerpt": "Asana Review--The Good and Bad. Asana outperforms other project management software in several key ways. It's easy to use, offers a robust Kanban-style interface, and is jam-packed with ...",
+        "url": "https://www.youtube.com/watch?v=ShIyyAZtRGs&vl=en",
+        "title": "Asana Review: This Project Management Tool is a GAME ...",
+        "text_excerpt": "Asana Review: This Project Management Tool is a GAME .... I gave Asana a 4.9/5 stars. The software had an incredibly simple user experience and intuitive project management features.",
         "published_at": null
       },
       {
-        "id": "2c329211ec79bd55",
-        "platform": "web",
+        "id": "be3cab4dfbb8f96e",
+        "platform": "g2",
         "source_name": "serper",
-        "url": "https://connecteam.com/reviews/asana/",
-        "title": "Honest Asana Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "Honest Asana Review: Pros, Cons, Features & Pricing. Asana is generally more expensive than other project management software. That said, its simple design and comprehensive features are great for ...",
-        "published_at": null
-      },
-      {
-        "id": "744afb7dd6e78363",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://efficient.app/apps/asana",
-        "title": "Asana Review 2026: Pros, Cons, Pricing & Verdict",
-        "text_excerpt": "Asana Review 2026: Pros, Cons, Pricing & Verdict. It's a useful project management software for all types of businesses, from professional services to creative teams to development teams.",
+        "url": "https://www.g2.com/products/asana/reviews",
+        "title": "Asana Reviews 2025",
+        "text_excerpt": "Asana Reviews 2025. Users consistently praise Asana for its intuitive interface and effective task management, which streamline project tracking and enhance team collaboration.",
         "published_at": null
       },
       {
@@ -719,15 +746,6 @@
         "published_at": "2023-01-02T15:20:06+00:00"
       },
       {
-        "id": "131db89508e96e65",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.reddit.com/r/Asana/comments/1jbg067/avoid_asana_misleading_pricing_and_terrible/",
-        "title": "Misleading Pricing and Terrible Customer Service! : r/Asana",
-        "text_excerpt": "Misleading Pricing and Terrible Customer Service! : r/Asana. I strongly advise against using Asana. Their pricing model is deceptive, and their customer service is completely unhelpful.",
-        "published_at": null
-      },
-      {
         "id": "7eebe3fdb51cebc2",
         "platform": "web",
         "source_name": "serper",
@@ -737,30 +755,57 @@
         "published_at": null
       },
       {
-        "id": "8590520ef15c2b9b",
+        "id": "131db89508e96e65",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://help.asana.com/s/article/pricing-and-purchases",
-        "title": "Asana pricing and purchases explained",
-        "text_excerpt": "Asana pricing and purchases explained. For a list of common questions on pricing and purchases, see below. please contact us and our team can discuss your options with you. Contact Asana's sales ...",
+        "url": "https://www.reddit.com/r/Asana/comments/1jbg067/avoid_asana_misleading_pricing_and_terrible/",
+        "title": "Misleading Pricing and Terrible Customer Service! : r/Asana",
+        "text_excerpt": "Misleading Pricing and Terrible Customer Service! : r/Asana. I strongly advise against using Asana. Their pricing model is deceptive, and their customer service is completely unhelpful.",
         "published_at": null
       },
       {
-        "id": "5c0cbfb5738542ad",
+        "id": "744afb7dd6e78363",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://getvoip.com/blog/asana-pricing/",
-        "title": "Asana Pricing Guide: A Review of All Asana Plans",
-        "text_excerpt": "Asana Pricing Guide: A Review of All Asana Plans. Compared to other project management tools, Asana is expensive, with its Business Plan costing $25/user/month. For smaller teams, newer ...",
+        "url": "https://efficient.app/apps/asana",
+        "title": "Asana Review 2026: Pros, Cons, Pricing & Verdict",
+        "text_excerpt": "Asana Review 2026: Pros, Cons, Pricing & Verdict. Is Asana actually worth it? We tested it against top competitors to see where it excels, where it falls short, and who it's best for.",
         "published_at": null
       },
       {
-        "id": "70fe5a9195adf581",
-        "platform": "news",
+        "id": "400fca3ee4f026f2",
+        "platform": "web",
         "source_name": "serper",
-        "url": "https://www.forbes.com/advisor/business/asana-pricing/",
-        "title": "Asana Pricing Plans (Guide)",
-        "text_excerpt": "Asana Pricing Plans (Guide). It is more expensive than many of its competitors and customers have complained about frustrations with the company's customer service.",
+        "url": "https://forum.asana.com/t/asana-pricing-is-unfair-and-takes-advantage-of-its-customers/1058878",
+        "title": "Asana pricing is unfair and takes advantage of its customers",
+        "text_excerpt": "Asana pricing is unfair and takes advantage of its customers. Asana's pricing, which makes you pay for 10 users even when you just need to add your sixth, is completely unjustified.",
+        "published_at": null
+      },
+      {
+        "id": "1e93c4414f5989bf",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://thebusinessdive.com/asana-review",
+        "title": "Asana Review 2026: I Might Be BANNED for Saying This",
+        "text_excerpt": "Asana Review 2026: I Might Be BANNED for Saying This. Asana lost points mainly in pricing (2/5) and real-world experience (3/5). Its pricing structure is misleading, with no true single-user option ...",
+        "published_at": null
+      },
+      {
+        "id": "07a7d8d6beff1fde",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.crazyegg.com/blog/asana-review/",
+        "title": "Asana Review--The Good and Bad",
+        "text_excerpt": "Asana Review--The Good and Bad. Overall, the price point of $24.99 is justifiable for larger teams. As long as you're taking advantage of the advanced features, Asana Advanced ...",
+        "published_at": null
+      },
+      {
+        "id": "03e97637bf45cdd3",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://blog.herdr.io/work-management/title-top-5-complaints-about-asana-in-2025-what-users-are-saying/",
+        "title": "Top 5 Complaints About Asana in 2025: What Users Are Saying",
+        "text_excerpt": "Top 5 Complaints About Asana in 2025: What Users Are Saying. Asana's pricing model has been criticized for being misleading, especially for individual users. The platform requires a minimum of two seats ...",
         "published_at": null
       },
       {
@@ -773,39 +818,12 @@
         "published_at": null
       },
       {
-        "id": "6939629b6dfc8a04",
+        "id": "0c0c19da6575955e",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://help.asana.com/s/article/asana-subscriptions-and-pricing",
-        "title": "Asana subscriptions & pricing: plans explained | Help Center",
-        "text_excerpt": "Asana subscriptions & pricing: plans explained | Help Center. Asana offers five tiers: Personal (free), Starter, Advanced, Enterprise, and Enterprise+, each designed to support different team sizes and feature requirements ...",
-        "published_at": null
-      },
-      {
-        "id": "57bf38e5efc67c83",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.reddit.com/r/Asana/comments/1hw68fn/asana_alternatives/",
-        "title": "Asana Alternatives",
-        "text_excerpt": "Asana Alternatives. your next best bet is ClickUp , Teamhood is an underrated alternative. cost-effective alternative to Asana and. One option that worked ...",
-        "published_at": null
-      },
-      {
-        "id": "9f29fee54527c36c",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://zapier.com/blog/asana-alternatives/",
-        "title": "The 9 best Asana alternatives",
-        "text_excerpt": "The 9 best Asana alternatives. What's the best Asana alternative? \u00b7 Asana \u00b7 Trello \u00b7 Todoist \u00b7 Basecamp 3 \u00b7 Airtable \u00b7 Paymo \u00b7 monday.com \u00b7 ClickUp \u00b7 Smartsheet \u00b7 Jira Software Cloud. Try ...",
-        "published_at": null
-      },
-      {
-        "id": "26b42bfb81affb9d",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://asana.com/resources/best-project-management-software",
-        "title": "Best Project Management Software: 11 Tools Compared",
-        "text_excerpt": "Best Project Management Software: 11 Tools Compared. Common options include Asana, Trello, Jira, Monday, ClickUp, Notion, Airtable, Wrike, Workfront, Microsoft Project, Basecamp, and Zoho Projects.",
+        "url": "https://www.smartsuite.com/blog/asana-review",
+        "title": "Asana Review: Is It Worth It in 2026? [In-Depth]",
+        "text_excerpt": "Asana Review: Is It Worth It in 2026? [In-Depth]. Pricing model: 7/10. Despite Asana's generous free plan, the tool definitely sits on the more expensive side of project management solutions and ...",
         "published_at": null
       },
       {
@@ -818,21 +836,75 @@
         "published_at": null
       },
       {
-        "id": "c7d2a1bfb55ab590",
+        "id": "9f29fee54527c36c",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://taskfino.com/blog/asana-alternatives",
-        "title": "Best Asana Alternatives for 2026: Top Project Management ...",
-        "text_excerpt": "Best Asana Alternatives for 2026: Top Project Management .... Yes, most major alternatives like ClickUp, Monday.com, and Wrike support direct Asana imports or CSV data migration.",
+        "url": "https://zapier.com/blog/asana-alternatives/",
+        "title": "The 9 best Asana alternatives",
+        "text_excerpt": "The 9 best Asana alternatives. What's the best Asana alternative? \u00b7 Asana \u00b7 Trello \u00b7 Todoist \u00b7 Basecamp 3 \u00b7 Airtable \u00b7 Paymo \u00b7 monday.com \u00b7 ClickUp \u00b7 Smartsheet \u00b7 Jira Software Cloud. Try ...",
         "published_at": null
       },
       {
-        "id": "36590a6421330482",
+        "id": "57bf38e5efc67c83",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://thecmo.com/tools/asana-alternatives/",
-        "title": "10 Best Asana Alternatives Reviewed in 2026",
-        "text_excerpt": "10 Best Asana Alternatives Reviewed in 2026. Best Asana Alternatives Shortlist \u00b7 1. Wrike \u2014 Best for managing complex project workflows \u00b7 2. Celoxis \u2014 Best for tracking project financials \u00b7 3. Zoho ...",
+        "url": "https://www.reddit.com/r/Asana/comments/1hw68fn/asana_alternatives/",
+        "title": "Asana Alternatives",
+        "text_excerpt": "Asana Alternatives. your next best bet is ClickUp , Teamhood is an underrated alternative. cost-effective alternative to Asana and. One option that worked ...",
+        "published_at": null
+      },
+      {
+        "id": "7266a30062411342",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.openproject.org/project-management-software-alternatives/best-asana-alternative/",
+        "title": "Best Asana Alternative, open source and self-hosted",
+        "text_excerpt": "Best Asana Alternative, open source and self-hosted. OpenProject is the best open source alternative to Asana for teams that need full data control, advanced project planning, Agile boards and secure EU-based ...",
+        "published_at": null
+      },
+      {
+        "id": "f7f98f908c5e21f7",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.taskrhino.ca/blog/asana-alternatives/",
+        "title": "Top Asana Alternatives: Discover Your Perfect Project Tool",
+        "text_excerpt": "Top Asana Alternatives: Discover Your Perfect Project Tool. Top Asana Alternatives: Discover Your Perfect Project Tool \u00b7 1. monday.com \u2014 Best Overall Asana Alternative \u00b7 2. ClickUp \u2014 Best Free Asana Alternative \u00b7 3.",
+        "published_at": null
+      },
+      {
+        "id": "26b42bfb81affb9d",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://asana.com/resources/best-project-management-software",
+        "title": "Best Project Management Software: 11 Tools Compared",
+        "text_excerpt": "Best Project Management Software: 11 Tools Compared. Common options include Asana, Trello, Jira, Monday, ClickUp, Notion, Airtable, Wrike, Workfront, Microsoft Project, Basecamp, and Zoho Projects.",
+        "published_at": null
+      },
+      {
+        "id": "3eb319dc4a65a909",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.reddit.com/r/startups/comments/14owggp/simple_work_management_platforms_alternatives_to/",
+        "title": "Simple work management platforms / alternatives to asana",
+        "text_excerpt": "Simple work management platforms / alternatives to asana.",
+        "published_at": null
+      },
+      {
+        "id": "d36b9ac2fdd00174",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.quora.com/What-are-some-good-alternatives-to-Asana-for-small-teams",
+        "title": "What are some good alternatives to Asana for small teams?",
+        "text_excerpt": "What are some good alternatives to Asana for small teams?.",
+        "published_at": null
+      },
+      {
+        "id": "7d311847a25fb5f7",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.quora.com/What-are-some-good-alternatives-to-Asana-for-task-management",
+        "title": "What are some good alternatives to Asana for task management?",
+        "text_excerpt": "What are some good alternatives to Asana for task management?.",
         "published_at": null
       },
       {
@@ -842,15 +914,6 @@
         "url": "https://www.proofhub.com/articles/asana-alternatives",
         "title": "17 Best Asana Alternatives for Teams in 2026",
         "text_excerpt": "17 Best Asana Alternatives for Teams in 2026. 1. ProofHub: 3. monday.com: 4. Productive.io: is a lightweight alternative to Asana. Wrike : 7. Basecamp: 8. Notion: 10. Teamwork: Scoro: 14. ...",
-        "published_at": null
-      },
-      {
-        "id": "150a5e7a4238d5f1",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.proprofsproject.com/blog/asana-alternatives/",
-        "title": "13 Best Asana Alternatives & Competitors for 2026",
-        "text_excerpt": "13 Best Asana Alternatives & Competitors for 2026. 13 Best Asana Alternatives [Compared] \u00b7 1. ProProfs Project \u2013 Best for Planning, Collaborating & Delivering Projects on Time \u00b7 2. Jira Software ...",
         "published_at": null
       },
       {
@@ -935,39 +998,12 @@
         "published_at": "2017-08-30T03:35:56+00:00"
       },
       {
-        "id": "8667a6b5f69e1e18",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.reddit.com/r/Asana/comments/1kratam/asana_vs_monday_vs_clickup_pm_software_needed_for/",
-        "title": "Asana vs Monday vs ClickUp - PM Software Needed for ...",
-        "text_excerpt": "Asana vs Monday vs ClickUp - PM Software Needed for .... Asana has some better features around homing tasks across projects, subtasks and tracking resources. Monday is easier to use for less technical users on basic ...",
-        "published_at": null
-      },
-      {
-        "id": "0850a32d91d5807a",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://plaky.com/blog/trello-vs-asana/",
-        "title": "Trello vs. Asana: Which Is Better in 2026? (I Tested Both)",
-        "text_excerpt": "Trello vs. Asana: Which Is Better in 2026? (I Tested Both). Trello is considered better for small teams with simple, visual workflows, whereas Asana is more suitable for projects with multiple stages and dependencies.",
-        "published_at": null
-      },
-      {
-        "id": "82944154422b2967",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.taskrhino.ca/blog/asana-vs-monday-vs-clickup/",
-        "title": "Asana vs monday vs ClickUp: In-Depth Comparison 2026",
-        "text_excerpt": "Asana vs monday vs ClickUp: In-Depth Comparison 2026. Asana has the best mobile app\u2014cleanest UI, fastest performance, and most intuitive for quick task updates. monday.com comes second with full dashboard ...",
-        "published_at": null
-      },
-      {
         "id": "41c617ee5c82374f",
         "platform": "web",
         "source_name": "serper",
         "url": "https://asana.com/compare/asana-vs-clickup",
         "title": "Asana vs. ClickUp",
-        "text_excerpt": "Asana vs. ClickUp. ClickUp offers customization options , while Asana simplifies personalization with reusable custom fields and templates. ClickUp offers chat and whiteboards, ...",
+        "text_excerpt": "Asana vs. ClickUp. ClickUp offers chat and whiteboards, but Asana embeds communication directly into tasks and projects for more organized, accountable collaboration. Learn more ...",
         "published_at": null
       },
       {
@@ -985,7 +1021,7 @@
         "source_name": "serper",
         "url": "https://productive.io/blog/trello-vs-asana-vs-monday-vs-clickup/",
         "title": "Trello vs Asana vs Monday vs ClickUp: The Ultimate Guide",
-        "text_excerpt": "Trello vs Asana vs Monday vs ClickUp: The Ultimate Guide. UI and learning curve: Trello has by far the simplest user interface and the easiest learning curve, followed by Asana. Monday and ClickUp are ...",
+        "text_excerpt": "Trello vs Asana vs Monday vs ClickUp: The Ultimate Guide. To summarize, we'd recommend Asana vs Trello for simplicity, ClickUp vs Monday for advanced customization, and Productive if you want to link ...",
         "published_at": null
       },
       {
@@ -998,21 +1034,48 @@
         "published_at": null
       },
       {
-        "id": "bb233cd00f1cc780",
-        "platform": "web",
+        "id": "2ad93b96e04a5515",
+        "platform": "g2",
         "source_name": "serper",
-        "url": "https://www.experte.com/project-management/asana-vs-monday",
-        "title": "Asana vs. monday: Which Project Management Tool Is ...",
-        "text_excerpt": "Asana vs. monday: Which Project Management Tool Is .... Asana Emphasizes Communication, While monday.com Focuses on Collaboration. Both platforms support asynchronous collaboration: Each team member has a dashboard ...",
+        "url": "https://learn.g2.com/asana-vs-monday",
+        "title": "Asana vs. monday: I Built Projects and Picked a Side in 2026",
+        "text_excerpt": "Asana vs. monday: I Built Projects and Picked a Side in 2026. Asana suits teams that need process structure and accountability, while Monday suits teams that prioritize visual clarity and adaptability.",
         "published_at": null
       },
       {
-        "id": "3276d2414b7b0406",
+        "id": "9091562ccd80212f",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=NU_G6IyZGPI",
-        "title": "ClickUp vs Asana: 90% of People Choose Wrong",
-        "text_excerpt": "ClickUp vs Asana: 90% of People Choose Wrong. I'll compare their features, pricing, user experience, integrations, customer support and more.",
+        "url": "https://asana.com/compare/asana-vs-monday-com",
+        "title": "Asana vs. Monday.com - See Monday Alternatives",
+        "text_excerpt": "Asana vs. Monday.com - See Monday Alternatives. While monday.com provides real-time updates and flexible alerts, Asana emphasizes user control and focus, helping teams avoid notification fatigue and stay ...",
+        "published_at": null
+      },
+      {
+        "id": "5bf3d64af4f324ba",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://tech.co/project-management-software/asana-vs-monday",
+        "title": "Asana vs monday work management 2026: Features & Pricing",
+        "text_excerpt": "Asana vs monday work management 2026: Features & Pricing. In fairness, Asana's free plan is superior to monday work management's, with up to 10 users on offer compared with monday work management's two ...",
+        "published_at": null
+      },
+      {
+        "id": "a95acbaa684a20de",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://teamhub.com/blog/asana-vs-monday-which-project-management-tool-is-best-2025/",
+        "title": "Asana vs Monday: Which project management tool is best? ...",
+        "text_excerpt": "Asana vs Monday: Which project management tool is best? .... Asana is ideal for teams that need simplicity and a clean, intuitive interface for task management. monday.com is perfect for teams that value ...",
+        "published_at": null
+      },
+      {
+        "id": "75c37afa5d964677",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.auxosvs.com/blog/project-management-tools-ph3cr-k7jxc-cfy83-xnbrl",
+        "title": "Which Tool Is Right For You: Monday.com VS. Asana ...",
+        "text_excerpt": "Which Tool Is Right For You: Monday.com VS. Asana .... Built for simple tasks: Asana can fall short for more complex tasks such as not being able to assign multiple people to a task.",
         "published_at": null
       },
       {
@@ -1133,21 +1196,12 @@
         "published_at": null
       },
       {
-        "id": "6e17062f9439173d",
+        "id": "e5fd449baf285537",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.reddit.com/r/Asana/comments/1i2tf14/enterprise_support/",
-        "title": "Enterprise Support? : r/Asana",
-        "text_excerpt": "Enterprise Support? : r/Asana. Easily one of the worst support experiences I've had. They purposefully create problems for users (often by freezing projects",
-        "published_at": null
-      },
-      {
-        "id": "961650119a0b7622",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://forum.asana.com/t/customer-support-no-response/701613",
-        "title": "Customer support, no response - Ask the Community",
-        "text_excerpt": "Customer support, no response - Ask the Community. My advice: wait and you'll get an answer. It can take up to a week sometimes depending on your plan and seats.",
+        "url": "https://www.reddit.com/r/Asana/comments/1kzrn58/contacting_support/",
+        "title": "Contacting Support : r/Asana",
+        "text_excerpt": "Contacting Support : r/Asana. Hey guys, I have been using Asana for, like, six years, but now I ran into issue and I am not even sure how to effectively contact support.",
         "published_at": null
       },
       {
@@ -1157,6 +1211,15 @@
         "url": "https://forum.asana.com/t/tech-support-getting-support/31764",
         "title": "Tech Support - Getting Support - Ask the Community",
         "text_excerpt": "Tech Support - Getting Support - Ask the Community. Asana customer service has been excellent in my experience. Our support team works from oldest to newest request, Support from Asana has been ...",
+        "published_at": null
+      },
+      {
+        "id": "961650119a0b7622",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://forum.asana.com/t/customer-support-no-response/701613",
+        "title": "Customer support, no response - Ask the Community",
+        "text_excerpt": "Customer support, no response - Ask the Community. My advice: wait and you'll get an answer. It can take up to a week sometimes depending on your plan and seats.",
         "published_at": null
       },
       {
@@ -1291,7 +1354,7 @@
         "source_name": "serper",
         "url": "https://www.trustpilot.com/review/clickup.com",
         "title": "Read Customer Service Reviews of clickup.com",
-        "text_excerpt": "Read Customer Service Reviews of clickup.com. reviewers had a great experience with this company. Contact info 215 Lowell Avenue, (888)-625-4258 help@clickup.com. Great TrustScore 4 out of 5 624 reviews 5- ...",
+        "text_excerpt": "Read Customer Service Reviews of clickup.com. Customers consistently praise the platform for consolidating various tools into a single workspace, streamlining tasks and reporting. Many highlight",
         "published_at": null
       },
       {
@@ -1300,7 +1363,7 @@
         "source_name": "serper",
         "url": "https://www.smartsuite.com/blog/clickup-review",
         "title": "ClickUp Review: Is It Worth It in 2026? [In-Depth]",
-        "text_excerpt": "ClickUp Review: Is It Worth It in 2026? [In-Depth]. It is an excellent communication platform with various options for viewing tasks, milestones, decisions, opportunities, and reminders. These ...",
+        "text_excerpt": "ClickUp Review: Is It Worth It in 2026? [In-Depth]. The pricing starts from $7/month/user, which is some of the industry's lowest, and some users have reported receiving significant discounts. ...",
         "published_at": null
       },
       {
@@ -1439,21 +1502,12 @@
         "published_at": null
       },
       {
-        "id": "c56b5bf8df070fc7",
+        "id": "7ae210453ba1d27a",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://help.clickup.com/hc/en-us/articles/10129535087383-Intro-to-pricing",
-        "title": "Intro to pricing",
-        "text_excerpt": "Intro to pricing. If you have questions about your billing contract, contact your Account Executive or sales@clickup.com. If you don't have a contract, please contact Support.",
-        "published_at": null
-      },
-      {
-        "id": "2362a16654f19eaf",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://tech.co/project-management-software/clickup-pricing",
-        "title": "ClickUp Pricing, Plans, and Fees for 2026 - Tech.co",
-        "text_excerpt": "ClickUp Pricing, Plans, and Fees for 2026 - Tech.co. ClickUp offers excellent value for money. It has a free plan, and three paid plans that start at just $7 per user, per month.",
+        "url": "https://connecteam.com/reviews/clickup/",
+        "title": "Honest ClickUp Review: Pros, Cons, Features & Pricing",
+        "text_excerpt": "Honest ClickUp Review: Pros, Cons, Features & Pricing. Cons Complex interface with a steep learning curve Doesn't allow managers to lock employee timesheets Doesn't support spreadsheets or slideshows",
         "published_at": null
       },
       {
@@ -1466,40 +1520,130 @@
         "published_at": null
       },
       {
-        "id": "ab3a2725e6b73a0c",
-        "platform": "web",
+        "id": "a02acf5fdd7faf11",
+        "platform": "g2",
         "source_name": "serper",
-        "url": "https://www.techrepublic.com/article/clickup-review/",
-        "title": "ClickUp Review: Features, Pricing, Pros and Cons",
-        "text_excerpt": "ClickUp Review: Features, Pricing, Pros and Cons. Discover the pros and cons of ClickUp for project management. Learn about features, pricing, and alternatives in this ClickUp review.",
+        "url": "https://learn.g2.com/clickup-review",
+        "title": "Is ClickUp Worth It in 2026? My Honest ClickUp Review",
+        "text_excerpt": "Is ClickUp Worth It in 2026? My Honest ClickUp Review. ClickUp's pricing is aggressive, in a good way. Unlike competitors that lock essential features (like Gantt charts) behind high-tier paywalls, ...",
         "published_at": null
       },
       {
-        "id": "7ae210453ba1d27a",
-        "platform": "web",
+        "id": "7c3b4a0027b47ad0",
+        "platform": "news",
         "source_name": "serper",
-        "url": "https://connecteam.com/reviews/clickup/",
-        "title": "Honest ClickUp Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "Honest ClickUp Review: Pros, Cons, Features & Pricing. Cons Complex interface with a steep learning curve Doesn't allow managers to lock employee timesheets Doesn't support spreadsheets or slideshows",
+        "url": "https://www.forbes.com/advisor/business/software/clickup-pricing/",
+        "title": "ClickUp: Plans And Pricing Explained",
+        "text_excerpt": "ClickUp: Plans And Pricing Explained. In this ClickUp pricing guide, we'll break down the plans, explain who they're for, how much they cost and how ClickUp stacks up to its closest competitors.",
         "published_at": null
       },
       {
-        "id": "3199d55264ce608d",
+        "id": "3a26fdeeed7d9daf",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.expertmarket.com/project-management/clickup-pricing-review",
-        "title": "ClickUp Pricing, Plans, Fees, Hidden Costs and Review",
-        "text_excerpt": "ClickUp Pricing, Plans, Fees, Hidden Costs and Review. ClickUp pricing starts from $5 per user, per month for the Unlimited plan, making it one of the cheapest project management tools for small businesses.",
+        "url": "https://remotewize.com/clickup-review/",
+        "title": "ClickUp Review 2026: What We Learned After 12+ Months ...",
+        "text_excerpt": "ClickUp Review 2026: What We Learned After 12+ Months .... ClickUp's pricing starts at $7/user/month when billed annually, a frustrating, error-prone mess. I often missed sessions or forgot to clock out ...",
         "published_at": null
       },
       {
-        "id": "7bc7629a13f4d3c8",
+        "id": "335eb128e496aeee",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.youtube.com/watch?v=veM28oweA7k",
+        "title": "ClickUp Pricing Plans Review (Start Here First)",
+        "text_excerpt": "ClickUp Pricing Plans Review (Start Here First). \ud83c\udfdd\ufe0f ClickUp Pricing Plans Review: A practical look at whether ClickUp's pricing delivers good value. We'll cover the pros, the tradeoffs ...",
+        "published_at": null
+      },
+      {
+        "id": "82b9faf928505f89",
         "platform": "hackernews",
         "source_name": "hackernews",
-        "url": "https://agnost.ai/",
-        "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations",
-        "text_excerpt": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations.",
-        "published_at": "2026-07-14T16:06:18+00:00"
+        "url": "https://news.ycombinator.com/item?id=26376801",
+        "title": "Nordigen: Free banking data and premium insights",
+        "text_excerpt": "Nordigen: Free banking data and premium insights. Minor complaint - went to mouse up to click on pricing and I suppose my cursor went out of the viewing window, and I got an annoying &quot;wait don&#x27;t leave&quot; pop-up. I&#x27;m sure this is intentional and perhaps it&#x27;s better for your business to have it, but I personally find it a good reason to close the tab. Perhaps add a tiny waiting period when the mouse leaves in case it is accidental and not aimed at hitting the &quot;x&quot;?",
+        "published_at": "2021-03-07T15:52:02+00:00"
+      },
+      {
+        "id": "833970416876b3e5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=5819199",
+        "title": "Why I Dislike EC2",
+        "text_excerpt": "Why I Dislike EC2. In other words they took a system targeted especially at people who needed on-demand computing and as it got popular, adapted it to the needs of the 24/7/365 web-hosting by offering an alternate pricing model , point-and-click user interfaces and additional features and services like EBS and CloudWatch. The point is absolutely not that EC2 never evolved beyond its initial use case and isn't good at other things. The point is that while they have 24/7/365 hosting services, there's never been any reason to expect that they would be better at it than anyone else. So why do we continue to see blog posts about not liking EC2 with vague complaints about the horrible price-to-performance ratio getting lots of upvotes?",
+        "published_at": "2013-06-04T13:18:20+00:00"
+      },
+      {
+        "id": "e1d648b0478ce28e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48088298",
+        "title": "I returned to AWS and was reminded why I left",
+        "text_excerpt": "I returned to AWS and was reminded why I left. For the record, my original complaint that ec2 did not have pricing in the dropdown seems to be untrue right now, which is great! For the sake of UX discussion, I want to talk about your picture as if that were the only way to get this info. So let me explain why that&#x27;s bad. The main reason is this is only true for ec2 and every other resource has its own slightly different way of getting the cost, making it really easy to miss things like this. But here are the steps we take to get to your image. - First you click compare instance types, and you&#x27;re brought to a completely different page with a table. - By default, there is no column for pricing, but two columns for &quot;storage space&quot; even though most of the instance types have these blank . - There&#x27;s nothing that says you can add columns to this page. You eventually figure out it&#x27;s the gear icon. - Then you click the gear on the top right to look at column names",
+        "published_at": "2026-05-10T21:32:16+00:00"
+      },
+      {
+        "id": "163993e4c9e72216",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=45373008",
+        "title": "Launch HN: Webhound (YC S23) \u2013 Research agent that builds datasets from the web",
+        "text_excerpt": "Launch HN: Webhound (YC S23) \u2013 Research agent that builds datasets from the web.",
+        "published_at": "2025-09-25T14:28:24+00:00"
+      },
+      {
+        "id": "c804b2e3ac96891d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=21973458",
+        "title": "Launch HN: Freshpaint (YC S19) \u2013 Automated, Retroactive Alternative to Segment",
+        "text_excerpt": "Launch HN: Freshpaint (YC S19) \u2013 Automated, Retroactive Alternative to Segment.",
+        "published_at": "2020-01-06T21:20:30+00:00"
+      },
+      {
+        "id": "8e980e9b25562d92",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46134566",
+        "title": "Show HN: ReddBoss \u2013 Turn Reddit into your lead generation machine with AI",
+        "text_excerpt": "Show HN: ReddBoss \u2013 Turn Reddit into your lead generation machine with AI.",
+        "published_at": "2025-12-03T14:03:29+00:00"
+      },
+      {
+        "id": "9b22263df3df1894",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=9664594",
+        "title": "FastMail supports Roundcube Next development",
+        "text_excerpt": "FastMail supports Roundcube Next development. I do think it&#x27;s as good as it gets outside gmail. That said, it&#x27;s just flaky &#x2F; half assed. For example: it pretends to be a gmail style email client where the unit of manipulation is a conversation, not a message. But the underlying message orientation peeks through in certain cases. In other ways, like settings, it feels very half assed: routing rules have to be very simple and sometimes don&#x27;t work. The UI for setting up routing rules is shit; you have to add them, then scroll to the top of a very long page and click &quot;apply all changes&quot; for the rules to take (yes, I missed that while porting rules from my old webmail and had to redo 40+ rules). The rules don&#x27;t work as you would expect: eg messages from &quot;a@b.com&quot; do not match &quot;sender ends with&quot; &quot;b.com&quot;. Rules can only filter on one thing at a time -- no compound rules on eg sender and subject. When you create a rule, it doesn&",
+        "published_at": "2015-06-05T09:23:13+00:00"
+      },
+      {
+        "id": "fb747d9cc214e95a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=8014662",
+        "title": "The Tech Industry vs. San Francisco",
+        "text_excerpt": "The Tech Industry vs. San Francisco. optimusclimb: I guess I just don&#x27;t see this greedy group of evil doers out to ruin a city when I look at the people I&#x27;ve encountered in the industry. I see people who got a bit lucky that their passion became profitable. - michaelochurch: If we&#x27;re guilty of something, it&#x27;s that we enjoy our work (perhaps not our paid jobs, but the ongoing process of learning and building cool technology, even as a hobby) so much that we tend to disengage from political fights: both ours (open vs. closed allocation) and the bigger ones of the world (Ellis Act). The bad guys have become quite adept at exploiting this property of us. When we realize that something&#x27;s wrong, we focus on minutiae. We focus on the douchebag 27-year-old middle manager who told us everything has to be in Java, and it becomes a complaint about Java, the language, instead of the bigger issue (the investor-level corruption that put the idiot in charge). That head-in-the",
+        "published_at": "2014-07-10T12:17:16+00:00"
+      },
+      {
+        "id": "943d8d6b11684346",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=7238019",
+        "title": "Plan 9 released under GPLv2",
+        "text_excerpt": "Plan 9 released under GPLv2. &gt; You&#x27;re twisting &quot;users&quot; to mean &quot;programmers that have the time and interest in spending it on hacking their gadgets.&quot; Nope, I meant users. Who want products to work. I&#x27;m not willing to hack my phone myself, in fact I don&#x27;t have resources to do that. But I&#x27;m willing to pay someone to do that. Yet, I can&#x27;t, because the necessary extent of reverse engineering would cost me a fortune. So, I learned to live with what I have. &gt; the vast majority of people don&#x27;t mess with their routers Does that prove anything? See, I don&#x27;t mess with my phone and my TV, too. Does that mean I&#x27;m really satisfied with those? Nope, I just tolerate them. Imagine there&#x27;s a patch that automagically improves your network experience by configuring QoS features your router already has (but has no UI for them). Would you install it? If you&#x27;d have to crack your router open, solder a serial port, run a TFTP server a",
+        "published_at": "2014-02-14T11:45:34+00:00"
+      },
+      {
+        "id": "f96b4c82d51ac27d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48288422",
+        "title": "Dropbox CEO Drew Houston to step down",
+        "text_excerpt": "Dropbox CEO Drew Houston to step down. I have been one of the very early users. Maybe from the first weeks (if not days). It used to be such a good app and service. So good that I used to ask my friends why they didn&#x27;t already use it. That was a few many years ago; at best. Since then, Dropbox has steadily been going downhill and with intent, at least for a consumer. Quite a few folks are ditching its paid plan (including me), just using its free tier (to tiny tasks like notes sync etc) and moving the bulk of their data storage elsewhere (like I did - reluctantly to object storage providers via many FOSS CLI tools; would have loved to keep paying for the old Dropbox). Hostile pricing was not the only concern; hostile UX, an insanely bloated app, and breaking features (because sure, those are not bugs) galore. Now the native file sync is a really doomed space for individual customers (because I have never explored what&#x27;s out there exclusively for enterprise). Dropbox is well D",
+        "published_at": "2026-05-27T01:44:27+00:00"
       },
       {
         "id": "1b210a67143600ff",
@@ -1511,21 +1655,30 @@
         "published_at": null
       },
       {
+        "id": "23f9b559572c727a",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.reddit.com/r/projectmanagement/comments/1legh4r/clickup_alternatives_that_are_less_buggy/",
+        "title": "ClickUp alternatives that are less buggy",
+        "text_excerpt": "ClickUp alternatives that are less buggy.",
+        "published_at": null
+      },
+      {
+        "id": "e5687567211b85ab",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.quora.com/What-is-the-best-alternative-to-ClickUp",
+        "title": "What is the best alternative to ClickUp\u2122?",
+        "text_excerpt": "What is the best alternative to ClickUpTM?.",
+        "published_at": null
+      },
+      {
         "id": "a07ff8b52041d26b",
         "platform": "web",
         "source_name": "serper",
         "url": "https://www.smartsuite.com/blog/clickup-alternatives",
         "title": "10 ClickUp Alternatives You'll Love in 2026 [Reviewed]",
         "text_excerpt": "10 ClickUp Alternatives You'll Love in 2026 [Reviewed]. The best ClickUp alternatives for 2026 are SmartSuite, Asana, Notion, Hive, Trello, Monday.com, Airtable, Wrike, Basecamp and Smartsheet.",
-        "published_at": null
-      },
-      {
-        "id": "f01bac621d1fb640",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.goodday.work/blog/best-clickup-alternatives/",
-        "title": "Best ClickUp alternatives in 2026 (features & price ...",
-        "text_excerpt": "Best ClickUp alternatives in 2026 (features & price .... ClickUp alternatives include GoodDay, Monday.com, Asana, Smartsheet, Wrike, Trello, Jira, Notion, Airtable, Teamwork.com, Basecamp, Workfront and Zoho Projects.",
         "published_at": null
       },
       {
@@ -1547,6 +1700,15 @@
         "published_at": null
       },
       {
+        "id": "f01bac621d1fb640",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.goodday.work/blog/best-clickup-alternatives/",
+        "title": "Best ClickUp alternatives in 2026 (features & price ...",
+        "text_excerpt": "Best ClickUp alternatives in 2026 (features & price .... Popular ClickUp alternatives include GoodDay, Monday.com, Asana, Smartsheet, Wrike, Trello, Jira, Notion, Airtable, Teamwork.com, Basecamp, Workfront and Zoho ...",
+        "published_at": null
+      },
+      {
         "id": "0cd6feaa3c8245d2",
         "platform": "web",
         "source_name": "serper",
@@ -1556,30 +1718,12 @@
         "published_at": null
       },
       {
-        "id": "97a4b72f6d3d2b60",
+        "id": "c67a68b410062f71",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://thebusinessdive.com/clickup-alternatives",
-        "title": "7 Best ClickUp Alternatives | +25 Apps Tested (2026)",
-        "text_excerpt": "7 Best ClickUp Alternatives | +25 Apps Tested (2026). I spent +100 hours on personal tests to find the best ClickUp alternatives in 2026. Here, I share the 7 best ClickUp alternatives.",
-        "published_at": null
-      },
-      {
-        "id": "b4bccaa60ee6b4b8",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.openproject.org/project-management-software-alternatives/best-clickup-alternative/",
-        "title": "Best ClickUp Alternative, open source and self-hosted",
-        "text_excerpt": "Best ClickUp Alternative, open source and self-hosted. OpenProject stands out as the premier open source alternative to ClickUp with built-in Gantt charts, Agile boards, time tracking, team collaboration and ...",
-        "published_at": null
-      },
-      {
-        "id": "dc6e1c5dbdb17d5b",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.trychaser.com/blog/clickup-alternative",
-        "title": "ClickUp Alternatives Compared: From Trello to Slack Tools",
-        "text_excerpt": "ClickUp Alternatives Compared: From Trello to Slack Tools. The main ClickUp alternatives surveyed: Trello, Asana, Monday, Notion, Linear, Jira and Slack-based trackers \u2014 what each trades away and how ...",
+        "url": "https://www.teamwork.com/blog/clickup-alternatives/",
+        "title": "13 best ClickUp alternatives & competitors 2026",
+        "text_excerpt": "13 best ClickUp alternatives & competitors 2026. 13 ClickUp alternatives for task and project management \u00b7 Teamwork.com pricing \u00b7 Trello pricing \u00b7 Monday.com pricing \u00b7 Asana pricing \u00b7 Basecamp ...",
         "published_at": null
       },
       {
@@ -1668,8 +1812,17 @@
         "platform": "web",
         "source_name": "serper",
         "url": "https://www.youtube.com/watch?v=9sus1UEyPh0",
-        "title": "ClickUp vs Monday \u2014 Why I Switched (and Why I Switched Back)",
-        "text_excerpt": "ClickUp vs Monday \u2014 Why I Switched (and Why I Switched Back). Hear the reasons behind switching between ClickUp and Monday and what made the decision change to help you choose the right tool for your ...",
+        "title": "ClickUp vs Monday \u2014 Why I Switched (and Why I Switched ...",
+        "text_excerpt": "ClickUp vs Monday \u2014 Why I Switched (and Why I Switched .... Hear the reasons behind switching between ClickUp and Monday and what made the decision change to help you choose the right tool for your ...",
+        "published_at": null
+      },
+      {
+        "id": "97a4b72f6d3d2b60",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://thebusinessdive.com/clickup-alternatives",
+        "title": "7 Best ClickUp Alternatives | +25 Apps Tested (2026)",
+        "text_excerpt": "7 Best ClickUp Alternatives | +25 Apps Tested (2026). I spent +100 hours on personal tests to find the best ClickUp alternatives in 2026. Here, I share the 7 best ClickUp alternatives.",
         "published_at": null
       },
       {
@@ -1679,15 +1832,6 @@
         "url": "https://clickup.com/compare",
         "title": "Project Management Software Comparison - Compare ...",
         "text_excerpt": "Project Management Software Comparison - Compare .... Compare ClickUp \u00b7 Trello vs ClickUp \u00b7 Airtable vs ClickUp \u00b7 Todoist vs ClickUp \u00b7 Smartsheet vs ClickUp \u00b7 Google Workspace vs ClickUp \u00b7 Basecamp vs ClickUp.",
-        "published_at": null
-      },
-      {
-        "id": "284d3d7a2f78806a",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=ERbZBV18adw&vl=en",
-        "title": "ClickUp vs Motion \u2013 Best for Productivity?",
-        "text_excerpt": "ClickUp vs Motion \u2013 Best for Productivity?. ClickUp and Motion both help you manage tasks and stay focused \u2014 but one plans your day for you and one gives you full control to plan it ...",
         "published_at": null
       },
       {
@@ -1817,6 +1961,15 @@
         "published_at": null
       },
       {
+        "id": "84787f17013f5d50",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.trustpilot.com/review/clickup.com?page=2",
+        "title": "Read Customer Service Reviews of clickup.com | 2 of 28",
+        "text_excerpt": "Read Customer Service Reviews of clickup.com | 2 of 28. Looking at 242 reviews, reviewers had a great experience with this company. Contact info 215 Lowell Avenue, (888)-625-4258 help@clickup.com. Great TrustScore 4 ...",
+        "published_at": null
+      },
+      {
         "id": "6c99801b040b70ff",
         "platform": "web",
         "source_name": "serper",
@@ -1840,7 +1993,7 @@
         "source_name": "serper",
         "url": "https://www.glassdoor.com/Interview/ClickUp-Customer-Support-Specialist-Interview-Questions-EI_IE2037206.0,7_KO8,35.htm",
         "title": "ClickUp Customer Support Specialist interview questions",
-        "text_excerpt": "ClickUp Customer Support Specialist interview questions. Candidates often experience a multi-stage interview process, typically involving recruiter screenings, technical assessments, and behavioral interviews.",
+        "text_excerpt": "ClickUp Customer Support Specialist interview questions. Candidates applying for Customer Support Specialist roles take an average of 24 days to get hired, when considering 18 user submitted interviews for this role.",
         "published_at": null
       },
       {
@@ -1930,7 +2083,7 @@
         "source_name": "serper",
         "url": "https://thedigitalprojectmanager.com/tools/monday-review/",
         "title": "monday.com Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "monday.com Review: Pros, Cons, Features & Pricing. Discover monday.com's strengths and weaknesses, pricing details, and how it compares to other tools in my comprehensive review.",
+        "text_excerpt": "monday.com Review: Pros, Cons, Features & Pricing. The support team is generally responsive and helpful, and they provide solutions to your queries efficiently. You also have access to a ...",
         "published_at": null
       },
       {
@@ -1939,7 +2092,7 @@
         "source_name": "serper",
         "url": "https://project-management.com/monday-software-review/",
         "title": "monday.com Review: Is It Worth It in 2026?",
-        "text_excerpt": "monday.com Review: Is It Worth It in 2026?. Pros include an intuitive interface, flexible board customization, strong automation capabilities, and 200+ integrations. Cons include the three ...",
+        "text_excerpt": "monday.com Review: Is It Worth It in 2026?. Basic is rarely the right choice, since it's $3 less per seat than Standard but drops Timeline, automations, and integrations,",
         "published_at": null
       },
       {
@@ -1975,7 +2128,7 @@
         "source_name": "serper",
         "url": "https://tldv.io/blog/monday-review/",
         "title": "My Honest Review of Monday.com (Inc. Monday AI ...",
-        "text_excerpt": "My Honest Review of Monday.com (Inc. Monday AI .... Verdict: It's good at the basic things, but it can get overwhelmingly complex if you try to do too much.",
+        "text_excerpt": "My Honest Review of Monday.com (Inc. Monday AI .... There are countless users that report being overcharged, unable to cancel, or otherwise shady billing practices.",
         "published_at": null
       },
       {
@@ -1985,15 +2138,6 @@
         "url": "https://monday.com/reviews",
         "title": "monday.com Reviews | Read what users really think about ...",
         "text_excerpt": "monday.com Reviews | Read what users really think about .... Don't just take our word for it: 10,000+ reviews from real people on review sites like G2 and TrustRadius rate monday.com Work OS an average of 4.7/5.",
-        "published_at": null
-      },
-      {
-        "id": "104414e78d9b4a79",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://tech.co/project-management-software/monday-review",
-        "title": "monday Work Management Review 2026 - Tech.co",
-        "text_excerpt": "monday Work Management Review 2026 - Tech.co. monday work management is an excellent project management tool, boasting a massive catalog of AI features, an intuitive and colorful interface, ...",
         "published_at": null
       },
       {
@@ -2042,48 +2186,30 @@
         "published_at": null
       },
       {
+        "id": "6f6ed18e2f72b2fd",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://thecfoclub.com/tools/monday-com-review/",
+        "title": "monday.com Review: Pros, Cons, Features, and Pricing",
+        "text_excerpt": "monday.com Review: Pros, Cons, Features, and Pricing. monday.com might not suit large enterprises or industries that require deep financial reporting, such as banking or insurance.",
+        "published_at": null
+      },
+      {
+        "id": "f08a1bb5acc9d4a6",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.empyra.com/monday-com-pricing",
+        "title": "monday.com Pricing 2026 | Plans, Costs & Free Trial",
+        "text_excerpt": "monday.com Pricing 2026 | Plans, Costs & Free Trial. monday.com pricing starts at $9 per user per month (billed annually) for the Basic plan. Higher tiers include Standard ($12/user/month), Pro ($19/user/month), ...",
+        "published_at": null
+      },
+      {
         "id": "7c2727de80f78fab",
         "platform": "web",
         "source_name": "serper",
         "url": "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com",
         "title": "Plans and pricing for monday.com",
         "text_excerpt": "Plans and pricing for monday.com. This article will walk you through everything you need to know about how our pricing works: what products we offer, which plans are available, how seats are ...",
-        "published_at": null
-      },
-      {
-        "id": "17fd76be0f36b813",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://connecteam.com/reviews/monday/",
-        "title": "Honest Monday.com Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "Honest Monday.com Review: Pros, Cons, Features & Pricing. The software is expensive, and I'd only recommend Monday.com if you need the project management tools it offers in addition to the time-tracking ...",
-        "published_at": null
-      },
-      {
-        "id": "15f384d997f8c74a",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://support.monday.com/hc/en-us/sections/360000129699-Pricing",
-        "title": "Pricing",
-        "text_excerpt": "Pricing. Why did my payment fail? The pricing model for monday AI portfolio Plans and pricing for monday.com. How to cancel a free trial Can I pay. Would you like help?",
-        "published_at": null
-      },
-      {
-        "id": "1796bba610ab4833",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://monday.com/blog/product/how-much-does-monday-com-cost/",
-        "title": "How much does monday.com cost? Pricing plans explained",
-        "text_excerpt": "How much does monday.com cost? Pricing plans explained. In this guide, we'll walk you through our different pricing plans, what's included in each, and how to choose the right one that best fits your goals.",
-        "published_at": null
-      },
-      {
-        "id": "8e357b33b2df16a0",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.saasgenius.com/reviews/monday-com-pricing/",
-        "title": "Monday.com Pricing: Which Pricing Plan to Choose? [2026]",
-        "text_excerpt": "Monday.com Pricing: Which Pricing Plan to Choose? [2026]. Monday.com costs between $12 and $28 per seat, with the Basic plan being the cheapest. The basic plan includes all of the features for managing a team.",
         "published_at": null
       },
       {
@@ -2105,15 +2231,6 @@
         "published_at": null
       },
       {
-        "id": "80a2c570faec8346",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://monday.com/alternative",
-        "title": "monday.com Alternatives & Comparisons",
-        "text_excerpt": "monday.com Alternatives & Comparisons. We compare the top 8 monday.com alternatives, based on data from over 6000 G2 reviews, so you can find the best work management software for your team.",
-        "published_at": null
-      },
-      {
         "id": "d5cf8fc83e4d4316",
         "platform": "web",
         "source_name": "serper",
@@ -2123,12 +2240,12 @@
         "published_at": null
       },
       {
-        "id": "37842c5d78192d3d",
+        "id": "80a2c570faec8346",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://cpoclub.com/tools/best-monday-com-alternative/",
-        "title": "10 Best monday.com Alternatives Reviewed in 2026",
-        "text_excerpt": "10 Best monday.com Alternatives Reviewed in 2026. Shortlist 1. Airtable \u2014 Best for no-code app building 2. Freedcamp \u2014 Best for free project management 3. Teamwork.com \u2014 Best for client project management",
+        "url": "https://monday.com/alternative",
+        "title": "monday.com Alternatives & Comparisons",
+        "text_excerpt": "monday.com Alternatives & Comparisons. We compare the top 8 monday.com alternatives, based on data from over 6000 G2 reviews, so you can find the best work management software for your team.",
         "published_at": null
       },
       {
@@ -2141,30 +2258,39 @@
         "published_at": null
       },
       {
-        "id": "00d6269572f3923a",
+        "id": "37842c5d78192d3d",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://plaky.com/compare/monday-alternative",
-        "title": "Free monday.com Alternative | Simple, Fast, Professional",
-        "text_excerpt": "Free monday.com Alternative | Simple, Fast, Professional. Plaky is a monday.com alternative that offers unlimited boards, users, tasks, and files, as well as 24/7 customer support on the free plan. Try it now!",
+        "url": "https://cpoclub.com/tools/best-monday-com-alternative/",
+        "title": "10 Best monday.com Alternatives Reviewed in 2026",
+        "text_excerpt": "10 Best monday.com Alternatives Reviewed in 2026. Shortlist 1. Airtable \u2014 Best for no-code app building 2. Freedcamp \u2014 Best for free project management 3. Teamwork.com \u2014 Best for client project management",
         "published_at": null
       },
       {
-        "id": "f4816cc487ed0715",
+        "id": "449aa28ae4040ec5",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://startinfinity.com/monday-alternative",
-        "title": "A monday.com Alternative: Fully Flexible & Customizable",
-        "text_excerpt": "A monday.com Alternative: Fully Flexible & Customizable. Infinity is an alternative to monday.com which offers not only all the important features of a great work management software, but also a far more intuitive ...",
+        "url": "https://www.proprofsproject.com/blog/monday-alternatives/",
+        "title": "12 Best monday.com Alternatives & Competitors in 2026",
+        "text_excerpt": "12 Best monday.com Alternatives & Competitors in 2026. ProProfs Project stands out as a compelling alternative to monday.com for startups and SMBs seeking an easy-to-use and simple project management solution.",
         "published_at": null
       },
       {
-        "id": "32303f59ffea94ce",
+        "id": "9540dd86b651fc3d",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.airtable.com/articles/monday-alternatives",
-        "title": "Top monday.com alternatives for project teams in 2026",
-        "text_excerpt": "Top monday.com alternatives for project teams in 2026. Build smarter, more scalable workflows with Airtable \u00b7 Asana: Best monday.com alternative for basic task management \u00b7 Jira: Best monday.com ...",
+        "url": "https://www.gartner.com/reviews/product/monday/alternatives",
+        "title": "Top monday.com Alternatives & Competitors 2026",
+        "text_excerpt": "Top monday.com Alternatives & Competitors 2026. monday.com Alternatives \u00b7 1. Smartsheet \u00b7 2. Asana \u00b7 3. ClickUp \u00b7 4. Trello \u00b7 5. Wrike \u00b7 6. Jira \u00b7 7. Airtable \u00b7 8. Workfront.",
+        "published_at": null
+      },
+      {
+        "id": "4b51e2b1f445594a",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.projectmanager.com/blog/best-monday-com-alternatives",
+        "title": "Best Monday.com Alternatives: Free & Paid Options ...",
+        "text_excerpt": "Best Monday.com Alternatives: Free & Paid Options .... In our opinion, ProjectManager is the best Monday.com alternative. It has all the features that Monday.com has and then some, and it's even easier to onboard ...",
         "published_at": null
       },
       {
@@ -2240,24 +2366,6 @@
         "published_at": "2022-06-20T19:27:36+00:00"
       },
       {
-        "id": "9540dd86b651fc3d",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.gartner.com/reviews/product/monday/alternatives",
-        "title": "Top monday.com Alternatives & Competitors 2026",
-        "text_excerpt": "Top monday.com Alternatives & Competitors 2026. monday.com Alternatives \u00b7 1. Smartsheet \u00b7 2. Asana \u00b7 3. ClickUp \u00b7 4. Trello \u00b7 5. Wrike \u00b7 6. Jira \u00b7 7. Airtable \u00b7 8. Workfront.",
-        "published_at": null
-      },
-      {
-        "id": "4b51e2b1f445594a",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.projectmanager.com/blog/best-monday-com-alternatives",
-        "title": "Best Monday.com Alternatives: Free & Paid Options ...",
-        "text_excerpt": "Best Monday.com Alternatives: Free & Paid Options .... In our opinion, ProjectManager is the best Monday.com alternative. It has all the features that Monday.com has and then some, and it's even easier to onboard ...",
-        "published_at": null
-      },
-      {
         "id": "3a1fc34628677ca1",
         "platform": "hackernews",
         "source_name": "hackernews",
@@ -2321,6 +2429,15 @@
         "published_at": null
       },
       {
+        "id": "f68d998293a4bcdc",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://monday.com/blog/crm-and-sales/customer-support-vs-customer-service/",
+        "title": "Customer Support vs Customer Service: Key Differences",
+        "text_excerpt": "Customer Support vs Customer Service: Key Differences. monday CRM brings support and service together with centralized communication tracking, AI-powered workflows, and cross-functional dashboards ...",
+        "published_at": null
+      },
+      {
         "id": "7b849957cc83dc3a",
         "platform": "web",
         "source_name": "serper",
@@ -2330,57 +2447,39 @@
         "published_at": null
       },
       {
-        "id": "c6fd79692d0c910e",
+        "id": "45cf98c03015c101",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://community.monday.com/integrations-developments/post/worst-customer-service-i-ve-ever-experienced-1XBqq6UTU88eStI",
-        "title": "Worst Customer Service I've Ever Experienced",
-        "text_excerpt": "Worst Customer Service I've Ever Experienced. Monday's customer service team responds once a week and passes you on to a new representative each time. All I want is some basic questions ...",
+        "url": "https://monday.com/w/customer-stories",
+        "title": "Customer stories",
+        "text_excerpt": "Customer stories. Read success stories and see why over 250000 customers worldwide rely on monday.com to deliver their best work. 85% on-time project delivery since rollout",
         "published_at": null
       },
       {
-        "id": "ab7124dabab12183",
+        "id": "b9868a2f49832c74",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://support.monday.com/hc/en-us",
-        "title": "Support - Monday.com",
-        "text_excerpt": "Support - Monday.com. Get in touch with our support team through our chat for any questions, concerns, or inquiries. Community Forum Learn, share ideas, and connect with other ...",
+        "url": "https://www.builtinnyc.com/articles/team-culture-built-support-inside-mondaycoms-customer-experience-team",
+        "title": "Monday.com Customer Experience Team Culture",
+        "text_excerpt": "Monday.com Customer Experience Team Culture. The customer experience team consists of over 400 people, spread across 10 locations around the world. Their primary objective is to assist users through chat ...",
         "published_at": null
       },
       {
-        "id": "f554b1bfff1bceaa",
+        "id": "541c99003aabf948",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://thecxlead.com/tools/monday-service-review/",
-        "title": "monday service Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "monday service Review: Pros, Cons, Features & Pricing. monday service offers solid support, You get 24/7 chat, a detailed knowledge base, and a helpful onboarding hub to get set up fast. Users say responses are ...",
+        "url": "https://monday.com/blog/service/best-help-desk-software/",
+        "title": "The Best Help Desk Software [2026]",
+        "text_excerpt": "The Best Help Desk Software [2026]. This guide shares ten of the best help desk platforms, including their key features, pricing differences, and an easy comparison table to kickstart your ...",
         "published_at": null
       },
       {
-        "id": "66046fb821406fe2",
+        "id": "1b8394fabdd780ce",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://monday.com/help",
-        "title": "Contact Us",
-        "text_excerpt": "Contact Us. Got questions? We&#39;re here to help with anything you need. Contact Support Learn more Talk to Sales Learn more Visit our Help Center. Yitzhak Sadeh St. Tel ...",
-        "published_at": null
-      },
-      {
-        "id": "a31f31408190d568",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://cpoclub.com/tools/monday-review/",
-        "title": "monday.com Review: Pros, Cons, Features, and Pricing",
-        "text_excerpt": "monday.com Review: Pros, Cons, Features, and Pricing. What kind of customer support is available for monday.com users? monday.com provides live chat, email support, a knowledge base, webinars ...",
-        "published_at": null
-      },
-      {
-        "id": "a0b7de7e6f438315",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://monday.com/helpcenter/%20contact-support",
-        "title": "Contact support - Help Center",
-        "text_excerpt": "Contact support - Help Center. Contact support. monday logo. Pricing \u00b7 Contact us \u00b7 Templates \u00b7 SMB \u00b7 Enterprise \u00b7 Nonprofits \u00b7 App marketplace \u00b7 24/7 support. Features. Docs \u00b7 Integrations.",
+        "url": "https://monday.com/blog/service/ai-customer-service/",
+        "title": "Deliver exceptional support faster with AI customer service",
+        "text_excerpt": "Deliver exceptional support faster with AI customer service. Improve customer service with monday service AI-powered software \u00b7 Automated ticketing and ticket routing \u00b7 Agent knowledge base assistance.",
         "published_at": null
       },
       {
@@ -2420,15 +2519,6 @@
         "published_at": null
       },
       {
-        "id": "c60d4b22af6585f7",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=MtvxclYwb-w",
-        "title": "Trello Review: Is It Too Simple for Serious Project Management?",
-        "text_excerpt": "Trello Review: Is It Too Simple for Serious Project Management?. Trello is beloved for its simplicity\u2014and for solo users or small teams, it's a dream. But once your team starts to grow, that same simplicity ...",
-        "published_at": null
-      },
-      {
         "id": "909d55b6c7b632f2",
         "platform": "web",
         "source_name": "serper",
@@ -2438,21 +2528,12 @@
         "published_at": null
       },
       {
-        "id": "46a9dc3ee06eb474",
+        "id": "c60d4b22af6585f7",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.trustpilot.com/review/trello.com",
-        "title": "Read Customer Service Reviews of trello.com",
-        "text_excerpt": "Read Customer Service Reviews of trello.com. The Trello, in recent weeks, keeps logging out and then asks to sign in again. The site has unreliable servers that refuse to load. The site cant be accessed ...",
-        "published_at": null
-      },
-      {
-        "id": "b3bc94581e23f14e",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.pcmag.com/reviews/trello",
-        "title": "Trello Review: A Fun and Customizable Work Management ...",
-        "text_excerpt": "Trello Review: A Fun and Customizable Work Management .... Trello's intuitive features, inviting visual design, and smart automations allow it to adeptly handle both personal tasks and collaborative ...",
+        "url": "https://www.youtube.com/watch?v=MtvxclYwb-w",
+        "title": "Trello Review: Is It Too Simple for Serious Project Management?",
+        "text_excerpt": "Trello Review: Is It Too Simple for Serious Project Management?. Trello is beloved for its simplicity\u2014and for solo users or small teams, it's a dream. But once your team starts to grow, that same simplicity ...",
         "published_at": null
       },
       {
@@ -2474,12 +2555,30 @@
         "published_at": null
       },
       {
+        "id": "46a9dc3ee06eb474",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.trustpilot.com/review/trello.com",
+        "title": "Read Customer Service Reviews of trello.com",
+        "text_excerpt": "Read Customer Service Reviews of trello.com. The Trello, in recent weeks, keeps logging out and then asks to sign in again and then asks for complicated human verification.",
+        "published_at": null
+      },
+      {
+        "id": "b3bc94581e23f14e",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.pcmag.com/reviews/trello",
+        "title": "Trello Review: A Fun and Customizable Work Management ...",
+        "text_excerpt": "Trello Review: A Fun and Customizable Work Management .... Trello's intuitive features, inviting visual design, and smart automations allow it to adeptly handle both personal tasks and collaborative ...",
+        "published_at": null
+      },
+      {
         "id": "181159c22b0c5ac3",
         "platform": "web",
         "source_name": "serper",
         "url": "https://connecteam.com/reviews/trello/",
         "title": "Honest Trello Review: Pros, Cons, Features & Pricing",
-        "text_excerpt": "Honest Trello Review: Pros, Cons, Features & Pricing. Trello is a user-friendly task management app ideal for freelancers or small teams with predictable workflows. It shines in project planning",
+        "text_excerpt": "Honest Trello Review: Pros, Cons, Features & Pricing. Trello offers an affordable pricing structure, starting with a solid free plan for solo users or small teams. I found the Standard plan helpful ...",
         "published_at": null
       },
       {
@@ -2488,7 +2587,7 @@
         "source_name": "serper",
         "url": "https://www.taskrhino.ca/blog/trello-review/",
         "title": "Trello Review 2026: Expert Analysis & Feature Breakdown",
-        "text_excerpt": "Trello Review 2026: Expert Analysis & Feature Breakdown. Trello works brilliantly for simple task tracking \u2014 and struggles the moment your projects grow beyond sticky notes on a digital board. No task dependencies.",
+        "text_excerpt": "Trello Review 2026: Expert Analysis & Feature Breakdown. Trello is among the cheapest project management tools on the market, with its Standard plan starting at $5 per user per month when billed annually. While ...",
         "published_at": null
       },
       {
@@ -2609,39 +2708,12 @@
         "published_at": null
       },
       {
-        "id": "59ab05b0db1f0224",
-        "platform": "news",
-        "source_name": "serper",
-        "url": "https://www.forbes.com/advisor/business/software/trello-pricing/",
-        "title": "Trello Pricing Plans (Guide)",
-        "text_excerpt": "Trello Pricing Plans (Guide). Trello's pricing plans include one free plan and three paid plans. Standard plan is $5 per month, per user. Free $5 per month $10 per month $17 ...",
-        "published_at": null
-      },
-      {
-        "id": "ce6560095784e00c",
+        "id": "76fe5b91a2d6b2f4",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://lifestack.ai/blog/trello-pricing",
-        "title": "Trello Pricing 2026: Free vs Standard vs Premium",
-        "text_excerpt": "Trello Pricing 2026: Free vs Standard vs Premium. Trello has four pricing tiers: Free ($0), Standard ($5/user/month annual or $6/month monthly), Premium ($10/user/month annual or $12.50/month ...",
-        "published_at": null
-      },
-      {
-        "id": "5f74da1b7bc59062",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://fibery.io/openion/trello-117/user-discontent-on-trello's-new-board-limitations-and-pricing-model-389980",
-        "title": "Trello Reviews, Pros & Cons, and More (2026)",
-        "text_excerpt": "Trello Reviews, Pros & Cons, and More (2026). Users are upset about the introduction of limits on free boards, the requirement to pay for previously free features, and the restructuring into workspaces,",
-        "published_at": null
-      },
-      {
-        "id": "1f5e740facc81eee",
-        "platform": "g2",
-        "source_name": "serper",
-        "url": "https://www.capterra.com/p/211559/Trello/pricing/",
-        "title": "Trello Pricing 2026",
-        "text_excerpt": "Trello Pricing 2026. The biggest downside is that boards become cluttered and hard to manage as projects grow large, making it less ideal for complex team workflows. Write a Review",
+        "url": "https://community.atlassian.com/forums/Trello-articles/How-does-Trello-pricing-work-Here-s-an-explainer/ba-p/2092162",
+        "title": "How does Trello pricing work? (Here's an explainer...",
+        "text_excerpt": "How does Trello pricing work? (Here's an explainer.... Trello pricing is by user in a workspace. You don't upgrade an \"account\" per se. Pricing is per number of users that are on more than one board in a workspace.",
         "published_at": null
       },
       {
@@ -2654,12 +2726,30 @@
         "published_at": null
       },
       {
-        "id": "1195b9fc45c7ec2a",
+        "id": "855f38643cef5897",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://tech.co/project-management-software/trello-review",
-        "title": "Trello Pricing 2026: Plans, Hidden Costs, Power-Ups, and More",
-        "text_excerpt": "Trello Pricing 2026: Plans, Hidden Costs, Power-Ups, and More. Trello pricing starts at $5 per user, per month, with more expensive plans costing $10 per user, per month and $17.50 per user, per month.",
+        "url": "https://www.youtube.com/watch?v=x2RDWyFf_do&vl=en",
+        "title": "Trello Review: Is It Any Good? (2026)",
+        "text_excerpt": "Trello Review: Is It Any Good? (2026). I'll cover Trello's pricing, features, automation, ease of use, and security, plus its strengths and weaknesses. Drawbacks 03:28 Pricing 04:36 ...",
+        "published_at": null
+      },
+      {
+        "id": "c15d945d3ff273c9",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://plaky.com/learn/plaky/trello-pricing/",
+        "title": "Trello Pricing (2025): Overview of Plans & Features",
+        "text_excerpt": "Trello Pricing (2025): Overview of Plans & Features. Trello's billing starts at $5/user/month, but you can also use the platform for free. In total, there are 4 pricing plans: Free,; Standard, ...",
+        "published_at": null
+      },
+      {
+        "id": "912e223b023fc279",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.smartsuite.com/blog/trello-review",
+        "title": "Trello Review: Is It Worth It in 2026? [In-Depth]",
+        "text_excerpt": "Trello Review: Is It Worth It in 2026? [In-Depth]. Common complaints about Trello: Lack of clarity in user permission and roles. Limited reporting capabilities that make users rely on paid ...",
         "published_at": null
       },
       {
@@ -2699,39 +2789,30 @@
         "published_at": null
       },
       {
-        "id": "6f6c75c4dc89eb17",
+        "id": "d24921c8ad25b738",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=UDbdcM--sJ4",
-        "title": "Top 5+ Trello Alternatives",
-        "text_excerpt": "Top 5+ Trello Alternatives. six standout alternatives that offer next-level functionality: monday.com. Jotform Boards 04:41 Asana 05:29 Jira 06:13 Airtable 07:03 ClickUp ...",
+        "url": "https://tasksboard.com/blog/trello-alternative-guide",
+        "title": "Best Trello Alternatives in 2026: Free Options for Google ...",
+        "text_excerpt": "Best Trello Alternatives in 2026: Free Options for Google .... Best Trello Alternatives in 2026 \u00b7 1. TasksBoard: Best for Google Workspace Teams \u00b7 2. Asana: Best for Growing Teams \u00b7 3. Notion: Best for Teams ...",
         "published_at": null
       },
       {
-        "id": "fcd66e8033174c7a",
+        "id": "7f7c1d21d4b00bfa",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.goodday.work/blog/best-trello-alternatives/",
-        "title": "Best Trello alternatives in 2026 (features & price compared)",
-        "text_excerpt": "Best Trello alternatives in 2026 (features & price compared). In-depth exploration of the best project management software alternatives to Trello \u00b7 1) GoodDay \u00b7 2) Asana \u00b7 3) Monday.com \u00b7 4) ClickUp \u00b7 5) Airtable \u00b7 6) ...",
+        "url": "https://www.wrike.com/blog/trello-alternatives/",
+        "title": "26 Trello alternatives that are actually better (free, paid, ...",
+        "text_excerpt": "26 Trello alternatives that are actually better (free, paid, .... Free and open-source Trello alternatives \u00b7 KanbanFlow: Best for no-frills Kanban \u00b7 WeKan: Best self-hosted Kanban \u00b7 Focalboard: Best for open- ...",
         "published_at": null
       },
       {
-        "id": "d5f20f5fe21c3651",
+        "id": "9eaa4cb6c3c5d4e1",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://lovable.dev/guides/10-trello-alternatives-for-project-management",
-        "title": "10 Trello Alternatives for Project Management in 2026",
-        "text_excerpt": "10 Trello Alternatives for Project Management in 2026. 10 Trello Alternatives for Project Management \u00b7 1. Asana: Best for Mid-Size Teams Needing Task Dependencies \u00b7 2. Monday.com: Best for Visual ...",
-        "published_at": null
-      },
-      {
-        "id": "476cf39337c38063",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://thebusinessdive.com/trello-alternatives",
-        "title": "7 Best Trello Alternatives After Testing +20 Tools (2026)",
-        "text_excerpt": "7 Best Trello Alternatives After Testing +20 Tools (2026). ClickUp, Notion, and Coda are definitely among the top free Trello alternatives. Notion, Todoist, Asana, Airtable, Microsoft Project, and Jira. ...",
+        "url": "https://www.experte.com/project-management/trello-alternative",
+        "title": "Best Trello Alternative: Our Top 5 Choices",
+        "text_excerpt": "Best Trello Alternative: Our Top 5 Choices. Compared to ClickUp, Trello is a lightweight tool, which has its benefits: Trello is more intuitive, quicker to set up, and more dynamic for simple projects.",
         "published_at": null
       },
       {
@@ -2744,12 +2825,21 @@
         "published_at": null
       },
       {
-        "id": "7f7c1d21d4b00bfa",
+        "id": "18856b4dce92987b",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.wrike.com/blog/trello-alternatives/",
-        "title": "26 Trello alternatives that are actually better (free, paid, ...",
-        "text_excerpt": "26 Trello alternatives that are actually better (free, paid, .... Free and open-source Trello alternatives \u00b7 KanbanFlow: Best for no-frills Kanban \u00b7 WeKan: Best self-hosted Kanban \u00b7 Focalboard: Best for open- ...",
+        "url": "https://baserow.io/blog/top-trello-alternatives",
+        "title": "Top Trello Alternatives for Managing Projects Efficiently",
+        "text_excerpt": "Top Trello Alternatives for Managing Projects Efficiently. Why Consider Trello Alternatives? \u00b7 1. Baserow \u00b7 2. Monday.com \u00b7 3. Jira \u00b7 4. ClickUp \u00b7 5. Notion \u00b7 6. Asana \u00b7 7. Airtable \u00b7 8. Wrike. Wrike is ...",
+        "published_at": null
+      },
+      {
+        "id": "41f5591c2c1795e5",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.proofhub.com/articles/trello-alternatives",
+        "title": "7 Best Trello alternative in 2026 for project management",
+        "text_excerpt": "7 Best Trello alternative in 2026 for project management. Top 7 Trello alternatives \u00b7 1. ProofHub \u00b7 2. Asana \u00b7 3. Clickup \u00b7 4. monday.com \u00b7 5. Basecamp \u00b7 6. Notion \u00b7 7. Linear. Linear as trello ...",
         "published_at": null
       },
       {
@@ -2843,48 +2933,39 @@
         "published_at": "2018-08-15T09:45:51+00:00"
       },
       {
-        "id": "9931a6ea4f5b8567",
+        "id": "d5f20f5fe21c3651",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=dt1GZOEnj2g",
-        "title": "3 Best Project Management Tools Reviewed (Trello vs ...",
-        "text_excerpt": "3 Best Project Management Tools Reviewed (Trello vs .... In this video we're diving into Trello Asana or monday.com which of them is the best project management system for you and your team.",
+        "url": "https://lovable.dev/guides/10-trello-alternatives-for-project-management",
+        "title": "10 Trello Alternatives for Project Management in 2026",
+        "text_excerpt": "10 Trello Alternatives for Project Management in 2026. Compare 10 Trello alternatives with task dependencies, AI automation, and scalable pricing. Find the right PM tool for your team size and ...",
         "published_at": null
       },
       {
-        "id": "8d450ce9eeda5cd9",
+        "id": "56abcf295035fe0a",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.atlassian.com/blog/project-management/trello-vs-jira",
-        "title": "Trello vs. Jira: which to choose (and how to use them ...",
-        "text_excerpt": "Trello vs. Jira: which to choose (and how to use them .... While both tools have their own features and use cases, Trello and Jira are both parts of the Atlassian family\u2014which means you can use them ...",
+        "url": "https://www.reddit.com/r/projectmanagement/comments/nx425v/is_there_any_difference_between_trello_and/",
+        "title": "Is there any difference between Trello and Monday.com",
+        "text_excerpt": "Is there any difference between Trello and Monday.com. Trello is much cheaper. Trello basically just supports Kanban-style boards with cards in columns, while Monday has more views.",
         "published_at": null
       },
       {
-        "id": "c88b6f62817f6c34",
-        "platform": "web",
+        "id": "663eaf777c76b5f1",
+        "platform": "news",
         "source_name": "serper",
-        "url": "https://trello.com/",
-        "title": "Trello",
-        "text_excerpt": "Trello. Trello makes it easy for your team to get work done. No matter the project, workflow, or type of team, Trello can help keep things organized.",
+        "url": "https://www.forbes.com/advisor/business/software/top-trello-alternatives/",
+        "title": "Best Trello Alternatives",
+        "text_excerpt": "Best Trello Alternatives. My research shows that ClickUp's Kanban boards, Gantt charts and robust collaboration features make it the best Trello alternative.",
         "published_at": null
       },
       {
-        "id": "3e0b88eba3f9c1f9",
+        "id": "3867e0fbaabdce12",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.shortcut.com/blog/shortcut-vs-trello-choose-the-best-software-project-management-tool/",
-        "title": "Shortcut vs. Trello: Choose the best software project ...",
-        "text_excerpt": "Shortcut vs. Trello: Choose the best software project .... Shortcut is a great alternative to Trello because we provide more structure, options, and visibility for your growing software team.",
-        "published_at": null
-      },
-      {
-        "id": "7c7eb688b9906a5a",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=WwsiC4KUOAo&vl=en",
-        "title": "Monday.com vs Trello: Which is Better? (2026)",
-        "text_excerpt": "Monday.com vs Trello: Which is Better? (2026). Monday.com and Trello are both popular project management tools \u2014 but choosing the wrong one for your team size and workflow will cost you ...",
+        "url": "https://www.meistertask.com/blog/14-trello-alternatives-for-task-and-project-management",
+        "title": "14 Trello Alternatives: the best task and project ...",
+        "text_excerpt": "14 Trello Alternatives: the best task and project .... We've categorized the best Trello alternatives by team size, budget, and the type of projects you manage. Read on for a summary of each tool's features, pros, ...",
         "published_at": null
       },
       {
@@ -2969,30 +3050,12 @@
         "published_at": null
       },
       {
-        "id": "17372626f6f74567",
+        "id": "16567eabbcbcb548",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://www.youtube.com/watch?v=S9usvsIBVTE&vl=en",
-        "title": "How To Contact Trello Support (Contact Guide 2026)",
-        "text_excerpt": "How To Contact Trello Support (Contact Guide 2026). We'll walk through the exact path inside Trello to get help plus a few tips so you can reach the right place fast.",
-        "published_at": null
-      },
-      {
-        "id": "4e7e581fe2652cec",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://community.atlassian.com/forums/Trello-questions/Need-Technical-Support-from-Trello/qaq-p/1500459",
-        "title": "Need Technical Support from Trello",
-        "text_excerpt": "Need Technical Support from Trello. But I have no experience with Trello Support to be honest. The only thing I can say is Atlassian typically replies within 2 business days for ...",
-        "published_at": null
-      },
-      {
-        "id": "4bb2768358e7b1a2",
-        "platform": "web",
-        "source_name": "serper",
-        "url": "https://www.sendboard.com/blog/trello-customer-service",
-        "title": "10 ways to become a customer success hero in Trello",
-        "text_excerpt": "10 ways to become a customer success hero in Trello. Connect your support inbox to Trello to quickly reply to emails, process help tickets, and collaborate with your customer service team.",
+        "url": "https://community.atlassian.com/forums/Trello-questions/Does-Trello-offer-live-customer-support-via-phone-or-chat/qaq-p/1152817",
+        "title": "Does Trello offer live customer support via phone or chat?",
+        "text_excerpt": "Does Trello offer live customer support via phone or chat?. Enterprise accounts do have scheduled phone support. For everyone else, the contact form or email. They do usually respond quickly and helpfully.",
         "published_at": null
       },
       {
@@ -3005,12 +3068,39 @@
         "published_at": null
       },
       {
-        "id": "0472e6f4dbb4d78f",
+        "id": "4bb2768358e7b1a2",
         "platform": "web",
         "source_name": "serper",
-        "url": "https://trello.com/templates/support",
-        "title": "Support templates",
-        "text_excerpt": "Support templates. Improve your team's customer support workflow with templates made to collect feedback and build knowledge bases.",
+        "url": "https://www.sendboard.com/blog/trello-customer-service",
+        "title": "10 ways to become a customer success hero in Trello",
+        "text_excerpt": "10 ways to become a customer success hero in Trello. Connect your support inbox to Trello to quickly reply to emails, process help tickets, and collaborate with your customer service team.",
+        "published_at": null
+      },
+      {
+        "id": "82a6bda0e687d740",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.youtube.com/watch?v=Trs8IuHhsNc",
+        "title": "How to Use Trello for Customer Support (Simple Ticket Tracking)",
+        "text_excerpt": "How to Use Trello for Customer Support (Simple Ticket Tracking). In this video we will learn about trello customer support board, trello support ticket system, trello helpdesk setup,",
+        "published_at": null
+      },
+      {
+        "id": "ab1951c76c3a2da0",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.trello.com/guide",
+        "title": "Trello Guides: Help Getting Started With Trello",
+        "text_excerpt": "Trello Guides: Help Getting Started With Trello. Want to learn how to use Trello? Maybe need a refresher? Check out our Trello getting started guide. It's the ultimate tutorial for all of life's projects.",
+        "published_at": null
+      },
+      {
+        "id": "96884880b0a17cfa",
+        "platform": "web",
+        "source_name": "serper",
+        "url": "https://www.atlassian.com/blog/trello/how-to-use-trello-for-customer-support-teams",
+        "title": "How to use Trello for customer support teams",
+        "text_excerpt": "How to use Trello for customer support teams. The Trello Playbook for Support Teams rounds up five essential boards that you can copy and customize for everything from bug reports to feature requests.",
         "published_at": null
       },
       {
@@ -3102,7 +3192,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:33.656956Z"
+        "occurred_at": "2026-07-27T13:03:43.088769Z"
       },
       {
         "source_name": "reddit",
@@ -3110,7 +3200,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:36.886106Z"
+        "occurred_at": "2026-07-27T13:03:46.331425Z"
       },
       {
         "source_name": "hackernews",
@@ -3118,7 +3208,7 @@
         "reason": "empty",
         "detail": "no results",
         "http_status": null,
-        "occurred_at": "2026-07-27T12:45:39.387368Z"
+        "occurred_at": "2026-07-27T13:03:48.280674Z"
       },
       {
         "source_name": "reddit",
@@ -3126,7 +3216,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:39.826860Z"
+        "occurred_at": "2026-07-27T13:03:48.756732Z"
       },
       {
         "source_name": "reddit",
@@ -3134,7 +3224,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:42.457678Z"
+        "occurred_at": "2026-07-27T13:03:51.845464Z"
       },
       {
         "source_name": "reddit",
@@ -3142,7 +3232,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:44.697554Z"
+        "occurred_at": "2026-07-27T13:03:55.646314Z"
       },
       {
         "source_name": "hackernews",
@@ -3150,7 +3240,7 @@
         "reason": "empty",
         "detail": "no results",
         "http_status": null,
-        "occurred_at": "2026-07-27T12:45:46.744781Z"
+        "occurred_at": "2026-07-27T13:03:58.129560Z"
       },
       {
         "source_name": "reddit",
@@ -3158,7 +3248,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:47.195562Z"
+        "occurred_at": "2026-07-27T13:03:58.717804Z"
       },
       {
         "source_name": "reddit",
@@ -3166,7 +3256,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:49.896226Z"
+        "occurred_at": "2026-07-27T13:04:02.193405Z"
       },
       {
         "source_name": "hackernews",
@@ -3174,7 +3264,7 @@
         "reason": "empty",
         "detail": "no results",
         "http_status": null,
-        "occurred_at": "2026-07-27T12:45:52.411283Z"
+        "occurred_at": "2026-07-27T13:04:04.731371Z"
       },
       {
         "source_name": "reddit",
@@ -3182,7 +3272,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:52.943838Z"
+        "occurred_at": "2026-07-27T13:04:05.194753Z"
       },
       {
         "source_name": "reddit",
@@ -3190,7 +3280,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:56.110289Z"
+        "occurred_at": "2026-07-27T13:04:08.516759Z"
       },
       {
         "source_name": "reddit",
@@ -3198,7 +3288,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:45:58.766520Z"
+        "occurred_at": "2026-07-27T13:04:11.578423Z"
       },
       {
         "source_name": "reddit",
@@ -3206,7 +3296,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:01.489778Z"
+        "occurred_at": "2026-07-27T13:04:14.807338Z"
       },
       {
         "source_name": "reddit",
@@ -3214,7 +3304,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:04.624693Z"
+        "occurred_at": "2026-07-27T13:04:19.855278Z"
       },
       {
         "source_name": "reddit",
@@ -3222,7 +3312,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:07.170122Z"
+        "occurred_at": "2026-07-27T13:04:30.460464Z"
       },
       {
         "source_name": "reddit",
@@ -3230,7 +3320,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:10.602320Z"
+        "occurred_at": "2026-07-27T13:04:33.129467Z"
       },
       {
         "source_name": "reddit",
@@ -3238,7 +3328,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:13.450605Z"
+        "occurred_at": "2026-07-27T13:04:38.520642Z"
       },
       {
         "source_name": "reddit",
@@ -3246,7 +3336,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:17.689024Z"
+        "occurred_at": "2026-07-27T13:04:41.674725Z"
       },
       {
         "source_name": "reddit",
@@ -3254,7 +3344,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:20.781965Z"
+        "occurred_at": "2026-07-27T13:04:45.875240Z"
       },
       {
         "source_name": "hackernews",
@@ -3262,7 +3352,7 @@
         "reason": "empty",
         "detail": "no results",
         "http_status": null,
-        "occurred_at": "2026-07-27T12:46:22.897338Z"
+        "occurred_at": "2026-07-27T13:04:48.200395Z"
       },
       {
         "source_name": "reddit",
@@ -3270,7 +3360,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:23.355756Z"
+        "occurred_at": "2026-07-27T13:04:48.834360Z"
       },
       {
         "source_name": "reddit",
@@ -3278,7 +3368,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:26.498797Z"
+        "occurred_at": "2026-07-27T13:04:52.868732Z"
       },
       {
         "source_name": "reddit",
@@ -3286,7 +3376,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:29.246099Z"
+        "occurred_at": "2026-07-27T13:04:56.976645Z"
       },
       {
         "source_name": "reddit",
@@ -3294,7 +3384,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:32.255611Z"
+        "occurred_at": "2026-07-27T13:05:00.148026Z"
       },
       {
         "source_name": "reddit",
@@ -3302,7 +3392,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:34.895286Z"
+        "occurred_at": "2026-07-27T13:05:03.954266Z"
       },
       {
         "source_name": "reddit",
@@ -3310,7 +3400,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:37.510204Z"
+        "occurred_at": "2026-07-27T13:05:09.769942Z"
       },
       {
         "source_name": "reddit",
@@ -3318,7 +3408,7 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:40.723815Z"
+        "occurred_at": "2026-07-27T13:05:12.890481Z"
       },
       {
         "source_name": "reddit",
@@ -3326,23 +3416,23 @@
         "reason": "blocked",
         "detail": "Reddit returned 403",
         "http_status": 403,
-        "occurred_at": "2026-07-27T12:46:44.298740Z"
+        "occurred_at": "2026-07-27T13:05:15.617039Z"
       }
     ],
     "counts_by_platform": {
-      "web": 180,
-      "g2": 5,
-      "hackernews": 150,
+      "web": 178,
+      "g2": 10,
+      "hackernews": 157,
       "news": 2
     }
   },
   "claims": [
     {
-      "id": "05ef6c4a675c1e13",
+      "id": "36d1f914b1e2bbb4",
       "company_id": "flowdeck",
       "company_name": "Flowdeck",
       "dimension": "features",
-      "statement": "FlowDeck allows developers to trigger builds without having to switch to Xcode.",
+      "statement": "FlowDeck allows developers to trigger builds without switching over to Xcode.",
       "stance": "positive",
       "evidence": [
         {
@@ -3363,121 +3453,21 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "eec8a0e031cad9fb",
-      "company_id": "flowdeck",
-      "company_name": "Flowdeck",
-      "dimension": "features",
-      "statement": "Flowdeck allows users to create professional cockpit flows and link errors directly to specific flows for review.",
-      "stance": "positive",
-      "evidence": [
-        {
-          "document_id": "050f589fd958e962",
-          "url": "https://flowdeck.es/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "Create Professional Cockpit Flows. Link errors to specific Flowdeck flows for review.",
-          "char_start": 11,
-          "char_end": 96,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [],
-      "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "f36554a1b0b0ac9a",
-      "company_id": "flowdeck",
-      "company_name": "Flowdeck",
-      "dimension": "pricing",
-      "statement": "Flowdeck offers an annual access tier for \u20ac49.99 per year that includes all features.",
-      "stance": "neutral",
-      "evidence": [
-        {
-          "document_id": "050f589fd958e962",
-          "url": "https://flowdeck.es/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "Access Yearly \u20ac49.99per year \u2192 Every feature.",
-          "char_start": 97,
-          "char_end": 142,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [],
-      "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "43852fb033108246",
-      "company_id": "flowdeck",
-      "company_name": "Flowdeck",
-      "dimension": "pricing",
-      "statement": "Flowdeck provides bulk pricing ranging from \u20ac35 to \u20ac50 per pilot per year based on team size.",
-      "stance": "neutral",
-      "evidence": [
-        {
-          "document_id": "050f589fd958e962",
-          "url": "https://flowdeck.es/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "Bulk \u20ac35-50per pilot/yr \u2192 Volume pricing based on team size.",
-          "char_start": 143,
-          "char_end": 203,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [],
-      "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "7b7ee14e892e4142",
-      "company_id": "flowdeck",
-      "company_name": "Flowdeck",
-      "dimension": "features",
-      "statement": "FlowDeck allows users to have an AI agent build and run their applications.",
-      "stance": "positive",
-      "evidence": [
-        {
-          "document_id": "25e5245a8168dba9",
-          "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "How I use FlowDeck to let my AI agent build and run my apps.",
-          "char_start": 0,
-          "char_end": 60,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [],
-      "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "ee3a20dfdc2bf3b4",
+      "id": "61d41f1119a27270",
       "company_id": "flowdeck",
       "company_name": "Flowdeck",
       "dimension": "positioning",
-      "statement": "The author felt no need to explore alternative tools because FlowDeck fully satisfied their requirements.",
+      "statement": "FlowDeck provides a novel approach to controlling your PC.",
       "stance": "positive",
       "evidence": [
         {
-          "document_id": "25e5245a8168dba9",
-          "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/",
+          "document_id": "5f66cf62f697e5d3",
+          "url": "https://store.steampowered.com/app/4558340/FlowDeck/",
           "platform": "web",
           "source_name": "serper",
-          "quote": "FlowDeck fell into my lap and I had no reason to try something else.",
-          "char_start": 126,
-          "char_end": 194,
+          "quote": "Unlock a new way of controlling your PC with FlowDeck.",
+          "char_start": 19,
+          "char_end": 73,
           "published_at": null,
           "author": null,
           "verified": true
@@ -3488,11 +3478,36 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "0c8974bc589b095d",
+      "id": "855b2567132b556a",
+      "company_id": "flowdeck",
+      "company_name": "Flowdeck",
+      "dimension": "features",
+      "statement": "FlowDeck enables users to swiftly launch applications, files, and games, manage media playback, and switch audio devices.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "5f66cf62f697e5d3",
+          "url": "https://store.steampowered.com/app/4558340/FlowDeck/",
+          "platform": "web",
+          "source_name": "serper",
+          "quote": "Quickly open apps, games, folders and files, control your media player, change audio devices and more!",
+          "char_start": 74,
+          "char_end": 176,
+          "published_at": null,
+          "author": null,
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "7453126963b742ea",
       "company_id": "flowdeck",
       "company_name": "Flowdeck",
       "dimension": "positioning",
-      "statement": "Flowdeck positions itself as a macOS IDE designed for AI agents to build and test software.",
+      "statement": "FlowDeck is a macOS IDE where AI agents build and test.",
       "stance": "neutral",
       "evidence": [
         {
@@ -3513,11 +3528,11 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "6c80a8b6d8e97e3b",
+      "id": "2961fe20f18d4484",
       "company_id": "monday-com",
       "company_name": "Monday.com",
       "dimension": "positioning",
-      "statement": "Monday.com is recognized as a benchmark work management tool against which alternatives are positioned.",
+      "statement": "Monday.com is a work management platform for which tillywork is an open-source alternative.",
       "stance": "neutral",
       "evidence": [
         {
@@ -3525,9 +3540,9 @@
           "url": "https://news.ycombinator.com/item?id=40431240",
           "platform": "hackernews",
           "source_name": "hackernews",
-          "quote": "opensource work management (monday.com alternative)",
-          "char_start": 21,
-          "char_end": 72,
+          "quote": "Show HN: tillywork - opensource work management (monday.com alternative).",
+          "char_start": 0,
+          "char_end": 73,
           "published_at": "2024-05-21T17:22:13Z",
           "author": "moshizzlejo",
           "verified": true
@@ -3538,38 +3553,11 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "483a5260abcbc1fd",
+      "id": "3746f4db1eb3e16e",
       "company_id": "monday-com",
       "company_name": "Monday.com",
       "dimension": "positioning",
-      "statement": "Monday.com is listed as a potential alternative for teams that find Linear unsuitable.",
-      "stance": "positive",
-      "evidence": [
-        {
-          "document_id": "70e88f7793766950",
-          "url": "https://news.ycombinator.com/item?id=33140431",
-          "platform": "hackernews",
-          "source_name": "hackernews",
-          "quote": "If you\u2019ve given Linear a try, but it just doesn\u2019t work for you, some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com.",
-          "char_start": 1171,
-          "char_end": 1349,
-          "published_at": "2022-10-09T12:37:16Z",
-          "author": "voidr",
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [
-        "f3a301a9bd9293e4"
-      ],
-      "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "f3a301a9bd9293e4",
-      "company_id": "monday-com",
-      "company_name": "Monday.com",
-      "dimension": "positioning",
-      "statement": "Monday.com is suitable for small projects but is not viable for enterprise context or larger organizations.",
+      "statement": "While monday.com can work for small projects, it is not viable for larger enterprise organizations.",
       "stance": "negative",
       "evidence": [
         {
@@ -3577,8 +3565,8 @@
           "url": "https://news.ycombinator.com/item?id=33140431",
           "platform": "hackernews",
           "source_name": "hackernews",
-          "quote": "None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
-          "char_start": 1350,
+          "quote": "If you\u2019ve given Linear a try, but it just doesn\u2019t work for you, some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
+          "char_start": 1171,
           "char_end": 1505,
           "published_at": "2022-10-09T12:37:16Z",
           "author": "voidr",
@@ -3586,17 +3574,15 @@
         }
       ],
       "confidence": 0.5,
-      "conflicts_with": [
-        "483a5260abcbc1fd"
-      ],
+      "conflicts_with": [],
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "5bbaab43b6158089",
+      "id": "cd10c07e19cbe753",
       "company_id": "monday-com",
       "company_name": "Monday.com",
       "dimension": "support",
-      "statement": "Monday's support team resolved the issue quickly and handled everything without requiring effort from the user.",
+      "statement": "Monday.com's customer support provided a great experience, resolving the user's problem quickly and effortlessly.",
       "stance": "positive",
       "evidence": [
         {
@@ -3604,8 +3590,8 @@
           "url": "https://www.reddit.com/r/mondaydotcom/comments/111ar8v/mondaycom_review_my_honest_thoughts_after_using/",
           "platform": "web",
           "source_name": "serper",
-          "quote": "They helped me solve my problem quickly and I didn't have to do anything on my side.",
-          "char_start": 121,
+          "quote": "I've had to contact Monday once. It was a great experience. They helped me solve my problem quickly and I didn't have to do anything on my side.",
+          "char_start": 61,
           "char_end": 205,
           "published_at": null,
           "author": null,
@@ -3617,21 +3603,21 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "e6f374babb6b25d2",
+      "id": "bf1d79b93c913f0e",
       "company_id": "monday-com",
       "company_name": "Monday.com",
-      "dimension": "features",
-      "statement": "monday.com offers flexible customization for its boards.",
+      "dimension": "support",
+      "statement": "The support team is responsive, helpful, and resolves issues efficiently.",
       "stance": "positive",
       "evidence": [
         {
-          "document_id": "fc96fb2badd35851",
-          "url": "https://project-management.com/monday-software-review/",
+          "document_id": "e04a4f697ef5d459",
+          "url": "https://thedigitalprojectmanager.com/tools/monday-review/",
           "platform": "web",
           "source_name": "serper",
-          "quote": "flexible board customization",
-          "char_start": 81,
-          "char_end": 109,
+          "quote": "The support team is generally responsive and helpful, and they provide solutions to your queries efficiently.",
+          "char_start": 51,
+          "char_end": 160,
           "published_at": null,
           "author": null,
           "verified": true
@@ -3642,21 +3628,21 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "ef2eb3574e367d9c",
+      "id": "5d46fbe19c88bbca",
       "company_id": "monday-com",
       "company_name": "Monday.com",
-      "dimension": "features",
-      "statement": "monday.com includes strong automation capabilities.",
-      "stance": "positive",
+      "dimension": "pricing",
+      "statement": "The Basic plan costs $3 less per seat than Standard but removes Timeline, automations, and integrations, making it rarely a good option.",
+      "stance": "negative",
       "evidence": [
         {
           "document_id": "fc96fb2badd35851",
           "url": "https://project-management.com/monday-software-review/",
           "platform": "web",
           "source_name": "serper",
-          "quote": "strong automation capabilities",
-          "char_start": 111,
-          "char_end": 141,
+          "quote": "Basic is rarely the right choice, since it's $3 less per seat than Standard but drops Timeline, automations, and integrations,",
+          "char_start": 44,
+          "char_end": 170,
           "published_at": null,
           "author": null,
           "verified": true
@@ -3667,11 +3653,11 @@
       "extracted_by": "claim_extractor"
     },
     {
-      "id": "f6ee31c30eab3f68",
+      "id": "d43ae2ae006c8160",
       "company_id": "trello",
       "company_name": "Trello",
       "dimension": "positioning",
-      "statement": "Trello is positioned as a project management application.",
+      "statement": "Trello is a project management application for which the author has created an alternative.",
       "stance": "neutral",
       "evidence": [
         {
@@ -3679,9 +3665,9 @@
           "url": "http://duetapp.com/",
           "platform": "hackernews",
           "source_name": "hackernews",
-          "quote": "project management and billing app (Trello alternative)",
-          "char_start": 24,
-          "char_end": 79,
+          "quote": "Show HN: My self hosted project management and billing app (Trello alternative).",
+          "char_start": 0,
+          "char_end": 80,
           "published_at": "2020-02-25T13:51:04Z",
           "author": "23andwalnut",
           "verified": true
@@ -3690,237 +3676,57 @@
       "confidence": 0.5,
       "conflicts_with": [],
       "extracted_by": "claim_extractor"
-    },
-    {
-      "id": "7d2f0e337985a751",
-      "company_id": "trello",
-      "company_name": "Trello",
-      "dimension": "positioning",
-      "statement": "Trello is recognized as a project management solution for software teams against which alternatives like Clubhouse are positioned.",
-      "stance": "neutral",
-      "evidence": [
-        {
-          "document_id": "f85aab344d825d0d",
-          "url": "https://clubhouse.io/vs/trello",
-          "platform": "hackernews",
-          "source_name": "hackernews",
-          "quote": "Clubhouse: Trello Alternative for Software Teams.",
-          "char_start": 0,
-          "char_end": 49,
-          "published_at": "2017-02-06T15:23:14Z",
-          "author": "gk1",
-          "verified": true
-        }
-      ],
-      "confidence": 0.5,
-      "conflicts_with": [],
-      "extracted_by": "claim_extractor"
     }
   ],
-  "pain_points": [
-    {
-      "id": "69cc27dffc6b5434",
-      "label": "Inability to scale to enterprise needs",
-      "description": "Tools are perceived as suitable for small projects but failing to support larger enterprise organizations.",
-      "scope": "company_specific",
-      "company_ids": [
-        "monday-com"
-      ],
-      "claim_ids": [
-        "f3a301a9bd9293e4"
-      ],
-      "evidence": [
-        {
-          "document_id": "70e88f7793766950",
-          "url": "https://news.ycombinator.com/item?id=33140431",
-          "platform": "hackernews",
-          "source_name": "hackernews",
-          "quote": "None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
-          "char_start": 1350,
-          "char_end": 1505,
-          "published_at": "2022-10-09T12:37:16Z",
-          "author": "voidr",
-          "verified": true
-        }
-      ],
-      "platforms": [
-        "hackernews"
-      ],
-      "mention_count": 1,
-      "confidence": 0.7000000000000001
-    },
-    {
-      "id": "a62f61f8350f5785",
-      "label": "Established tools serving as competitive benchmarks",
-      "description": "Mainstream work management solutions serve as standard reference points against which alternative products are compared.",
-      "scope": "domain_wide",
-      "company_ids": [
-        "monday-com",
-        "trello"
-      ],
-      "claim_ids": [
-        "6c80a8b6d8e97e3b",
-        "7d2f0e337985a751"
-      ],
-      "evidence": [
-        {
-          "document_id": "4d0c05ee60a8ac63",
-          "url": "https://news.ycombinator.com/item?id=40431240",
-          "platform": "hackernews",
-          "source_name": "hackernews",
-          "quote": "opensource work management (monday.com alternative)",
-          "char_start": 21,
-          "char_end": 72,
-          "published_at": "2024-05-21T17:22:13Z",
-          "author": "moshizzlejo",
-          "verified": true
-        },
-        {
-          "document_id": "f85aab344d825d0d",
-          "url": "https://clubhouse.io/vs/trello",
-          "platform": "hackernews",
-          "source_name": "hackernews",
-          "quote": "Clubhouse: Trello Alternative for Software Teams.",
-          "char_start": 0,
-          "char_end": 49,
-          "published_at": "2017-02-06T15:23:14Z",
-          "author": "gk1",
-          "verified": true
-        }
-      ],
-      "platforms": [
-        "hackernews"
-      ],
-      "mention_count": 2,
-      "confidence": 0.9
-    },
-    {
-      "id": "91f7f500d4129cc3",
-      "label": "Tiered annual and volume pricing models",
-      "description": "Software products offer annual seat licenses and tiered bulk pricing based on team size.",
-      "scope": "company_specific",
-      "company_ids": [
-        "flowdeck"
-      ],
-      "claim_ids": [
-        "f36554a1b0b0ac9a",
-        "43852fb033108246"
-      ],
-      "evidence": [
-        {
-          "document_id": "050f589fd958e962",
-          "url": "https://flowdeck.es/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "Access Yearly \u20ac49.99per year \u2192 Every feature.",
-          "char_start": 97,
-          "char_end": 142,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        },
-        {
-          "document_id": "050f589fd958e962",
-          "url": "https://flowdeck.es/",
-          "platform": "web",
-          "source_name": "serper",
-          "quote": "Bulk \u20ac35-50per pilot/yr \u2192 Volume pricing based on team size.",
-          "char_start": 143,
-          "char_end": 203,
-          "published_at": null,
-          "author": null,
-          "verified": true
-        }
-      ],
-      "platforms": [
-        "web"
-      ],
-      "mention_count": 2,
-      "confidence": 0.7000000000000001
-    }
-  ],
+  "pain_points": [],
   "gaps": [
+    {
+      "dimension": "features",
+      "direction": "target_ahead",
+      "summary": "The target has documented features discussion that no seed competitor has grounded evidence for.",
+      "target_claim_ids": [
+        "36d1f914b1e2bbb4",
+        "855b2567132b556a"
+      ],
+      "competitor_claim_ids": [],
+      "competitor_ids": []
+    },
     {
       "dimension": "support",
       "direction": "target_behind",
       "summary": "No grounded discussion found about the target's support, while 1 competitor(s) have documented opinions here.",
       "target_claim_ids": [],
       "competitor_claim_ids": [
-        "5bbaab43b6158089"
+        "cd10c07e19cbe753",
+        "bf1d79b93c913f0e"
+      ],
+      "competitor_ids": [
+        "monday-com"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "direction": "target_behind",
+      "summary": "No grounded discussion found about the target's pricing, while 1 competitor(s) have documented opinions here.",
+      "target_claim_ids": [],
+      "competitor_claim_ids": [
+        "5d46fbe19c88bbca"
       ],
       "competitor_ids": [
         "monday-com"
       ]
     }
   ],
-  "conflicts": [
-    {
-      "subject": "monday-com|positioning",
-      "positions": [
-        {
-          "stance": "positive",
-          "claim_ids": [
-            "483a5260abcbc1fd"
-          ],
-          "evidence": [
-            {
-              "document_id": "70e88f7793766950",
-              "url": "https://news.ycombinator.com/item?id=33140431",
-              "platform": "hackernews",
-              "source_name": "hackernews",
-              "quote": "If you\u2019ve given Linear a try, but it just doesn\u2019t work for you, some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com.",
-              "char_start": 1171,
-              "char_end": 1349,
-              "published_at": "2022-10-09T12:37:16Z",
-              "author": "voidr",
-              "verified": true
-            }
-          ]
-        },
-        {
-          "stance": "negative",
-          "claim_ids": [
-            "f3a301a9bd9293e4"
-          ],
-          "evidence": [
-            {
-              "document_id": "70e88f7793766950",
-              "url": "https://news.ycombinator.com/item?id=33140431",
-              "platform": "hackernews",
-              "source_name": "hackernews",
-              "quote": "None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
-              "char_start": 1350,
-              "char_end": 1505,
-              "published_at": "2022-10-09T12:37:16Z",
-              "author": "voidr",
-              "verified": true
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "conflicts": [],
   "grounding": {
-    "claims_proposed": 18,
-    "claims_accepted": 15,
-    "claims_rejected": 3,
+    "claims_proposed": 11,
+    "claims_accepted": 10,
+    "claims_rejected": 1,
     "rejections": [
       {
-        "claim_statement": "Flowdeck costs $59 per year after curl.",
+        "claim_statement": "FlowDeck costs $59 per year.",
         "quote": "$59/year after curl.",
         "document_id": "ce7d5fb983b08470",
-        "reason": "quote shorter than 25 characters"
-      },
-      {
-        "claim_statement": "monday.com features an intuitive interface.",
-        "quote": "intuitive interface",
-        "document_id": "fc96fb2badd35851",
-        "reason": "quote shorter than 25 characters"
-      },
-      {
-        "claim_statement": "monday.com connects with over 200 integrations.",
-        "quote": "200+ integrations",
-        "document_id": "fc96fb2badd35851",
         "reason": "quote shorter than 25 characters"
       }
     ]
