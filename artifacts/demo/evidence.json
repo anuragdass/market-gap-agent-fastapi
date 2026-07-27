@@ -1,0 +1,2042 @@
+{
+  "schema_version": "1.0",
+  "run_id": "demo-48e37774",
+  "generated_at": "2026-07-27T12:38:32.793009Z",
+  "target": {
+    "id": "flowdeck",
+    "name": "Flowdeck",
+    "canonical_name": "Flowdeck",
+    "domain": null,
+    "one_liner": "Flowdeck is a project management SaaS for cross-functional product teams, combining task boards, timeline views, and lightweight docs so teams can plan sprints and track delivery without stitching tog",
+    "is_target": true,
+    "status": "accepted",
+    "duplicate_of": null,
+    "skip_reason": null
+  },
+  "competitors": [
+    {
+      "id": "asana",
+      "name": "Asana",
+      "canonical_name": "Asana",
+      "domain": null,
+      "one_liner": "Seed competitor: Asana",
+      "is_target": false,
+      "status": "accepted",
+      "duplicate_of": null,
+      "skip_reason": null
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "canonical_name": "ClickUp",
+      "domain": null,
+      "one_liner": "Seed competitor: ClickUp",
+      "is_target": false,
+      "status": "accepted",
+      "duplicate_of": null,
+      "skip_reason": null
+    },
+    {
+      "id": "monday-com",
+      "name": "Monday.com",
+      "canonical_name": "Monday.com",
+      "domain": null,
+      "one_liner": "Seed competitor: Monday.com",
+      "is_target": false,
+      "status": "accepted",
+      "duplicate_of": null,
+      "skip_reason": null
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "canonical_name": "Trello",
+      "domain": null,
+      "one_liner": "Seed competitor: Trello",
+      "is_target": false,
+      "status": "accepted",
+      "duplicate_of": null,
+      "skip_reason": null
+    }
+  ],
+  "sources": {
+    "documents": [
+      {
+        "id": "bc745546c683f165",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=7611714",
+        "title": "What are good group communication apps/sites?",
+        "text_excerpt": "What are good group communication apps/sites?. For small&#x2F;closed groups, the popular ones are Hipchat and Flowdock. Flowdock gets a lot of great reviews because of how it organizes and threads conversations. Another good one that I&#x27;ve actually used is Slack ( https:&#x2F;&#x2F;slack.com&#x2F; ). You can invite people by email, or set it up so that anyone with an email address at a specific domain gets automatically added to your organization. So if you had a company called FooBar, with @foobar.com emails, you would get a sub-domain like &quot;foobar.slack.com&quot; and everyone with a verifiable @foobar.com email address will be added to that organization. Then within slack, you see everyone logged in (from your team), can create public channels (it&#x27;s made to look like IRC 3.0), and also create private channels. Images are displayed in-line, links to web-sites give you a preview or the page. It&#x27;s a cross-platform browser-based system, with apps for Windows, Mac, Andr",
+        "published_at": "2014-04-18T22:42:33+00:00"
+      },
+      {
+        "id": "a83d2053a42832f9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=8312458",
+        "title": "Intelligent chat that makes your team communication twice as fast",
+        "text_excerpt": "Intelligent chat that makes your team communication twice as fast. Never heard of Flowdock. Checked iOS app. Zero reviews, ever. So, &quot;been around for a while&quot; doesn&#x27;t feel like a true validation.",
+        "published_at": "2014-09-13T14:32:14+00:00"
+      },
+      {
+        "id": "3d3d606cf5f6cf68",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=39225045",
+        "title": "My favourite Git commit (2019)",
+        "text_excerpt": "My favourite Git commit (2019). Definite agree there: Be it git or svn I spent a huge amount of my bugfixing and refactoring time in the history figuring out why things are the way they are. &gt; Usually though, the PR is just a link to Jira, so that&#x27;s another degree of indirection I need to follow. Then the Jira is a link to a Slack conversation. And the Slack conversation probably links to a Google doc. Assuming all those links in the chain still exist. Before Jira we had FogBugz, almost all those old cases are gone (some were imported). And we used Flowdock for 10 years, that&#x27;s completely gone. Commit messages are the only thing we can rely on for this history. Use it. And try to avoid squashing commits, that erases this history - yes, even for a feature branch, changes from code review should be separate from the initial push, explain why it&#x27;s being changed so we don&#x27;t make the same mistake later.",
+        "published_at": "2024-02-02T04:31:32+00:00"
+      },
+      {
+        "id": "1d58b17aba320142",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://echoplex.us/",
+        "title": "Show HN: Echoplexus \u2013 An OSS alternative to Hipchat, Flowdock, and others",
+        "text_excerpt": "Show HN: Echoplexus \u2013 An OSS alternative to Hipchat, Flowdock, and others.",
+        "published_at": "2013-06-15T02:36:18+00:00"
+      },
+      {
+        "id": "14a4e16a392588fc",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4535262",
+        "title": "Grove.io shutting down",
+        "text_excerpt": "Grove.io shutting down. I recommend FlowDock as a good alternative.",
+        "published_at": "2012-09-17T22:33:09+00:00"
+      },
+      {
+        "id": "35494a87b5215b39",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34543803",
+        "title": "Slack is the opposite of organizational memory (2018)",
+        "text_excerpt": "Slack is the opposite of organizational memory (2018). Yeah, Hipchat and Flowdock were reasonable Slack alternatives but Teams is a complete nightmare.",
+        "published_at": "2023-01-27T08:10:18+00:00"
+      },
+      {
+        "id": "c54cd1e5d6326832",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=5204782",
+        "title": "Best IRC / Group Chat Service for Developers",
+        "text_excerpt": "Best IRC / Group Chat Service for Developers.",
+        "published_at": "2013-02-12T02:07:35+00:00"
+      },
+      {
+        "id": "0bc3896bec73dadb",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=36906675",
+        "title": "Twist: Slack alternative from the makers of Todoist",
+        "text_excerpt": "Twist: Slack alternative from the makers of Todoist. The only other Slack alternative I found was actually better than Slack and not just a &quot;sidegrade with different pricing and less integrations&quot; was Flowdock - unfortunatley, now defunct. It was all down to how Flowdock implemented threads. They did it better and long before Slack ever did; Slack&#x27;s threads frankly kinda suck. I&#x27;ve heard Zulip threads work really well but I&#x27;ve never had the chance to use it with a team that was willing to try something else.",
+        "published_at": "2023-07-28T13:44:35+00:00"
+      },
+      {
+        "id": "a161c02b76818d8d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31572781",
+        "title": "Zulip \u2013 Threaded real-time chat for distributed teams",
+        "text_excerpt": "Zulip \u2013 Threaded real-time chat for distributed teams. Sounds similar to Flowdock model? I greatly preferred that and was so disappointed when Slack finally rolled out their version of threading. It felt almost useless in comparison. Alas, Flowdock is dead now and I&#x27;ve learned to embrace Slack as the better remaining alternative over Teams or Google Chat.",
+        "published_at": "2022-05-31T18:06:42+00:00"
+      },
+      {
+        "id": "cb155c6af212364b",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=30431575",
+        "title": "Slack is down for some users",
+        "text_excerpt": "Slack is down for some users. I&#x27;ve used Slack competitor Flowdock in the past which did the more &quot;elevated&quot; approach to threads. Rather than &quot;hide&quot; them from the main branch of a channel, the main branch had every message in the top level and you could collapse to a thread view if you wanted to read it in isolation. In my experience, the main problem here was that people regularly lost sight that a conversation even was in a thread. So they&#x27;d post their response unthreaded right in line. Now the people in the thread view can&#x27;t see it, but if you were in the main channel it still looked just fine (after all they were one after the other). If it was a nascent threaded conversation (like 2 or so posts only), often the thread was just abandoned and everything was done top level. For bigger threads where you caught after the fact it was a threaded, people would either delete and repost or would just duplicate their post over into the thread again (which me",
+        "published_at": "2022-02-22T18:31:10+00:00"
+      },
+      {
+        "id": "a49fd2f5ae6d10f3",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=19649354",
+        "title": "Please Don't Say Just Hello In Chat (2013)",
+        "text_excerpt": "Please Don't Say Just Hello In Chat (2013). I&#x27;ve been working remotely for about 13 years, something that I do with every new developer we hire, is to tell them that we are all available to answer their questions, no matter how &quot;silly&quot; they may think it is. I tell them not to worry about interrupting what we are doing, because if we are truly busy, we will not go into the chat app (flowdock in our case), but when we have a minute, we&#x27;ll come to it and if the question is already there, we can answer it right away, instead of saying hi back and having no clue what the real question was. And we are all very polite about it, we do say things like: &quot;Hi, if you have a minute, how do I get this code working?&quot; And, we also have a &quot;water cooler&quot; room&#x2F;flow, where we talk anything that isn&#x27;t work related, weather, music, etc, and there sure, you can just say hi and nothing else. In my case, it is not that I&#x27;m on a tight deadline, we make sure",
+        "published_at": "2019-04-12T21:51:01+00:00"
+      },
+      {
+        "id": "4100e1a0b19c19d3",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15669798",
+        "title": "Ask HN: How did slack beat hipchat?",
+        "text_excerpt": "Ask HN: How did slack beat hipchat?. They communicated the vision really well. Better pricing too. I think, strictly feature wise - search was the only differentiator. At the time we were using the rather obscure Flowdock[0]. Didn&#x27;t feel like switching. Felt mostly the same. Before you know everybody was talking about Slack. Everybody understood the value of team chats. They made the competition irrelevant before anybody even cared to look for alternatives. [0] have to mention the great support though, helped us a lot even as an unpaying customer",
+        "published_at": "2017-11-10T13:44:17+00:00"
+      },
+      {
+        "id": "c94a3a626189b269",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=13431275",
+        "title": "Threaded messaging comes to Slack",
+        "text_excerpt": "Threaded messaging comes to Slack. Have you tried Flowdock? You&#x27;ve described pretty much their exact approach to threading, which I think is the right one. The biggest downside I&#x27;ve found is some people always forget to use the threading feature and comments fall out of the thread. [EDIT]: I just had a look at Slack&#x27;s implementation and I think it has some pretty cool ideas. I think being able to follow an individual thread at a high level is useful. Being able to have a conversation without bothering the whole channel is useful. I think the idea that threads are private by default is not; I think a good alternative would be to disable notifications for messages in threads you don&#x27;t care about, but have them remain public.",
+        "published_at": "2017-01-18T22:59:01+00:00"
+      },
+      {
+        "id": "50ffd85bfaefc0c1",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://flowdeck.studio/",
+        "title": "Show HN: FlowDeck \u2013 Stop switching to Xcode just to hit Build",
+        "text_excerpt": "Show HN: FlowDeck \u2013 Stop switching to Xcode just to hit Build.",
+        "published_at": "2026-01-12T17:02:24+00:00"
+      },
+      {
+        "id": "09602b1e799a3cd8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=2309905",
+        "title": "Show HN: Super-simple company signup with Google/Facebook",
+        "text_excerpt": "Show HN: Super-simple company signup with Google/Facebook. I think this is an awesome implementation of what can be a tricky concept. Out of curiosity, what percentage of users use their Google accounts? Facebook accounts? Have you noticed any trends in terms of \"serious\" users (e.g. higher plans, more likely to convert to paid users) using a Flowdock account vs. their Facebook or Google? I've always thought that Facebook/Google sign in worked well for free sites or \"lightweight\" sites (e.g. ones my entire business doesn't depend upon), but I'm curious how many people use them effectively with a site like this that's more \"vital\".",
+        "published_at": "2011-03-10T17:24:03+00:00"
+      },
+      {
+        "id": "027677dfadf099f6",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://blog.flowdock.com/2014/02/17/how-we-use-flowdock-at-flowdock/",
+        "title": "How We Use Flowdock At Flowdock",
+        "text_excerpt": "How We Use Flowdock At Flowdock.",
+        "published_at": "2014-02-17T19:23:29+00:00"
+      },
+      {
+        "id": "a76495e87c777af9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=13433088",
+        "title": "Threaded messaging comes to Slack",
+        "text_excerpt": "Threaded messaging comes to Slack. Came here to mention Flowdock. IMO Flowdock nailed the chat UI layout for modern chat systems with API-driven integrations. It&#x27;s too bad it hasn&#x27;t seen wider adoption, since its bigger competitors, especially Slack, still have no clue how to fix the noise and focus problems. Flowdock introduced three killer features that I still haven&#x27;t seen properly matched by anyone else: - It introduced threading. (Why we&#x27;re here) - It introduced a seamless, intuitive way to switch between the unfiltered channel and a single thread (or to start a thread), by clicking on the colored bubbles next to each message. - It separated bots from humans (inbox vs chat), making it very easy to have or follow a high value conversation without being interrupted or distracted by a stream of bot announcements. I think Slack has a lot to learn from Flowdock. I miss Flowdock dearly now that Slack is the de facto standard that everyone uses.",
+        "published_at": "2017-01-19T04:47:06+00:00"
+      },
+      {
+        "id": "3050216fe102586a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=13408392",
+        "title": "Vimperator: a Vim-like Firefox",
+        "text_excerpt": "Vimperator: a Vim-like Firefox. I&#x27;m not sure what SPAs are or what Asana or Reviewable are, but I have happily used gmail with Pentadactyl by using passkeys. This is what I have in my passkeys setting for gmail: &#x27;^https?:&#x2F;&#x2F;(mail|groups)\\.google\\.com&#x27;:raNxujkopnczIU&#x2F;#vl?&lt;UP&gt;&lt;DOWN&gt;,gi,gt,gd,gl,",
+        "published_at": "2017-01-16T05:33:21+00:00"
+      },
+      {
+        "id": "1ff37ed3e29aa1ca",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=13407361",
+        "title": "Vimperator: a Vim-like Firefox",
+        "text_excerpt": "Vimperator: a Vim-like Firefox. Any of you figured out how to get vimperator &#x2F; pentadactyl to work with all of the SPAs that have their own shortcuts? e.g. Asana or Reviewable or Gmail etc? I&#x27;ve always had a pretty bad time with combining those. Also, is there a solid Chrome version of any of the above?",
+        "published_at": "2017-01-16T00:13:13+00:00"
+      },
+      {
+        "id": "7d68a2b9fe4dad45",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=11390071",
+        "title": "Asana",
+        "text_excerpt": "Asana. Each to their own, I suppose :) I&#x27;ve quickly reviewed Asana, and actually found it quite complex. Trello works nicely with our small team. People don&#x27;t generally have full projects assigned to them, so a Trello card for a specific task to be executed works well.",
+        "published_at": "2016-03-30T15:39:11+00:00"
+      },
+      {
+        "id": "262b8d5dd2929edd",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://engineering.harrys.com/2013/10/22/asana-code-review.html",
+        "title": "Using Asana for Code Review",
+        "text_excerpt": "Using Asana for Code Review.",
+        "published_at": "2013-10-23T14:45:36+00:00"
+      },
+      {
+        "id": "e526e2dea3e4fea7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=9014322",
+        "title": "Ask HN: Which orgs have strong internal transparency policies?",
+        "text_excerpt": "Ask HN: Which orgs have strong internal transparency policies?.",
+        "published_at": "2015-02-07T16:05:19+00:00"
+      },
+      {
+        "id": "f257f33f9f9f570f",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=10831070",
+        "title": "Why I gave up on Asana after 15 minutes",
+        "text_excerpt": "Why I gave up on Asana after 15 minutes. UserOnboard review of Asana: https:&#x2F;&#x2F;www.useronboard.com&#x2F;how-asana-onboards-new-users&#x2F;",
+        "published_at": "2016-01-03T16:16:54+00:00"
+      },
+      {
+        "id": "acca1506805fa66e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31392130",
+        "title": "Taskwarrior",
+        "text_excerpt": "Taskwarrior. Love taskwarrior. As someone with ADHD&#x2F;executive function issues, who struggles to prioritise, I find the &quot;urgency&quot; calculation invaluable. Even when it doesn&#x27;t quite match reality, it&#x27;s handy to have a starting point I can disagree with. The extensibility is fantastic. I have little cron scripts to pull my work tasks from Asana, requests for code review from Github, and enter a task automatically when someone on my team requests leave for me to review.",
+        "published_at": "2022-05-15T23:19:55+00:00"
+      },
+      {
+        "id": "8efbe9d2c6056c70",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=11379239",
+        "title": "Asana Engineering Interview Guide",
+        "text_excerpt": "Asana Engineering Interview Guide. I recently interviewed with Asana, and unfortunately would review their process as the opposite of what they&#x27;re going for. The first sentence is not far off from what their process is. My interviews with them were composed of one helpful database problem, after which they explained how they designed their production database, followed by a bunch of frivolous algorithms problems. I did not receive an offer from them, so take what I say with a grain of salt. Asana seemed like a company that has some great engineers, and runs well in general. I would, however, like to provide some constructive criticism for their interview process. 1. Their engineers can use some training on how to interview. Several of them came into the room noticeably anxious. Hearing what the problems were was easy, but communication was very difficult when it came to figuring out what kind of answer they were actually looking for. 2. The questions they use are very academic, wh",
+        "published_at": "2016-03-29T03:12:06+00:00"
+      },
+      {
+        "id": "ac7659617c30dfd6",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://firstround.com/review/heres-how-asana-won-with-its-product-redesign/",
+        "title": "Here\u2019s How Asana Won with Its Product Redesign",
+        "text_excerpt": "Here\u2019s How Asana Won with Its Product Redesign.",
+        "published_at": "2016-05-24T16:21:34+00:00"
+      },
+      {
+        "id": "5bc5c0d5dcb3821e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34218799",
+        "title": "Lessons Learned from the Book \u201cEffective Remote Work\u201d",
+        "text_excerpt": "Lessons Learned from the Book \u201cEffective Remote Work\u201d. The artifact we often use is \u201czoom recording of the meeting.\u201d Which is less than useful. For non-sensitive meetings, we record to otter and then edit the transcript using highlights, marking to dos, etc. We\u2019ve got an otter folder structure that mimics our other folder structures. We most commonly do this for document review meetings (I work for an NGO. We write a lot of grants.) This takes time but it creates good notes, allows everyone to be a participant in the meeting. We have other meetings \u2014 like weekly target review meetings \u2014 that use Asana as the basis for capturing notes. This works well for things that are really tactical.",
+        "published_at": "2023-01-02T15:20:06+00:00"
+      },
+      {
+        "id": "111643b32b88de62",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://github.com/Chubek/Mukette",
+        "title": "Show HN: Mukette, a Markdown Pager for Unix-Based Systems",
+        "text_excerpt": "Show HN: Mukette, a Markdown Pager for Unix-Based Systems.",
+        "published_at": "2024-02-10T00:15:34+00:00"
+      },
+      {
+        "id": "cd56b1d1267355ef",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://www.shram.io/",
+        "title": "Show HN: Making a cool ClickUp/Asana alternative",
+        "text_excerpt": "Show HN: Making a cool ClickUp/Asana alternative.",
+        "published_at": "2025-01-06T10:30:23+00:00"
+      },
+      {
+        "id": "27da98d2a7e0f07c",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=23725807",
+        "title": "Ask HN: Asana Alternatives?",
+        "text_excerpt": "Ask HN: Asana Alternatives?.",
+        "published_at": "2020-07-03T17:29:38+00:00"
+      },
+      {
+        "id": "a776c45a9031c609",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=19672426",
+        "title": "Ask HN: What's the Best Asana Alternatives?",
+        "text_excerpt": "Ask HN: What's the Best Asana Alternatives?.",
+        "published_at": "2019-04-16T10:24:25+00:00"
+      },
+      {
+        "id": "b09dbb87b0cb1036",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://zepel.io/blog/asana-alternatives/",
+        "title": "Asana Alternatives",
+        "text_excerpt": "Asana Alternatives.",
+        "published_at": "2020-12-28T14:37:01+00:00"
+      },
+      {
+        "id": "1ea83d9bae9ff3e1",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://clubhouse.io/vs/asana",
+        "title": "Clubhouse: Asana Alternative for Software Teams",
+        "text_excerpt": "Clubhouse: Asana Alternative for Software Teams.",
+        "published_at": "2017-03-24T14:18:35+00:00"
+      },
+      {
+        "id": "91d271bc6a96fef9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=24266222",
+        "title": "Asana S-1",
+        "text_excerpt": "Asana S-1. IMO this will be one of the failed IPOs of the 2020. I understand (but not approve) 300 devs - they got a ton of integrations, enterprise client handling, lot of mobile, frontend and backend surface area to cover, lots of devops and support, teams to build new features, maintain tooling and so on... given time, any software team will slow down and scale up, unless it is specifically countered by the company. There&#x27;s always stuff to be done (create, maintain, or both), pressure comes from the top and the usual response is &quot;throw bodies at it&quot;. The less hackerish&#x2F;the more corporate the company, the faster the engineering team blows up. Kinda inverse function of the red tape. But the reason I believe Asana is going down is that their product is just what it sounds like - boring. It&#x27;s a problem that&#x27;s been solved a million times and they are just lucky they got on the ride in the early days. But they never evolved and the marked is getting new compe",
+        "published_at": "2020-08-24T22:23:41+00:00"
+      },
+      {
+        "id": "458c0d1381e3ca9b",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=19716552",
+        "title": "Ask HN: What's the Best Asana Alternatives?",
+        "text_excerpt": "Ask HN: What's the Best Asana Alternatives?. For personal use, I think Quire is simple enough. (I used Asana for a while before and I agree it&#x27;s a little bit complicated for personal use, Quire actually wrote a post about migrating from Asana to Quire, which helped me a lot https:&#x2F;&#x2F;quire.io&#x2F;free-asana-alternative-migration ) I mainly focus on the list view and set dates to remind me of the deadlines. I also like it because it has a clean interface on the phone app. I can see clearly of my to-do list and organize them by dragging tasks into subtasks. I also enjoy using Google Keep to take notes or journal. I like Google Keep because it has a pen feature, which allows me to draw, doodle.",
+        "published_at": "2019-04-22T04:34:53+00:00"
+      },
+      {
+        "id": "ce8f8cae94ceb8f2",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=17074299",
+        "title": "Top 5 things to do when Asana is down",
+        "text_excerpt": "Top 5 things to do when Asana is down. How about you try out Azendoo as a more than viable alternative? Check this out, I hope this will help :) https:&#x2F;&#x2F;www.azendoo.com&#x2F;compare&#x2F;asana-alternative",
+        "published_at": "2018-05-15T14:48:42+00:00"
+      },
+      {
+        "id": "169370cce3e8d705",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15129544",
+        "title": "Treating performance as a product: The technical story of Asana\u2019s rewrite",
+        "text_excerpt": "Treating performance as a product: The technical story of Asana\u2019s rewrite. Asana was ridiculously simple when we started using it, and I was incredibly happy with it. Then they kept adding, adding and adding irrelevant things, and now I&#x27;m pretty put off by it. I wonder if this is a cycle, and a new &#x27;brand-new asana&#x27; alternative will spring up soon.",
+        "published_at": "2017-08-30T03:35:56+00:00"
+      },
+      {
+        "id": "626ac979297ee903",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=5488672",
+        "title": "GetFlow vs Asana ... Who Wins? ",
+        "text_excerpt": "GetFlow vs Asana ... Who Wins? .",
+        "published_at": "2013-04-03T20:03:30+00:00"
+      },
+      {
+        "id": "4ec6f22cf57203c7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://zepel.io/blog/asana-vs-trello/",
+        "title": "Asana vs. Trello: Detailed Comparison",
+        "text_excerpt": "Asana vs. Trello: Detailed Comparison.",
+        "published_at": "2020-12-30T12:22:53+00:00"
+      },
+      {
+        "id": "ec2c437f4fc361b4",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://ngrasset.org/post/42139057131/pivotal-tracker-vs-asana",
+        "title": "Pivotal Tracker vs Asana",
+        "text_excerpt": "Pivotal Tracker vs Asana.",
+        "published_at": "2013-02-02T23:38:35+00:00"
+      },
+      {
+        "id": "420304c89bd8fde5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://www.stacklist.com/articles/infographic-trello-vs-asana-vs-basecamp/",
+        "title": "Trello vs. Asana vs. Basecamp",
+        "text_excerpt": "Trello vs. Asana vs. Basecamp.",
+        "published_at": "2017-01-30T23:05:50+00:00"
+      },
+      {
+        "id": "7ca0cb08679953be",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15779734",
+        "title": "Any thoughts on Asana vs. Airtable",
+        "text_excerpt": "Any thoughts on Asana vs. Airtable.",
+        "published_at": "2017-11-26T06:43:11+00:00"
+      },
+      {
+        "id": "df3fe967475f2b0c",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=8991714",
+        "title": "Show HN: Matterhorn \u2013 Your new project manager",
+        "text_excerpt": "Show HN: Matterhorn \u2013 Your new project manager. This service looks really cool, I like that it&#x27;s flexible for different preferences. Some guys on my team like Trello&#x27;s columns better while others like full blown tickets a la JIRA. Will you offer some sort of micro plan for small teams of 5 or 6? Here&#x27;s a good comparison of the various PM tools so you can compare Matterhorn to the established players. http:&#x2F;&#x2F;stackshare.io&#x2F;stackups&#x2F;trello-vs-asana-vs-basecamp-vs...",
+        "published_at": "2015-02-03T17:29:25+00:00"
+      },
+      {
+        "id": "a173601b7034ac9e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=43991930",
+        "title": "[dead]",
+        "text_excerpt": "[dead]. After using Asana for years, our team hit a wall. Once we started scaling (25+ people, multiple departments), we realized Asana just couldn\u2019t keep up with the complexity of our workflows \u2014 especially when it came to integrations, automation, and visibility across projects. We recently made the switch to Barawave, and honestly, it\u2019s been a game-changer. It combines project management, CRM, invoicing, and internal communication in one place \u2014 with built-in AI and automation that Asana doesn\u2019t even come close to. Barawave just published a blog post comparing the two platforms \u2014 worth a read if your company is growing and you\u2019re feeling the same friction we did: Asana vs Barawave: Why Barawave is the Better Choice for Scaling Businesses in 2025 Curious if anyone else has made the switch from a traditional PM tool to something more all-in-one? What was your experience?",
+        "published_at": "2025-05-15T04:45:41+00:00"
+      },
+      {
+        "id": "af438b55d9816262",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4219194",
+        "title": "What We Should Have Said To PG",
+        "text_excerpt": "What We Should Have Said To PG. has anyone used rocketr vs asana? I've been using Asana for a 16 person team and enjoying the experience.",
+        "published_at": "2012-07-09T17:23:25+00:00"
+      },
+      {
+        "id": "906a70c90c62be2a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34451622",
+        "title": "Google to reduce workforce by 12k",
+        "text_excerpt": "Google to reduce workforce by 12k. overpaying makes sense, over-hiring makes sense. for two comparable companies, with comparable products look at Asana vs Basecamp. How much does Basecamp pay for a senior engineer ? they pay top end of SF salary regardless of location. However, you can best that Asana is paying at least 1.5x what Basecamp pays + RSU&#x27;s etc. Yet Basecamp is printing money and yet Asana is bleeding money. How many engineers does Basecamp have ? How many does Asana have ? so yeah the concept of overpaying and over-hiring exists and not just a fallacy. if it was market driven, then the laws of the market would dictate Asana not to pay a premium over Basecamp for talent.",
+        "published_at": "2023-01-20T11:27:49+00:00"
+      },
+      {
+        "id": "31b1f1882faeff35",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=3187902",
+        "title": "Introducing Asana: The Modern Way to Work Together",
+        "text_excerpt": "Introducing Asana: The Modern Way to Work Together. I've been enjoying Trello as a collaborative tool for general task management. Where does Asana shine vs Trello?",
+        "published_at": "2011-11-02T17:28:23+00:00"
+      },
+      {
+        "id": "4d064110ede24906",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=11379020",
+        "title": "Asana Engineering Interview Guide",
+        "text_excerpt": "Asana Engineering Interview Guide. After that, the interviewers asked the questions about how to develop a news feed ranking algorithm at a super vague, high level. I spoke about how you would need to account for seasonality or cyclic effects -- e.g. election news would clearly be ranked higher in newsworthiness when approaching important elections, or the same idea for sports-related articles, etc. I talked about trying to determine which news articles are the most clicked-on by peers in your network, possibly using some centrality measures to rate certain users more as &quot;trend setters&quot; and use their news viewing habits as guides for what to show to others. I was actually fairly detailed in my description of some math ideas for these things, but the whole conversation sounded like someone sucked the air out of it. The interviewers kept trying to get me to talk more specifically about aspects of the newsfeed that actually occur in Facebook&#x27;s newsfeed. When I told them I d",
+        "published_at": "2016-03-29T02:02:44+00:00"
+      },
+      {
+        "id": "781dcee4371771a0",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=26675017",
+        "title": "What I learnt after burning $10M as an entrepreneur",
+        "text_excerpt": "What I learnt after burning $10M as an entrepreneur. &gt; Asana IPO&#x27;d last year and still wasn&#x27;t profitable This is interesting to hear. From my research last year, it\u2019s more expensive compared to Jira. I had to use Asana at work for high-level planning and it was, in my experience working as an engineer, an inferior product compared to Jira. The only upside I could see is the reporting&#x2F;project overview and search. But these features are only useful to the manager. For me, it\u2019s just a cumbersome tool. I\u2019ve tried to get used to it, but I wasn\u2019t sold. Some things that made it difficult to use Asana: - No markdown support for the longest time. - No code block formatting. - Old comments collapsed by default, which hides the full context. This caused people to miss information and ask questions that were already answered. I do realize Jira and Asana are not trying to address the same problem space. But to manage a team of engineers I would pick Jira every time.",
+        "published_at": "2021-04-02T19:24:36+00:00"
+      },
+      {
+        "id": "07e88cf50d539eb2",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://www.twigflo.com/",
+        "title": "Show HN: Flowchart-based planning tool to see the big picture (miro and asana)",
+        "text_excerpt": "Show HN: Flowchart-based planning tool to see the big picture (miro and asana).",
+        "published_at": "2022-11-17T19:02:45+00:00"
+      },
+      {
+        "id": "1ad5a190113293d8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://github.com/instantdb/instant",
+        "title": "Show HN: InstantDB \u2013 A Modern Firebase",
+        "text_excerpt": "Show HN: InstantDB \u2013 A Modern Firebase.",
+        "published_at": "2024-08-22T17:08:50+00:00"
+      },
+      {
+        "id": "a9684917354abdbf",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=24364811",
+        "title": "Launch HN: Slapdash (YC W19) \u2013 A uniform, low-latency interface for cloud apps",
+        "text_excerpt": "Launch HN: Slapdash (YC W19) \u2013 A uniform, low-latency interface for cloud apps.",
+        "published_at": "2020-09-03T15:13:38+00:00"
+      },
+      {
+        "id": "61a0025a20384a47",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=27906787",
+        "title": "Launch HN: Epsilon3 (YC S21) \u2013 Software for spacecraft and complex operations",
+        "text_excerpt": "Launch HN: Epsilon3 (YC S21) \u2013 Software for spacecraft and complex operations.",
+        "published_at": "2021-07-21T14:31:11+00:00"
+      },
+      {
+        "id": "3202a46197290f67",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33451584",
+        "title": "Launch HN: Akiflow (YC S20) \u2013 Bring your tasks and calendars together",
+        "text_excerpt": "Launch HN: Akiflow (YC S20) \u2013 Bring your tasks and calendars together.",
+        "published_at": "2022-11-03T14:32:13+00:00"
+      },
+      {
+        "id": "59357467e4f86eef",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=17612073",
+        "title": "Show HN: Rendevu \u2013 Keep up with everything your team is doing across all apps",
+        "text_excerpt": "Show HN: Rendevu \u2013 Keep up with everything your team is doing across all apps.",
+        "published_at": "2018-07-25T19:30:13+00:00"
+      },
+      {
+        "id": "4d25096e08a4a725",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://cheepcode.com/",
+        "title": "Show HN: CheepCode \u2013 Write tasks in Linear/Jira/etc. Get PRs in GitHub. $1 each",
+        "text_excerpt": "Show HN: CheepCode \u2013 Write tasks in Linear/Jira/etc. Get PRs in GitHub. $1 each.",
+        "published_at": "2025-05-21T09:07:21+00:00"
+      },
+      {
+        "id": "f1383801be1ff58b",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=7842551",
+        "title": "Dashcube \u2013 Communicate In Context",
+        "text_excerpt": "Dashcube \u2013 Communicate In Context. This is very interesting. We&#x27;ve been bounced through Trello&#x2F;Asana&#x2F;HipChat&#x2F;Slack quite a bit, and definitely experience this problem. Curious - how well does it support chat contexts not associated with tasks? Like general or subject-based group chat? Also - one of Slack&#x27;s major advantages is it works great everywhere (web&#x2F;desktop&#x2F;mobile). Attaching task tracking to a mobile chat app seems like an incredibly difficult UI&#x2F;UX problem.",
+        "published_at": "2014-06-03T20:35:17+00:00"
+      },
+      {
+        "id": "09a8cc3b9d8ad9e9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://afelyon.com/",
+        "title": "Show HN: Afelyon \u2013 open-source AI agent that turns Jira tickets into GitHub PRs",
+        "text_excerpt": "Show HN: Afelyon \u2013 open-source AI agent that turns Jira tickets into GitHub PRs.",
+        "published_at": "2026-01-31T10:41:29+00:00"
+      },
+      {
+        "id": "98a5993bdb1b5801",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://1medium.ai/",
+        "title": "Show HN: 1Medium \u2013 Calendar-Centric Project Planning and Status Updates",
+        "text_excerpt": "Show HN: 1Medium \u2013 Calendar-Centric Project Planning and Status Updates.",
+        "published_at": "2025-08-05T18:35:30+00:00"
+      },
+      {
+        "id": "a0577d40890d636e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=7446618",
+        "title": "Coming Soon to Hacker News: Pending Comments",
+        "text_excerpt": "Coming Soon to Hacker News: Pending Comments. &quot;Don&#x27;t say something mean&quot; is a lower bar than &quot;say something substantial&quot;, which is what your post said the standard of endorsement should be. There&#x27;s going to be a mental tax involved, asking &quot;would PG be OK with me endorsing this? is my threshold for &#x27;substantial&#x27; higher or lower than his?&quot; to each comment, weighing the risk of losing the privilege for guessing wrong. I&#x27;ve apparently already mis-judged what you think warrants endorsement. The meta-moderation aspect of someone subjectively reviewing my endorsements is a disincentive to participating in that moderation. The number of people that can upvote is very high, yet most comments probably sit at 1 point despite not being mean or stupid. Now restrict that pool to 1000+ karma users, add a mental tax to the task, how many of those same comments are going to get two people to click &quot;endorse&quot; if they couldn&#x27;t get one ",
+        "published_at": "2014-03-22T01:39:34+00:00"
+      },
+      {
+        "id": "9d397daec01fc7c2",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=42367089",
+        "title": "Show HN: Choosing the right SaaS is a chore, so I built something to fix that",
+        "text_excerpt": "Show HN: Choosing the right SaaS is a chore, so I built something to fix that. Hi HN, In my previous role as a CTO at an Uber-like scaleup, I had to manage and evaluate around 60 different SaaS subscriptions. It was painful. As software engineers, we\u2019re often asked to help select all sorts of software\u2014payroll, payment processors, marketing automation, CX tools, call center software\u2014tasks really meant for domain experts. This problem is universal, affecting businesses of all sizes. The SaaS landscape, unfortunately, is drowning in marketing fluff, biased paid reviews, and general noise. So I built an AI to cut through it. Under the hood, we classify 4 million reviews to extract real signal. We use GraphRAG and a chain of LLMs to ensure quality. Similar to Perplexity, multiple independent sources must confirm each piece of information before we trust it. Like Garry Tan (YC) suggests, chat interfaces might not be the future. Users prefer familiar UX, and the next evolution of the internet",
+        "published_at": "2024-12-09T15:29:58+00:00"
+      },
+      {
+        "id": "3940ca0d02c2672c",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=39765528",
+        "title": "Show HN: Godspeed is a fast, 100% keyboard oriented todo app for Mac",
+        "text_excerpt": "Show HN: Godspeed is a fast, 100% keyboard oriented todo app for Mac. Saving people a click: Integrations: Todoist ClickUp Trello Asana Notion Jira GitHub Gmail Outlook Slack Also, they say it does timeboxing, but it&#x27;s not evident they understand the notion of prioritization through pre scheduled and empty timeboxes, that tasks fill by category match, then do not overfill but spill to the next available timebox of that same category, allowing you to meta-manage your prioritization by category of task vs. amount of recurring timeboxes as a proportion of your week, rather than by task. EDIT&#x2F;ADD: Upon review of the user manual, they seem to think &quot;timeboxing&quot; is the alternative to &quot;playlisting&quot;, meaning, do you book actual time on your calendar for a task, versus, do you burn through a list of tasks when you are in task mode. They seem to miss that timeboxing is the opposite of calendaring particular tasks, it&#x27;s a third way. If you have calendaring tasks",
+        "published_at": "2024-03-20T12:32:35+00:00"
+      },
+      {
+        "id": "27aaa376f234bbb9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=35854027",
+        "title": "Ask HN: What productivity tools do you use?",
+        "text_excerpt": "Ask HN: What productivity tools do you use?. -Clickup for Agile and Project Management (separate folders for myself and my team). - Google Calendar and separate family, personal and work obligations, helps myself (and others) respect my time. I prepare the week&#x27;s schedule Sunday night and review the next day&#x27;s every night to prepare myself for what I have tomorrow. Simple and works for me.",
+        "published_at": "2023-05-07T18:14:18+00:00"
+      },
+      {
+        "id": "314a59e1d4e1b82e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=35444648",
+        "title": "Ask HN: Who is hiring? (April 2023)",
+        "text_excerpt": "Ask HN: Who is hiring? (April 2023). 1m | Senior Software Engineer (Backend focus) | REMOTE (USA) Annual Compensation: Competitive, commensurate with experience ($150K minimum) 1m provides access to a real-time financial intelligence platform for large healthcare companies. 1m closed its Seed Round in October 2022. This person will be the 4th engineer (and 5th FT team member) to join 1m. More details at the application link. Tech stack: Python &#x2F; Django &#x2F; Postgresql &#x2F; Next.js &#x2F;AWS Interested? Apply here: https:&#x2F;&#x2F;forms.clickup.com&#x2F;9005032057&#x2F;f&#x2F;8cbvrkt-367&#x2F;KGT1S0WKX... (every application reviewed by an actual engineer on the team - no recruiters involved).",
+        "published_at": "2023-04-04T19:20:45+00:00"
+      },
+      {
+        "id": "d148386c2c7fb5a8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33095524",
+        "title": "I don\u2019t believe in sprints",
+        "text_excerpt": "I don\u2019t believe in sprints. More analogous to software development is the design of the house with the blueprints as output, and regulations, client review, and architect creative inspiration as the software specs. Nobody complains about blueprints being delivered too slowly. They just happen on a competitive landscape where two people are racing to deliver to the client so the slowest person loses. I like kanban, a stack of tasks with predefined dependencies determining if a card can be picked up, and sorted in priority order once they can be picked up. When something critical goes wrong, the entire team stops and works the problem individually, competitively , until the problem is solved, and the team then resumes their prior work. CI&#x2F;CD delivers to production, features are enabled when they are ready and the customer is ready. Feedback goes immediately back into the stack and delivery leads constantly manage the feature flags, the stack priority, and inter team communication. T",
+        "published_at": "2022-10-05T13:46:27+00:00"
+      },
+      {
+        "id": "7381f8ca5bbace51",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=32993953",
+        "title": "Cairo: Alternative Windows Desktop",
+        "text_excerpt": "Cairo: Alternative Windows Desktop. Of course not all pie menu implementations support all the useful features, and some &quot;ersatz pie menus&quot; are really horrible because they are not designed to respect Fitts&#x27; Law, and only copy the surface features (like being round) without any of the essential properties or advanced features: - popping up centered on the cursor, which starts out in the inactive center - large pie slice shaped target regions extending to the screen edge, instead of only selecting items by clicking on their small labels - delimiting item and submenu selection with mouse clicks, not distance of motion or pausing motion - never introducing mandatory pauses and waits, or requiring you to always engage in a visual feedback loop, looking at the screen and moving the mouse and waiting until you see something before continuing (but that should always be possible if you don&#x27;t mouse ahead) - click-move-click as well as down-swipe-up gestures - reliable, depen",
+        "published_at": "2022-09-27T11:30:34+00:00"
+      },
+      {
+        "id": "833970416876b3e5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=5819199",
+        "title": "Why I Dislike EC2",
+        "text_excerpt": "Why I Dislike EC2. In other words they took a system targeted especially at people who needed on-demand computing and as it got popular, adapted it to the needs of the 24/7/365 web-hosting by offering an alternate pricing model , point-and-click user interfaces and additional features and services like EBS and CloudWatch. The point is absolutely not that EC2 never evolved beyond its initial use case and isn't good at other things. The point is that while they have 24/7/365 hosting services, there's never been any reason to expect that they would be better at it than anyone else. So why do we continue to see blog posts about not liking EC2 with vague complaints about the horrible price-to-performance ratio getting lots of upvotes?",
+        "published_at": "2013-06-04T13:18:20+00:00"
+      },
+      {
+        "id": "c804b2e3ac96891d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=21973458",
+        "title": "Launch HN: Freshpaint (YC S19) \u2013 Automated, Retroactive Alternative to Segment",
+        "text_excerpt": "Launch HN: Freshpaint (YC S19) \u2013 Automated, Retroactive Alternative to Segment.",
+        "published_at": "2020-01-06T21:20:30+00:00"
+      },
+      {
+        "id": "8e980e9b25562d92",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46134566",
+        "title": "Show HN: ReddBoss \u2013 Turn Reddit into your lead generation machine with AI",
+        "text_excerpt": "Show HN: ReddBoss \u2013 Turn Reddit into your lead generation machine with AI.",
+        "published_at": "2025-12-03T14:03:29+00:00"
+      },
+      {
+        "id": "f96b4c82d51ac27d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48288422",
+        "title": "Dropbox CEO Drew Houston to step down",
+        "text_excerpt": "Dropbox CEO Drew Houston to step down. I have been one of the very early users. Maybe from the first weeks (if not days). It used to be such a good app and service. So good that I used to ask my friends why they didn&#x27;t already use it. That was a few many years ago; at best. Since then, Dropbox has steadily been going downhill and with intent, at least for a consumer. Quite a few folks are ditching its paid plan (including me), just using its free tier (to tiny tasks like notes sync etc) and moving the bulk of their data storage elsewhere (like I did - reluctantly to object storage providers via many FOSS CLI tools; would have loved to keep paying for the old Dropbox). Hostile pricing was not the only concern; hostile UX, an insanely bloated app, and breaking features (because sure, those are not bugs) galore. Now the native file sync is a really doomed space for individual customers (because I have never explored what&#x27;s out there exclusively for enterprise). Dropbox is well D",
+        "published_at": "2026-05-27T01:44:27+00:00"
+      },
+      {
+        "id": "41d93dfa2f74eb80",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46367257",
+        "title": "Gimp Source Code",
+        "text_excerpt": "Gimp Source Code. I&#x27;ve used GIMP and Photoshop for a very long time (close to 30 years). In ~1998, GIMP was not quite as good as Photoshop 5 and was more awkward to use, but you could see how it could close the gap. It had impressive underlying tech that could handle large images on computers at the time. There was an expansive library of weird and neat plug-ins and scripts. It felt like we were at the start of a great shift in which OSS software would &quot;catch up&quot; and eventually replace desktop power tools, just as Linux had done with web servers. It was... the year of Linux on the Desktop! By ~2005, GIMP was starting to really catch up to where Photoshop was in 1998, but Photoshop had added lots of quality of line features like adjustment layers and layer effects, way better text rendering, and amazing new features like spot healing brushes, vanishing point warping, etc. The gap was widening. But GIMP still did all the core stuff, and Photoshop was annoying users by shov",
+        "published_at": "2025-12-23T17:36:36+00:00"
+      },
+      {
+        "id": "41cd493d23457a02",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=42184572",
+        "title": "Ask HN: Anybody used Retool for production, user-facing app?",
+        "text_excerpt": "Ask HN: Anybody used Retool for production, user-facing app?. I use Budibase for a few projects. I chose it after deciding I couldn&#x27;t accept Retool&#x27;s pricing and that I wanted something open source. I have only a few minor complaints: - The SQL Server plugin is a little halfbaked. It doesn&#x27;t work properly with failover clustering and I had to punch in the IP address for a specific primary node, which then breaks when the cluster fails over to a different primary node. The &quot;port&quot; field is broken and you have to leave it blank or you get a type conversion error in their connection code. Going through a REST API seems to be the more well-trodden path. - Google login in the open source edition is clunky, and there&#x27;s no good way to tell users to use it. There&#x27;s a separate pair of login&#x2F;password textboxes on the same page that draws the user&#x27;s attention; we have to teach users to click on the Google login button which then opens in a new window. I",
+        "published_at": "2024-11-19T15:32:40+00:00"
+      },
+      {
+        "id": "32fdd1c35f137010",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=388101",
+        "title": "Do modern IDEs make us dumber?",
+        "text_excerpt": "Do modern IDEs make us dumber?. Maybe it's a language difference, or something else. I write J2EE apps. I don't want to start a language war, but personally I really like Java, and people like paying me to build stuff in it, so let's take that as a given. Also, seeing that the big popular IDEs are Eclipse (mostly used for Java) and MS's VisualStudio (C++, C#, etc...) the context of the discussion seems to be those languages where there is a mature, popular, IDE available. The projects I work on are often pretty big (e-commerce websites for Fortune 500 type companies), and while an algorithm may live on one viewable screen of one class, a single business process or requirement will almost always span multiple JSPs and many classes. An add to cart action will need to check inventory, shipping rules based on hazardous flags on the SKU, shipping options and costs based on the customer's zip code, run through a whole pricing pipeline to apply coupons, discounts, BOGO type specials, and so o",
+        "published_at": "2008-12-06T14:32:00+00:00"
+      },
+      {
+        "id": "0e0b610a9f82afa0",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=24544280",
+        "title": "Pricing Low-Touch SaaS",
+        "text_excerpt": "Pricing Low-Touch SaaS. A brilliant article. Often it seems that SaaS vendors don&#x27;t have a plan for pricing but rather they design a &quot;pricing page&quot; that looks like the pricing page for other SaaS plans. If you start asking questions like: can you afford to offer this service at this price? what value does the customer get out of this service? they get defensive. I have refused to use SaaS services and I&#x27;ve refused to work for SaaS vendors because &quot;I don&#x27;t think you can make a profit with that pricing&quot; and they tell me &quot;why do you care? &quot; As a customer: &quot;I am paying you for a service because I want the peace of mind that I don&#x27;t have to do it myself. If you business isn&#x27;t profitable, you&#x27;re going to go out of business and I&#x27;m going to have to find a new way to provide this service.&quot; As an employee I reject the marxist idea that I&#x27;m necessarily getting ripped off if I make more value than I get paid. If you a",
+        "published_at": "2020-09-21T15:05:28+00:00"
+      },
+      {
+        "id": "ebf5edf00e71def7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4316622",
+        "title": "Do Not Advertise On Facebook Until You Read This",
+        "text_excerpt": "Do Not Advertise On Facebook Until You Read This. This is a new spin on an old phenomenon. For banner advertising, a tiny percentage of the population (&#60; 10%) contributes a massive percentage of all display ad clicks (&#62; 80%). She's disproportionately a lower-middle to lower-income older American female in the Midwest who plays the lottery and subscribes to Reader's Digest. Totally not joking. A word often used to describe this segment is \"compulsive clicker.\" Online publishers are well aware of this and, well, do not go out of their way to highlight this fact on their rate cards. Instead they'll provide their audience information and often do not mention that they know their typical click is not representative of their audience. Given that they're the \"whales\" of the CPC business model, they're frequently not quality-priced down to zero, unless they so dominate an advertiser's campaign that the advertiser complains. There are related issues with almost all online advertising. O",
+        "published_at": "2012-07-31T11:11:23+00:00"
+      },
+      {
+        "id": "2917880afb2f3d63",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=10492058",
+        "title": "Case study: Can retailers win back shoppers who browse then buy online?",
+        "text_excerpt": "Case study: Can retailers win back shoppers who browse then buy online?. Sigh. I will buy online for most things. Things I don&#x27;t: groceries, clothes. (Why: Our meat guy takes orders and we pay and pick up. Avg bill~$55. Grocery doesn&#x27;t have automated picking -krogers-. Would use it if we could.) Now, why do I buy online? There&#x27;s many reasons. 1. I&#x27;m price sensitive. I don&#x27;t make that much, so my money must count. Doing X means not doing Y, even for small values of X. Online is just cheaper. 2. Your place doesn&#x27;t have what I want. I&#x27;ve went into electronics stores, looking for X. Except what I see is some version less and something much higher. Or they play with model names, where kwin-123xyz-tgt is at Target and kwin123xyz-wmt is at Walmart, and have no differences, other than a model ID that&#x27;s dependent on store, to prevent price matching. 3. Salespeople are idiots. I&#x27;ve had them try to &quot;inform&quot; me of all sorts of inane &quot;Its ",
+        "published_at": "2015-11-02T14:55:19+00:00"
+      },
+      {
+        "id": "63849a431441822a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=44038483",
+        "title": "[dead]",
+        "text_excerpt": "[dead]. We recently published a deep dive comparing ClickUp to Barawave \u2014 our AI-powered business platform that combines project management, CRM, ERP, and workflow automation in one clean interface. If you&#x27;ve ever felt overwhelmed by ClickUp&#x27;s complexity or underwhelmed by its customization limits, Barawave might be what you&#x27;re looking for. Our platform is built for teams that want clarity, automation, and speed \u2014 without paying extra for every new feature. Check it out and let us know what you think: ClickUp vs Barawave: Why Barawave Is the #1 ClickUp Alternative in 2025 We\u2019d love your thoughts or feedback \u2014 especially from teams scaling fast or exploring AI-integrated ops.",
+        "published_at": "2025-05-20T06:43:54+00:00"
+      },
+      {
+        "id": "722815be691e2556",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33008871",
+        "title": "ClickUp is A/B testing the same headline that Miro is using",
+        "text_excerpt": "ClickUp is A/B testing the same headline that Miro is using. How is Miro and ClickUp doing something similar? I thought ClickUp is a JIRA alternative",
+        "published_at": "2022-09-28T15:07:39+00:00"
+      },
+      {
+        "id": "555d07606c2939b0",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31935428",
+        "title": "Atlassian is 20 years old and unprofitable",
+        "text_excerpt": "Atlassian is 20 years old and unprofitable. There are lots of alternatives out there looking for marksetshare. I&#x27;ve not personally used ClickUp but it looks fantastic just from their screenshots: https:&#x2F;&#x2F;clickup.com&#x2F;features https:&#x2F;&#x2F;clickup.com&#x2F;blog&#x2F;jira-alternatives&#x2F;",
+        "published_at": "2022-06-30T17:05:10+00:00"
+      },
+      {
+        "id": "a8556856feec80b4",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=30742880",
+        "title": "Ask HN: Notion? Google Docs? ms word? alternative",
+        "text_excerpt": "Ask HN: Notion? Google Docs? ms word? alternative. I think ClickUp can be a good alternative here. It also have an Android app if that is one of your key requirements.",
+        "published_at": "2022-03-20T14:28:38+00:00"
+      },
+      {
+        "id": "713b3472e3e34471",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://clickup.com/blog/jupyter-alternatives/",
+        "title": "Jupyter Notebook Alternatives and Competitors in 2024",
+        "text_excerpt": "Jupyter Notebook Alternatives and Competitors in 2024.",
+        "published_at": "2024-10-25T13:09:18+00:00"
+      },
+      {
+        "id": "70e88f7793766950",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33140431",
+        "title": "Happy 20th birthday Jira You suck so bad",
+        "text_excerpt": "Happy 20th birthday Jira You suck so bad. &gt; It generates amazing reports, fantastic predictions, fancy charts, great managerial tooling, makes imposing processes easier, has robust integrations, etc., and that\u2019s why most managers I\u2019ve spoken to really enjoy Jira, while on-the-floor engineers either range from fiery-eyed hate to toleration. You kinda need to impose process for large projects, and know where you are. The engineers are free to show a better tool for the job. &gt; I think Jira does a good job of making teams look much busier than they are, but in the end I see it more as a \u201ctalk more not do more\u201d situation. It does not make teams looks busier, it shows that teams are a lot busier in reality, which is valuable information. &gt; The Alternative &gt; Although a potential downside to Linear is that it is built explicitly for engineers, thus may not be suitable for other teams such as marketing, design, etc. And this is why engineers will never build any viable alternative t",
+        "published_at": "2022-10-09T12:37:16+00:00"
+      },
+      {
+        "id": "4d0c05ee60a8ac63",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=40431240",
+        "title": "Show HN: tillywork - opensource work management (monday.com alternative)",
+        "text_excerpt": "Show HN: tillywork - opensource work management (monday.com alternative).",
+        "published_at": "2024-05-21T17:22:13+00:00"
+      },
+      {
+        "id": "b874c5785b2d5ef1",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=25126440",
+        "title": "Alternatives to Notion for those on corporate VPN",
+        "text_excerpt": "Alternatives to Notion for those on corporate VPN.",
+        "published_at": "2020-11-17T17:21:13+00:00"
+      },
+      {
+        "id": "413351d4f6c073f4",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://docs.enginelabs.ai/introduction",
+        "title": "Show HN: Engine \u2013 LLM agnostic Codex alternative",
+        "text_excerpt": "Show HN: Engine \u2013 LLM agnostic Codex alternative.",
+        "published_at": "2025-05-23T06:11:42+00:00"
+      },
+      {
+        "id": "986160ab6eb7be5a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=24261854",
+        "title": "Unity Software Inc S-1",
+        "text_excerpt": "Unity Software Inc S-1. &gt; Industries Beyond Gaming: In industries beyond gaming, we estimate the market opportunity for our Create Solutions and Operate Solutions to be approximately $17 billion today, based on the number of software developers, architects and designers our solutions could potentially serve. There is a graphic I stumbled upon years ago - I haven&#x27;t been able to find it recently - that described Facebook&#x27;s gameplan - 10-20 years out. It basically described how the focus of the platform would evolve with how effectively users would be able to share their lives with their network, in progression with technology, or - more specifically - the price of bandwidth. Let me explain: FB early years was very text-centric. I recall not &quot;getting it&quot; because it was effectively a tricked-out twitter. Kinda like Asana vs Clickup today - more features doesn&#x27;t directly translate to &quot;better&quot;. I of course didn&#x27;t factor in the &quot;network effect&q",
+        "published_at": "2020-08-24T15:55:28+00:00"
+      },
+      {
+        "id": "fe118dc7c5b7f024",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://fibery.io/blog/fibery-vs-clickup/",
+        "title": "Fibery vs. ClickUp. Complex or Complicated?",
+        "text_excerpt": "Fibery vs. ClickUp. Complex or Complicated?.",
+        "published_at": "2021-06-08T05:56:21+00:00"
+      },
+      {
+        "id": "d898148b5cba929f",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Reflow.reflow",
+        "title": "Show HN: Reflow \u2013 a kanban-style project management software within VSCode",
+        "text_excerpt": "Show HN: Reflow \u2013 a kanban-style project management software within VSCode.",
+        "published_at": "2023-02-16T20:59:19+00:00"
+      },
+      {
+        "id": "303a029c92f5e398",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33164922",
+        "title": "Show HN: Open-Sourcing InboxSDK (YC S11) \u2013 Build Apps in Gmail",
+        "text_excerpt": "Show HN: Open-Sourcing InboxSDK (YC S11) \u2013 Build Apps in Gmail.",
+        "published_at": "2022-10-11T15:55:09+00:00"
+      },
+      {
+        "id": "3220b549653cb93e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=24605944",
+        "title": "Ask HN: When do you type instead of dictate?",
+        "text_excerpt": "Ask HN: When do you type instead of dictate?.",
+        "published_at": "2020-09-27T11:52:38+00:00"
+      },
+      {
+        "id": "e465d9b314963709",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48090011",
+        "title": "Ask HN: What are you working on? (May 2026)",
+        "text_excerpt": "Ask HN: What are you working on? (May 2026). With AI IDEs, Personally I had to generate a tons of md files for planning a task, analysis on the code for something or other, a task doc for a feature - a summary to paste into the clickup ... and I saw many devs keeps on generating them, and all tucked away into folders. Good, okay. For the company I&#x27;m currently working I had made a VSCode extension where I can sync the task doc with clickup via frontmatter. I decided to take it to next level as a side project. I built a CI integrated, git-native, agent template transformable syncing pipeline with git MD files to any project management tools. That means, either you can save your md files vanilla in your wiki (thus using the clickup AI search to dig up later, get insights etc) or you can use a AI agent template transformer to turn it into a task template (Background, acceptance criteria, functional requirements etc.) and update or create a task on a board. I&#x27;ve been working on it",
+        "published_at": "2026-05-11T01:21:06+00:00"
+      },
+      {
+        "id": "866875076eb0dd08",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46117883",
+        "title": "Show HN: I Built Tinyfocus \u2013 A Minimal Tool to Help Solo Founders Focus",
+        "text_excerpt": "Show HN: I Built Tinyfocus \u2013 A Minimal Tool to Help Solo Founders Focus. Why another tool for solo founders? Given the number of tools like Asana, Trello, Notion, ClickUp etc., the bar for \u201cyet another productivity app\u201d is very high, especially for solo founders who already feel tool\u2010fatigue. If the goal is to justify a new tool, it needs a very sharp, explicit thesis such as \u201cmost tools help you track everything, Tinyfocus only forces you to do the 3 things that actually move the business.\u201d \u201cMore done in less time\u201d: Right now that claim sounds like generic marketing. You could make it concrete by defining: What specific behavior Tinyfocus enforces (e.g., forces you to pick 3 MITs, limits WIP, shows a single \u201ctoday\u201d view). How you\u2019ll measure the impact: % days where all 3 tasks are done, reduction in active tasks, or fewer context switches per day. Even anecdotal metrics like \u201cusers report shipping more often and feeling less overwhelmed after switching from a general todo tool\u201d would ",
+        "published_at": "2025-12-02T05:24:29+00:00"
+      },
+      {
+        "id": "1cfcc07981d99d03",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=43389157",
+        "title": "Show HN: 10 teams are racing to build a pivotal tracker replacement",
+        "text_excerpt": "Show HN: 10 teams are racing to build a pivotal tracker replacement. &gt; Sure there exists a theoretical pm tool that is a superset of a project tracker that could be made to work by not using features but linear is certainly not that. Well, to clarify, then, I think that&#x27;s exactly what the GP was asking: &quot;what&#x27;s missing from Linear to make it a superset of a project tracker \u2014 where there&#x27;s some particular view you could point your PMs to and tell them to use that view as the project tracker?&quot; That being said. While I&#x27;ve never used either myself (my only experience with PM tools is with Trello and ClickUp.) I get the impression that the answer to that question is something like the following: &gt; Pivotal is a project tracker. A project tracker \u2014 at least in Pivotal&#x27;s case \u2014 can be understood to be a highly opinionated version of a kanban-board tool, which encodes a lot of domain-knowledge about how an Agile process is supposed to be done . Doing you",
+        "published_at": "2025-03-17T14:50:37+00:00"
+      },
+      {
+        "id": "242d59717beb8f32",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=45199648",
+        "title": "Launch HN: Recall.ai (YC W20) \u2013 API for meeting recordings and transcripts",
+        "text_excerpt": "Launch HN: Recall.ai (YC W20) \u2013 API for meeting recordings and transcripts.",
+        "published_at": "2025-09-10T16:00:06+00:00"
+      },
+      {
+        "id": "5906c2ac00a0df5d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48748691",
+        "title": "Ask HN: Who wants to be hired? (July 2026)",
+        "text_excerpt": "Ask HN: Who wants to be hired? (July 2026). Location: Tukwila, WA USA Remote: Yes Willing to relocate: Yes Technologies: JavaScript, TypeScript, Next.js, React, React Native, Tailwind CSS, Shadcn&#x2F;UI, HTML&#x2F;CSS, Responsive Design, Performance Optimization, Python, C#, Flask, .NET, FastAPI, Node.js, Express.js, NestJS, REST APIs, WebSockets, Firebase, Supabase, PostgreSQL, MongoDB, Real-time Streaming Services, Material UI, Scalable Backend Architectures, Media Service Integrations, Microservices, Generative AI, NLP, PyTorch, TensorFlow, OpenCV, OpenAI, ChatGPT, LangChain, LangGraph, DALL-E, Stable Diffusion, Databricks, Vector Databases, Model Optimization, Prompt Engineering, AI agents, Real-time Speech-to-Text, Voice Assistants, Whisper, Deepgram, ElevenLabs, Amazon Polly, LiveKit, AWS (Lambda, SageMaker, Bedrock), Azure (OpenAI, ML, Functions, Blob Storage), GCP (Vertex AI, Cloud Run, BigQuery), Vercel, Netlify, Docker, LangSmith, CI&#x2F;CD, ClickUp, RAG Systems, Notion, Tr",
+        "published_at": "2026-07-01T15:41:45+00:00"
+      },
+      {
+        "id": "328464382252f214",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=42295676",
+        "title": "Localtower v2: A clean UI to manage your Rails DB schema migrations",
+        "text_excerpt": "Localtower v2: A clean UI to manage your Rails DB schema migrations. I finally found some time to upgrade Localtower to v2! Localtower is a ReactJS-powered Rails Engine that transforms the tedious task of creating database schema migrations into an intuitive, point-and-click experience. Localtower supports versions 5.2 to 8 with a slick UI that makes database migrations as simple as clicking a button. It quickly garnered 38,870 downloads and 402 GitHub stars. An elegant solution that democratizes database schema design for developers of all skill levels. This article includes examples and screenshots of the tool. Let me know what you think. Happy db:migrate!",
+        "published_at": "2024-12-02T12:50:35+00:00"
+      },
+      {
+        "id": "2156767587f39bda",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=26327273",
+        "title": "Ask HN: Has anyone had any luck claiming a Google knowledge panel?",
+        "text_excerpt": "Ask HN: Has anyone had any luck claiming a Google knowledge panel?.",
+        "published_at": "2021-03-03T12:00:45+00:00"
+      },
+      {
+        "id": "d3ef4bfc5d36ceb5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=3605579",
+        "title": "My first experience with web advertising (reddit and Facebook ads).",
+        "text_excerpt": "My first experience with web advertising (reddit and Facebook ads)..",
+        "published_at": "2012-02-18T00:37:27+00:00"
+      },
+      {
+        "id": "0ba3e1edacb1b806",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=7389310",
+        "title": "Consider the Nimrod Programming Language",
+        "text_excerpt": "Consider the Nimrod Programming Language. As someone without experience with linear types who learned Rust in the last week while porting quickcheck, I think my experience supports your claim here. In the first few days I was cursing the borrow-checker in every way imaginable. I was comfortable with everything except the pointer types and their borrowing semantics. After a few days, the borrowing logic really started to click and I was fighting much less with the compiler. Admittedly, I still have some fogginess about some areas (particularly the borrowing&#x2F;sending semantics of closures), but I understand that there&#x27;s still some work left to be done on that before 1.0. But the point I want to stress here is that once the borrowing logic clicked, Rust became a reasonably simple language. Which is really important to me. But, I now get to say that I just wrote quickcheck without manually freeing memory and without the use of a garbage collector. That&#x27;s pretty damn cool if I",
+        "published_at": "2014-03-13T00:09:36+00:00"
+      },
+      {
+        "id": "b52153aaf0f2e4cb",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46968394",
+        "title": "[dead]",
+        "text_excerpt": "[dead]. Hey Everybody, Today we are unveiling InfiniaxAI Sites. The next level of affordable vibe-coding and web app creation. This is a next generation tool to come to our platform. You can now use every AI, create repositories and projects and now create and publish sites at a new level of affordability! How much does a site cost? $5 To Make + $10 to ship it, no recurring costs Dont get me wrong, you dont have unlimited edits, but you can make hundreds of changes which would cost thousands on Replit or loveable. This is the ultimate level of affordable. Manage a database, console, code, AI and more in litteral seconds, the ultimate VibeCoding tool. And its here to stay. Sites are officially out Now for all users starter+ under our new sites page (You will see a popup to use it next to the sidebar) I know experienced Developers will ask some questions about this, so I am here to answer, heres a basic FAQ: - Costs are calculated per message - We have Fast mode using Claude Haiku 4.5, S",
+        "published_at": "2026-02-10T23:14:26+00:00"
+      },
+      {
+        "id": "c05788299412db46",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4406265",
+        "title": "AWS Elastic Beanstalk now supports Python",
+        "text_excerpt": "AWS Elastic Beanstalk now supports Python. I'm using Elastic Beanstalk with PHP and overall the experience has been fairly positive. I don't really have any ops experience, so I wanted something that could get me up and running quickly. There are some gotcha's, but it's been great. If you use git, there's a git CLI that deploys directly to Beanstalk which is very convenient. Deploying an environment or deploying a new instance of your code to an environment is really a piece of cake. You can set autoscale rules, interface with load balancers, add some other configs, etc. right from the beanstalk interface in just a few clicks. Support from Amazon has been solid, and the documentation/forums are not bad. Fair warning, Beanstalk is still young so there might be some growing pains, but for someone with little ops experience, it's been pretty awesome. One very important fact to note, is that it's just a layer on top of other AWS services (with no extra fees, you only pay for the underlying",
+        "published_at": "2012-08-20T04:27:04+00:00"
+      },
+      {
+        "id": "e3f277773cd69506",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=44077731",
+        "title": "Unbundling ChatGPT in Waves",
+        "text_excerpt": "Unbundling ChatGPT in Waves.",
+        "published_at": "2025-05-24T00:07:29+00:00"
+      },
+      {
+        "id": "6ccb95776ce4c9d7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46741039",
+        "title": "Gas Town's agent patterns, design bottlenecks, and vibecoding at scale",
+        "text_excerpt": "Gas Town's agent patterns, design bottlenecks, and vibecoding at scale. In my comment history can be found a comment much like yours. Then Opus 4.5 was released. I had already had my CC cluade.md, and Windsurf global rules + workspace rules set up. Also, my main money making project is React&#x2F;Vite&#x2F;Refine.dev&#x2F;antd&#x2F;Supabase... known patterns. My point is that given all that, I can now deploy amazing features that &quot;just work,&quot; and have excellent ux in a single prompt. I still review all commits, but they are now 95% correct on front end, and ~75% correct on Postgres migrations. Is it magic? Yes. What&#x27;s worse is that I believe Dario. In a year or so, many people will just create their own Loom or Monday.com equivalent apps with a one page request. Will it be production ready? No. Will it have all the features that everyone wants? No. But it will do that they want, which is 5% of most SaaS feature sets. That will kill at least 10% of basic SaaS. If Sonnet 3",
+        "published_at": "2026-01-24T04:23:22+00:00"
+      },
+      {
+        "id": "91a3dc6942000e54",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33021474",
+        "title": "How Underground Groups Use Stolen Identities and Deepfakes",
+        "text_excerpt": "How Underground Groups Use Stolen Identities and Deepfakes. The IRS &amp; USCIS only get to do what Congress allows them to do. When corporate lobbyists want the IRS to crack down on illegal immigrant workers, then there will be an effective crackdown. Until then, it will be possible to (cheaply) use stolen identities to get jobs past online verification. Equifax - one of the huge credit reporting agencies - is trying to squeeze in to this space. https:&#x2F;&#x2F;theworknumber.com&#x2F; Until then, Form I-9 gets filed on paper and that paper is kept in the employer&#x27;s office. After 3 years, they can discard it. Nova Law Review article with some background of my original post: https:&#x2F;&#x2F;nsuworks.nova.edu&#x2F;nlr&#x2F;vol32&#x2F;iss2&#x2F;6&#x2F; Department of Labor is upset that one of the consent decrees with Walmart gives them 15 day notice before any investigation of wages: https:&#x2F;&#x2F;www.oig.dol.gov&#x2F;public&#x2F;reports&#x2F;oa&#x2F;2006&#x2F;04-06-001-04-..",
+        "published_at": "2022-09-29T14:48:48+00:00"
+      },
+      {
+        "id": "319b40262738df54",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=12540538",
+        "title": "Self-Driving Cars Must Meet 15 Benchmarks in U.S. Guidance",
+        "text_excerpt": "Self-Driving Cars Must Meet 15 Benchmarks in U.S. Guidance. Erm, apart from the punitive damages this is pretty much any product liability suit. If you make life-critical systems and your product fails you are getting sued out the wazoo - which is why many products will specifically state that they are not to be used in life-critical systems. Most mechanical equipment is not reviewed on a case-by-case basis by a regulatory industry; however aircraft incidents are. Aircraft products - meaning any product that is used on an aircraft, right down to the bolts attaching the overhead bins - are expected to be serviceable in &quot;expected conditions of flight&quot;. If they are not, the manufacturer is subject to compensatory and even punitive damages [1]. Manufacturers can even be liable for their design decisions, unless the design decisions are specifically constrained by regulations. Obtaining product certification is a strong indicator that a product is compliant, but it may nevertheles",
+        "published_at": "2016-09-20T16:02:45+00:00"
+      },
+      {
+        "id": "05c384bae8f4a7ea",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=41942014",
+        "title": "Show HN: Pneumatic \u2013 free open-source workflow software",
+        "text_excerpt": "Show HN: Pneumatic \u2013 free open-source workflow software. This looks like an open-source alternative to work management software for work that isn&#x27;t software development, like Monday.com or Asana.",
+        "published_at": "2024-10-25T03:39:23+00:00"
+      },
+      {
+        "id": "cba6c3f136a7013d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=39608502",
+        "title": "Tell HN: Pivotal Tracker removes non-enterprise price tiers",
+        "text_excerpt": "Tell HN: Pivotal Tracker removes non-enterprise price tiers. Anyone have recommendations for alternatives that would require minimal adjustment for someone accustomed to Pivotal? From a quick glance ClickUp or Monday.com look ok maybe? JIRA is obviously common but presumably would have a large learning curve. Asana? Also while Pivotal does offer an export, most alternatives don&#x27;t appear to import from it. Though maybe that will change with this. And I suppose a middleman could be used.",
+        "published_at": "2024-03-05T20:02:57+00:00"
+      },
+      {
+        "id": "15d73ee12ec88cf7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=36138654",
+        "title": "Plane: Open-Source Alternative to Jira",
+        "text_excerpt": "Plane: Open-Source Alternative to Jira. That oversimplifies the cost though. Take your typical 200 person company. Maybe 20 of them develop using Jira, 30 more create issues, and then 10 more poke their head in there so they can check on developers and project managers. So of those 60 registered users 40 of them spend just about 20 minutes a month in it. You still have to pay for them though. The problem grows because we need to run similar numbers for every Saas this 200 person company uses. You&#x27;ve got Jira for project management, Zen&#x2F;FreshDesk for support issues, Mailchimp for spamming customers, CMS, CRM, payroll, etc. You end up with many many hours of employee time per month spent on licenses for SaaS products that you never own, can&#x27;t control, and often can&#x27;t extract your data from if you want to bail. So yeah, as a middle manager trying to cut costs, any free alternative to a SaaS product sounds good to me. It beats dribbling out licenses piecemeal and living",
+        "published_at": "2023-05-31T14:13:09+00:00"
+      },
+      {
+        "id": "3d0bc91e756b7c7d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34914470",
+        "title": "Google stopping coding competitions",
+        "text_excerpt": "Google stopping coding competitions. ClickUp, Monday.com, Linear, Wrike, Asana, Smartsheet, Teamwork. There are lots of good modern alternatives to Jira. The reason people still use them is the same as why Oracle DBs are still so popular \u2013 they have a large sales team and corporate contacts, and so their products are pushed down your throat.",
+        "published_at": "2023-02-23T18:30:33+00:00"
+      },
+      {
+        "id": "33e5101faec2ba30",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=32049019",
+        "title": "Today I Deleted Notion",
+        "text_excerpt": "Today I Deleted Notion. I will say that at least Notion is a decent enough Markdown editor. I recall I had some small gripes with how they use forward-slash for commands, and probably some other stuff I&#x27;ve forgotten by now but it&#x27;s certainly functional. It looks like it was designed to target the Google docs crowd of non-technical people in PM or other leadership roles where its minimalism combined with directory organization and file flexibility are desirable. In this sense I&#x27;m not _too_ surprised to see my technical friends ignore it, since there are so many tools in this niche already (Github wikis come to mind as an alternative for documenting various decisions, challenges, implementations, etc). I guess the real flaw with these sorts of products is that they&#x27;re tools that are treated as solutions. There&#x27;s no real need to add another tool to a org stack if what&#x27;s working already isn&#x27;t broken, and doing so obviously won&#x27;t guarantee a massive i",
+        "published_at": "2022-07-10T21:03:51+00:00"
+      },
+      {
+        "id": "77dac92084b1afca",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31930645",
+        "title": "Atlassian is 20 years old and unprofitable",
+        "text_excerpt": "Atlassian is 20 years old and unprofitable. &gt; As a developer I prefer Jira over every alternative I&#x27;ve tried (Clubhouse, Trello, GitHub Issues, and Monday.com). I also prefer JIRA, but that doesn&#x27;t mean I love it. It just so happens to be the only available product with most of the features I need. That being said, its UX is beyond terrible. The moment something else appears that covers some significant portion of its feature set, I can see a lot of people making the switch. I think one of the biggest problems of competitors is to think that JIRA is bad because it&#x27;s complex. Therefore they position their offerings as a simpler slim down version of JIRA. Big news: it is complex to manage complex projects. JIRA has, I think, the right level of complexity and flexibility to tackle that. If any competitor reads this message: please, go complex!",
+        "published_at": "2022-06-30T10:26:22+00:00"
+      },
+      {
+        "id": "27feecfd4e7f9029",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31930552",
+        "title": "Atlassian is 20 years old and unprofitable",
+        "text_excerpt": "Atlassian is 20 years old and unprofitable. &gt; revenue for the past nine months grew from US$1.5 billion to US$2.04 billion ($2.95 billion) (or around 24%). Forgive my math skills at 4:07 in the morning, but isn&#x27;t that actually 36% growth? &gt; Atlassian\u2019s legacy Jira product ... is no longer loved by developers. As a developer I prefer Jira over every alternative I&#x27;ve tried (Clubhouse, Trello, GitHub Issues, and Monday.com). &gt; users can switch to a competitor product like Asana, Basecamp or Monday.com with minimal cost (other than the initial hassle of switching to a new system). That seems like a pretty big hassle though. My company is way too busy to undertake switching ticketing systems.",
+        "published_at": "2022-06-30T10:12:02+00:00"
+      },
+      {
+        "id": "c1c2d6acaf7434f6",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31814589",
+        "title": "I fucking hate Jira",
+        "text_excerpt": "I fucking hate Jira. &gt; &quot;Jira is the worst project management tool, except for all the others&quot; I came here to say precisely this. In addition to Jira, I&#x27;ve used Clubhouse, Trello, monday.com, and GitHub Issues. Jira sucks slightly less than the alternatives I&#x27;ve used.",
+        "published_at": "2022-06-20T19:27:36+00:00"
+      },
+      {
+        "id": "3a1fc34628677ca1",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://capitalandgrowth.org/answers/2981168/Monday-com-vs-Asana-Which-is-better-for-tracking-our-marketing-projects",
+        "title": "Monday.com vs. Asana: Which Is Better for Project Management?",
+        "text_excerpt": "Monday.com vs. Asana: Which Is Better for Project Management?.",
+        "published_at": "2020-08-31T16:41:50+00:00"
+      },
+      {
+        "id": "4cb151bcc0303cc5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://www.exploit-monday.com/2011/11/man-vs-rop-overcoming-adversity-one.html",
+        "title": "Man vs. ROP - Overcoming Adversity One Gadget at a Time ",
+        "text_excerpt": "Man vs. ROP - Overcoming Adversity One Gadget at a Time .",
+        "published_at": "2011-11-15T20:48:53+00:00"
+      },
+      {
+        "id": "1a3ee76eaed0c14f",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=46899794",
+        "title": "AI is killing B2B SaaS",
+        "text_excerpt": "AI is killing B2B SaaS. The term &quot;B2B SaaS&quot; is doing a lot of heavy lifting here and I think conflates two different things: (1) Business model: hosted software you pay monthly for (vs self-hosted&#x2F;one-time purchase) (2) &quot;Glue&quot; products: tools like Monday.com that primarily provide synergy between data sources and workflows The article is really about (2) - and yes, those are vulnerable to vibe-coding. If your product&#x27;s core value is &quot;we connect X to Y and show you a dashboard,&quot; that&#x27;s now a weekend project. But there&#x27;s a huge category of SaaS where the value is in the product itself, not the integration layer. Take Excalidraw - fits the SaaS model, but try vibe-coding a collaborative whiteboard with real-time sync, proper data persistence, conflict resolution, export formats, etc. The hard problems aren&#x27;t &quot;connect API A to API B.&quot; Or PostHog - sure you could vibe-code some analytics tracking, but building reliable event i",
+        "published_at": "2026-02-05T14:09:53+00:00"
+      },
+      {
+        "id": "8a9a0c5a36989ac4",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=45573696",
+        "title": "Ask HN: Is GraphQL Worth It?",
+        "text_excerpt": "Ask HN: Is GraphQL Worth It?. Disclaimer: I work at Apollo GraphQL as Head of DevRel GraphQL is in public usage a lot, Postman&#x27;s State of the API Report ( https:&#x2F;&#x2F;www.postman.com&#x2F;state-of-api&#x2F;2025&#x2F;#api-testing-and-t... ) REST is still the largest but GraphQL is growing and at 33% in their survey. You can look at the recent GraphQL Conf ( https:&#x2F;&#x2F;graphql.org&#x2F;conf&#x2F;2025&#x2F; ) and GraphQL Summit ( https:&#x2F;&#x2F;summit.graphql.com&#x2F; ) for examples of companies running GraphQL in production today. The recordings for those conferences should be up soon. There are some public facing GraphQL APIs that I think are great examples: 1. Braintree ( https:&#x2F;&#x2F;developer.paypal.com&#x2F;braintree&#x2F;graphql&#x2F;explorer ) 2. Shopify Storefront ( https:&#x2F;&#x2F;help.shopify.com&#x2F;api&#x2F;storefront-api ) 3. Shopify Admin ( https:&#x2F;&#x2F;shopify.dev&#x2F;docs&#x2F;api&#x2F;admin-graphql ) 4. Monday.com ( https:&#x2F;&#x2F;m",
+        "published_at": "2025-10-13T21:47:00+00:00"
+      },
+      {
+        "id": "46b9da38fc64b0a4",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=28910821",
+        "title": "Thank HN: 7 years and $7M later, it all started right here",
+        "text_excerpt": "Thank HN: 7 years and $7M later, it all started right here. If it&#x27;s a B2C model, then ad-supported might be the way to go, but if it&#x27;s B2B, there are lots and lots of great examples of making things work. You definitely need to figure out the math about the incremental cost of additional free users vs. the margin generated by those that pay. But assuming the math holds, the product-led model works wonders. From Zoom to Calendly, from HubSpot to Monday.com, the free tier generates an enormous user base that leads not only to upgrades, but also to a fantastic feedback loop that makes the product stronger and stronger. In the space where we operate - the democratization of design - the most successful example is by far Canva. It has over 99% of users that are on the free plan, but with 60m users, that 1% is golden, and generates $1b in ARR. Melanie Perkins recently shared some of those numbers and their journey here: https:&#x2F;&#x2F;medium.com&#x2F;canva&#x2F;a-note-to-the-can",
+        "published_at": "2021-10-18T20:01:07+00:00"
+      },
+      {
+        "id": "e4ea97a6d9326435",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=27724735",
+        "title": "Ask HN: How to stop download.cnet.com from hosting my app?",
+        "text_excerpt": "Ask HN: How to stop download.cnet.com from hosting my app?. I can&#x27;t really tell if you&#x27;re agreeing or disagreeing, and I&#x27;m not even sure a ticket violation is a &quot;crime&quot;? But regardless, I don&#x27;t understand the need to stretch analogies from other domains when there is so much case law out there specifically about EULAs. I&#x27;m pretty sure it&#x27;s well-established [1] that EULAs can be enforceable contracts and breach of them can be treated as a breach of contract. This doesn&#x27;t depend on there being copyright violations, e.g. there can be different licenses depending on commercial usage vs. non-commercial usage despite the copying being done in exactly the same manner. There should be no need to draw analogies from fare dodging to see what the law says here. I find countless links on this when Googling (and I&#x27;m basically leaving a different link in each comment), but see for example [1]. [1] https:&#x2F;&#x2F;www.mondaq.com&#x2F;unitedstates&#x",
+        "published_at": "2021-07-03T20:41:29+00:00"
+      },
+      {
+        "id": "8e904649c170ebda",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=48760628",
+        "title": "Ask HN: Who wants to be hired? (July 2026)",
+        "text_excerpt": "Ask HN: Who wants to be hired? (July 2026). Location: Port Harcourt, Nigeria Remote: Yes Willing to relocate: No Technologies: HubSpot, Salesforce, Zendesk, Trello, Asana, Monday.com, Google Workspace, Canva, Figma, WordPress R\u00e9sum\u00e9&#x2F;CV: available on request Email: ukwenfaith42@gmail.com I handle 50 to 200 customer interactions daily and manage 5,000+ records with zero tolerance for dropped tickets. Over three years of customer service experience at Speedaf Express Logistics and Enugu Electricity Distribution Company, plus virtual assistant training through Career Crafter Academy. I&#x27;ve grown a Facebook page from 0 to 7,000 followers in two weeks and built a LinkedIn network from 0 to 200+ connections in two days, so I know how to move fast on the parts of the job that touch people, not just process. I&#x27;m looking for remote customer service, virtual assistant, or client support roles. B.Sc. in Banking and Finance gives me a strong handle on records and data heavy work, and ",
+        "published_at": "2026-07-02T12:43:16+00:00"
+      },
+      {
+        "id": "b430518a1832ba1b",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=47220242",
+        "title": "Ask HN: Who is hiring? (March 2026)",
+        "text_excerpt": "Ask HN: Who is hiring? (March 2026). Sienna Charles | IT System Admin &#x2F; IT Support Role | Remote or In-Office NYC | Full time Sienna Charles, an ultra luxury travel and lifestyle experiences company, is seeking a full time System Administrator &amp; Support role for internal IT functions. You will help us manage our identity and access management systems, our 30+ cloud-based applications and our in-house tooling. You will take ownership of these systems with an eye towards simplification, automation, scaling and integrating them into seamlessly connected systems. You will help set the direction for our in-house administration interface and mobile app. You must be a problem solver who will articulate a vision for our technical infrastructure and set the technical direction for our company. We&#x27;re a small, globally distributed team, so we are looking for a self-motivated senior administrator who can identify and execute high value and high impact work. You\u2019ll be coordinating dir",
+        "published_at": "2026-03-02T16:34:25+00:00"
+      },
+      {
+        "id": "7b2ac82ff33ab8b8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=22611773",
+        "title": "Show HN: WorkOS \u2013 APIs for enterprise features like SSO/SAML",
+        "text_excerpt": "Show HN: WorkOS \u2013 APIs for enterprise features like SSO/SAML. Monday.com is the worst product I have ever had the experience of working with. Spreadsheet with 200 rows and 20 columns? Your browser will be laggy as all hell thanks to their wonderful UI. Try to tell support? The entire page jitters up and down as you type every single character in the support box on Chrome. Reload the page? Well now the page isn&#x27;t laggy at all, but literally it is not rendering rows that _are definitely there_. I really wanted to like it -- beautiful user interface -- but it&#x27;s an absolutely terrible product. And it was ~15 people on my team reporting the same exact behavior as we tried it. I would consider recommending Monday.com to my worst enemy.",
+        "published_at": "2020-03-17T23:25:47+00:00"
+      },
+      {
+        "id": "58c10c5cc4a5a53f",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=11106691",
+        "title": "I no longer understand my PhD dissertation",
+        "text_excerpt": "I no longer understand my PhD dissertation. I&#x27;ve done mathematical research in the past and I actually think a lot of the practical methodology I&#x27;ve learned from software development could be incredibly useful to mathematicians. I&#x27;d love to work full-time on a selection of related research problems with a group of coworkers following a sort of &quot;agile&quot; process with quick morning standups, a centralized repository of works and proofs in progress, &quot;proof reviews&quot;, Trello boards, and so on. Would it actually work? I honestly don&#x27;t know, but I&#x27;d seriously love to try it.",
+        "published_at": "2016-02-15T22:56:47+00:00"
+      },
+      {
+        "id": "65efb7fa6a6f5b52",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=29413309",
+        "title": "Ask HN: How do you manage time spent across the browser applications?",
+        "text_excerpt": "Ask HN: How do you manage time spent across the browser applications?.",
+        "published_at": "2021-12-02T06:56:24+00:00"
+      },
+      {
+        "id": "ccd8478439bed898",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=6378990",
+        "title": "Fog Creek\u2019s Remote Work Policy",
+        "text_excerpt": "Fog Creek\u2019s Remote Work Policy. They pretty explicitly call out &quot;chat, commit messages, code reviews, cases, Trello boards&quot; as ways of pinging the rest of the team.",
+        "published_at": "2013-09-13T06:28:20+00:00"
+      },
+      {
+        "id": "63de25e2fc130387",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=6378468",
+        "title": "Fog Creek\u2019s Remote Work Policy",
+        "text_excerpt": "Fog Creek\u2019s Remote Work Policy. &quot;You still have stuff like chat, commit messages, code reviews, cases, Trello boards, etc. Be a little paranoid for this time about showing your work. It will help you feel good about your time, and us feel good about granting it.&quot; Run through a de-weaselizer, this reads: &quot;Be a good little pet, and do an extra set of tricks when we take you out to the park, so you feel good about running around in the park and we feel good about granting you the privilege to go out once a week.&quot; Yeah, bullshit. Place where I work operates on a culture of complete trust, period. Example: Once, a guy on my team had to go to his parents&#x27; house out in the country and was stuck with a slow internet connection. No problem, he did some stuff, stuck it out for as much as he could and then shelved it. I bet he enjoyed his time there much more than he would have sitting in a bunch of chatrooms anyway, and he did it on company time. He was much happier when",
+        "published_at": "2013-09-13T03:48:27+00:00"
+      },
+      {
+        "id": "288041d85435f5e9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://zepel.io/blog/jira-vs-trello/",
+        "title": "Jira vs. Trello: Comparison and Detailed Review",
+        "text_excerpt": "Jira vs. Trello: Comparison and Detailed Review.",
+        "published_at": "2019-12-03T12:04:39+00:00"
+      },
+      {
+        "id": "5b7cdc690c65a6e8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=9162039",
+        "title": "Ask HN: How do you perform code review?",
+        "text_excerpt": "Ask HN: How do you perform code review?.",
+        "published_at": "2015-03-07T15:49:31+00:00"
+      },
+      {
+        "id": "151073812d353f23",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=6440760",
+        "title": "Ask HN: Best 1 resource and tool for remote teams?",
+        "text_excerpt": "Ask HN: Best 1 resource and tool for remote teams?. I love Trello for collaborating. It is free and runs on just about every device. I don&#x27;t know how complicated your projects will be, but is is very flexible and the api is a dream to work with. If you go the Trello route, you can review time spent on tasks in many ways at reportsfortrello.com. (I created the site.) I would also recommend google hangouts if you aren&#x27;t using it already. Best of luck!",
+        "published_at": "2013-09-24T21:06:49+00:00"
+      },
+      {
+        "id": "b179ae27435c6f12",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=33585947",
+        "title": "Show HN: I built my own PM tool after trying Trello, Asana, ClickUp, etc.",
+        "text_excerpt": "Show HN: I built my own PM tool after trying Trello, Asana, ClickUp, etc.. I dunno.. looks complicated, very much so. few years ago i made a big review of all trello alternatives and they were all too complicated to use and were lacking the copy of board &amp; list (as an actually working method and not just copy the 1%) and also lacking of share a board with customer via secret link, but only with limited visibility not to see all the cards and their details.. made trello still the best and most clean",
+        "published_at": "2022-11-13T18:37:42+00:00"
+      },
+      {
+        "id": "acbc16491e70b19d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15959295",
+        "title": "Ask HN: How does your team manage tech debt?",
+        "text_excerpt": "Ask HN: How does your team manage tech debt?. We use multiple things. * We do code reviews and inline&#x2F;trello todos. If we&#x27;re on a tight schedule, this helps us remember why and what needs to be reworked. * When adding new features we use regular development cycle (spec, design, review, develop, test, finish), but we also add one more process before finishing that is focused on improving todos from previous cycle. The reasoning is that after todos have been sitting there for a while, you might look at them a bit differently and while something wasn&#x27;t as obvious back then it might become now. Refactoring matters a lot to us. We don&#x27;t overdo it however and dedicate 1-3 days to it from the cycle. * If any major&#x2F;breaking version of react&#x2F;django&#x2F;drf comes out, we pause and update the tech stack. Run tests and fix any issues. * If any major bug that hinders the users experience occurs we allocate resources in parallel with the current dev cycle. * Update the",
+        "published_at": "2017-12-19T10:56:41+00:00"
+      },
+      {
+        "id": "30c13cc6af2ca213",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15579821",
+        "title": "Ask HN: How do you take idea notes / voice memos / reminders to yourself?",
+        "text_excerpt": "Ask HN: How do you take idea notes / voice memos / reminders to yourself?. Trello for todo&#x2F;project items, simplenote&#x2F;nvalt &amp; pinboard for other notes. Part of the trick is reviewing &amp; refactoring the trello lists on occasion to make sure the 1-3 boards you look at the most don\u2019t feel unwieldy. Example: I recently threw several lists of wacky ideas and things into an unsorted \u201csomeday hell\u201d board.",
+        "published_at": "2017-10-29T16:10:03+00:00"
+      },
+      {
+        "id": "0697f47066adfc27",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=45298374",
+        "title": "10 Years, 10 Pricing Mistakes: What We Learned Building a SaaS Without VC Money",
+        "text_excerpt": "10 Years, 10 Pricing Mistakes: What We Learned Building a SaaS Without VC Money.",
+        "published_at": "2025-09-19T05:56:58+00:00"
+      },
+      {
+        "id": "e30d31b67d0515d8",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://getskadi.com/",
+        "title": "Show HN: Skadi \u2013 self-hosted Trello alternative with a 10 second installation",
+        "text_excerpt": "Show HN: Skadi \u2013 self-hosted Trello alternative with a 10 second installation.",
+        "published_at": "2016-01-31T16:15:15+00:00"
+      },
+      {
+        "id": "d94401a0af5264e5",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=9777199",
+        "title": "Show HN: Restyaboard \u2013 Open source trello alternative",
+        "text_excerpt": "Show HN: Restyaboard \u2013 Open source trello alternative.",
+        "published_at": "2015-06-25T11:48:02+00:00"
+      },
+      {
+        "id": "df12d9e6676ce77d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://duetapp.com/",
+        "title": "Show HN: My self hosted project management and billing app (Trello alternative)",
+        "text_excerpt": "Show HN: My self hosted project management and billing app (Trello alternative).",
+        "published_at": "2020-02-25T13:51:04+00:00"
+      },
+      {
+        "id": "f85aab344d825d0d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://clubhouse.io/vs/trello",
+        "title": "Clubhouse: Trello Alternative for Software Teams",
+        "text_excerpt": "Clubhouse: Trello Alternative for Software Teams.",
+        "published_at": "2017-02-06T15:23:14+00:00"
+      },
+      {
+        "id": "c2ac41eaacec47fc",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://planka.app/",
+        "title": "Planka \u2013 Free, Open Source, Trello Alternative",
+        "text_excerpt": "Planka \u2013 Free, Open Source, Trello Alternative.",
+        "published_at": "2023-12-12T06:51:22+00:00"
+      },
+      {
+        "id": "7b51ac803d650e4d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://stacks.rocks/blog/stacks-v1.7/",
+        "title": "Stacks \u2013 The secure Trello alternative just got even better",
+        "text_excerpt": "Stacks \u2013 The secure Trello alternative just got even better.",
+        "published_at": "2021-12-28T15:47:02+00:00"
+      },
+      {
+        "id": "fabc5bd3b2b3d17b",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://stacks.rocks/blog/stacks-v1.6/",
+        "title": "Stacks v1.6 \u2013 The best Trello alternative has just got even better",
+        "text_excerpt": "Stacks v1.6 \u2013 The best Trello alternative has just got even better.",
+        "published_at": "2021-12-03T14:43:37+00:00"
+      },
+      {
+        "id": "0e92179674368fde",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://stacks.rocks/features/automation/",
+        "title": "Stacks v1.4 \u2013 The secure Trello alternative now has Automations",
+        "text_excerpt": "Stacks v1.4 \u2013 The secure Trello alternative now has Automations.",
+        "published_at": "2021-07-30T06:51:02+00:00"
+      },
+      {
+        "id": "d525661eb9238793",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://stacks.rocks/features/a-secure-trello-alternative/",
+        "title": "A Safer Trello Alternative",
+        "text_excerpt": "A Safer Trello Alternative.",
+        "published_at": "2021-06-29T11:49:22+00:00"
+      },
+      {
+        "id": "e36735d325eb7b53",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://arcamens.com/",
+        "title": "Show HN: (Arcamens) a trello alternative with a new view of boards.Python/django",
+        "text_excerpt": "Show HN: (Arcamens) a trello alternative with a new view of boards.Python/django.",
+        "published_at": "2018-08-15T09:45:51+00:00"
+      },
+      {
+        "id": "8ca3ecd8150fcfbf",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://www.bothsidesofthetable.com/2012/08/14/trello-versus-asana/",
+        "title": "Trello vs. Asana - what is your favorite collaboration tool?",
+        "text_excerpt": "Trello vs. Asana - what is your favorite collaboration tool?.",
+        "published_at": "2012-08-15T06:03:40+00:00"
+      },
+      {
+        "id": "31f2d6a337e6014d",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "http://blog.untrod.com/2016/06/trello-vs-asana.html",
+        "title": "Trello vs. Asana",
+        "text_excerpt": "Trello vs. Asana.",
+        "published_at": "2016-06-23T21:21:10+00:00"
+      },
+      {
+        "id": "59a05351c55d97c1",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=8786539",
+        "title": "Time tracking with Plus for Trello: Spent vs. estimates, burn-downs and more",
+        "text_excerpt": "Time tracking with Plus for Trello: Spent vs. estimates, burn-downs and more.",
+        "published_at": "2014-12-23T02:33:05+00:00"
+      },
+      {
+        "id": "22cd2844d82b1af9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=9777285",
+        "title": "Show HN: Restyaboard \u2013 Open source trello alternative",
+        "text_excerpt": "Show HN: Restyaboard \u2013 Open source trello alternative. (With clickable links) Demo: http:&#x2F;&#x2F;restya.com&#x2F;board&#x2F;demo.html Features: http:&#x2F;&#x2F;restya.com&#x2F;board&#x2F;features.html Trello Vs Restyaboard: http:&#x2F;&#x2F;restya.com&#x2F;board&#x2F;comparison.html (Offline support and more) AWS AMI coming soon for 1-click install (Submitted for approval). This is one of revenue options. Source code will be pushed once AMI is ready. http:&#x2F;&#x2F;restya.com&#x2F;board&#x2F;",
+        "published_at": "2015-06-25T12:10:25+00:00"
+      },
+      {
+        "id": "4b0bfb558bcb0d16",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4769137",
+        "title": "Ask HN: Tell us about your side projects.",
+        "text_excerpt": "Ask HN: Tell us about your side projects.. Not necessarily agree.. the simplicity is what would make it use vs trello = you sell an EASY way to Trello =)",
+        "published_at": "2012-11-11T09:26:04+00:00"
+      },
+      {
+        "id": "007017865aacc58c",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4357839",
+        "title": "Trello Android App Available for Download",
+        "text_excerpt": "Trello Android App Available for Download. I was wonderng, has anyone been using Trello for developing client projects - not in house products, but web applications services. I would really like to know about your experiences with Trello vs more traditional style trackers like Redmine/Trac etc. Edit: Just to be clear, I am not talking about a feature comparison. I understand Redmine has features like Wiki etc which are not in Trello. I am talking only about the Trello vs issue tracking feature in Redmine/Trac/Others .",
+        "published_at": "2012-08-08T20:17:14+00:00"
+      },
+      {
+        "id": "48ca074ab9e34ee7",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4501907",
+        "title": "How I Learned to Defrag My Brain",
+        "text_excerpt": "How I Learned to Defrag My Brain. I think a lot of us entrepreneur types have files, Moleskins, txt documents, blogs, etc. that are similar to 'The Spark File.' It's an excellent tool, and keeping track of ideas, inspiration, projects, and more is a vital part of organizing your thoughts. One thing that differentiates this particular implementation is the consistent (but not constant) review of ideas, as well as the consolidation of ideas that seem to go well together. The creation of \"full\" ideas vs. \"half baked\" ideas is a really interesting concept, and I feel that I learned a lot about idea formation, even from just a four minute video. While ByWord seems great for offline editing (and I'm certainly going to give it a shot), I've had a really great experience using Trello for my \"spark file.\" The separate \"cards\" that Trello supports allow me to have different categories of ideas that I can then individually consolidate. For example, I currently have cards for: - Startup (ideas for",
+        "published_at": "2012-09-10T20:02:17+00:00"
+      },
+      {
+        "id": "8e6be1e0cce312b9",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=21964243",
+        "title": "Show HN: An infinitely nested task manager where progress bubbles up to the top",
+        "text_excerpt": "Show HN: An infinitely nested task manager where progress bubbles up to the top. I really love this as it might obviate Trello - I have two details that might add to the experience. Drag and drop functionality to move bullets and lists up and down so that points aren\u2019t locked into the order you input them in (exactly how Trello works) Support for link recognition (any link will auto underline and become a working web link)",
+        "published_at": "2020-01-05T21:28:13+00:00"
+      },
+      {
+        "id": "75b4d0b1efeebe18",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=19846342",
+        "title": "Shipping a Linux Kernel with Windows",
+        "text_excerpt": "Shipping a Linux Kernel with Windows. MacOS X -&gt; Windows 10 convert here. Also Linux user for 15+ years. My experiences: Windows 10 support for things is fantastic. It&#x27;s faster than Mac OS X and Linux for me. It multitasks better. The HDPI support is very mature compared to Windows 7&#x2F;8. Multi-monitors just work. I love snapping windows (via corners and hot keys). Also Windows Key + Shift + S to click+drag screenshots to clipboard. Everything just works. Or the driver is a Google away. Wireless printers and scanners. Bluetooth headphones. Apps like slack, trello, spotify. While I haven&#x27;t used the Surface, I was considering one for development, but the repairability on the Surface Book 2 (if that&#x27;s what you mean) is worse than the Macbook Pro: https:&#x2F;&#x2F;www.ifixit.com&#x2F;Teardown&#x2F;Microsoft+Surface+Book+2+Tea... On the other hand, Windows 10 &quot;just works&quot; on a lot of hardware. I recommend Lenovo X and T series. Dell XPS series are getting goo",
+        "published_at": "2019-05-07T03:45:29+00:00"
+      },
+      {
+        "id": "eba1bdb684b0178a",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=16615692",
+        "title": "Ask HN: How do you track your personal goals?",
+        "text_excerpt": "Ask HN: How do you track your personal goals?. May I recommend you check out Trello with the &quot;Trello Card Repeater[0].&quot; Trello without the repeater is a really powerful way to organize your life, turning your life into a series of big cards with tasks in it, that give you a sense of accomplishment when you close one. You then tack on automatic cards which appear on a schedule (e.g. &quot;take out the trash,&quot; &quot;clean this,&quot; &quot;fix that,&quot; etc) and you have a even more useful productivity tool. You could of course use a traditional digital calendar for these with reminders, but pop-up reminders can be distracting&#x2F;overwhelming, or ignored. A Trello card can sit in a bucket waiting until you have time in your schedule. You can then combine it with something like the Pomodoro Technique[1] to help with uncontrolled procrastination. Best of luck! PS - There are other competitors to Trello which offer a great list experience (e.g. KanBanFlow, Microsoft Plann",
+        "published_at": "2018-03-19T01:52:43+00:00"
+      },
+      {
+        "id": "711f60c3ed75f584",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=4359236",
+        "title": "Trello Android App Available for Download",
+        "text_excerpt": "Trello Android App Available for Download. Updated. My ulterior motive was to see if you had multi-account support. I have a work trello account and personal one, and needless to say the web experience is dreadful.",
+        "published_at": "2012-08-09T02:33:22+00:00"
+      },
+      {
+        "id": "9f7aa1a8d58c66f3",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=25768249",
+        "title": "Dropbox to cut 11% of its global workforce",
+        "text_excerpt": "Dropbox to cut 11% of its global workforce. I can just slap Owncloud or Nextcloud to a VPS and build a relatively secure system within three hours but, some problems will arise. - Integration with 3rd party tools: Trello or services which provide &quot;Dropbox Apps&quot; support won&#x27;t be able to sync to my space or directly retrieve from it. I&#x27;m sure there will be many other tools which can talk with Dropbox but not with my server. - Collaboration: I bet that not so many people would install another client and remember a username, password, URL triplet to just work with me (e.g. academic research, side project, etc.). They&#x27;ll either force me to use other tool or things will just break down (just experienced a similar thing at work). - Maintenance: OS, service, add-on updates, licenses, security, monitoring, etc. will be additional time consuming obligations. - Pricing: If I use a VPS, excessive network traffic or resource usage will result in a price hike. - Price&#x2F;P",
+        "published_at": "2021-01-13T21:33:51+00:00"
+      },
+      {
+        "id": "50a0a1b21bbe844e",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=17579776",
+        "title": "What tech stacks are indie hackers using for their apps, and why?",
+        "text_excerpt": "What tech stacks are indie hackers using for their apps, and why?. My software dev path: Didn&#x27;t know anything serious about web dev&#x2F;software systems 12 months ago. So if my stack seems shiny, I just picked what many people on Medium&#x2F;Hacker News were talking&#x2F;raving about. Front-end: React SPA (Via Create React App),Redux, React-Bootstrap Why: I had no prior framework experience, single command setup, and plenty questions on Stack Overflow and Medium articles to learn with. Going the plain Javascript route with no frame work,seemed like I would be on a slippery slope for spaghetti code down the line. React&#x27;s one-way data flow and component architecture made things incredibly easy to mentally digest. I found React&#x27;s documentation VERY well organized and explained, and Vue&#x27;s documentation was intimidating when compared to React. Version Control: BitBucket Git Why: Free private tier for solo use and enjoyed previous experience with Atlassian products CI&#x",
+        "published_at": "2018-07-20T23:20:07+00:00"
+      },
+      {
+        "id": "fc1b9fe8c95731ca",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://constructor.dev/",
+        "title": "Show HN: Constructor \u2013 simple issue tracking for small teams, inspired by Trello",
+        "text_excerpt": "Show HN: Constructor \u2013 simple issue tracking for small teams, inspired by Trello.",
+        "published_at": "2022-02-22T15:20:42+00:00"
+      },
+      {
+        "id": "09e3183db35aefc6",
+        "platform": "hackernews",
+        "source_name": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=38673506",
+        "title": "Is Trello still better than Github Issues?",
+        "text_excerpt": "Is Trello still better than Github Issues?.",
+        "published_at": "2023-12-17T15:32:41+00:00"
+      }
+    ],
+    "skipped": [
+      {
+        "source_name": "reddit",
+        "query": "Flowdeck review",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:31.698563Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Flowdeck pricing complaints",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:32.767399Z"
+      },
+      {
+        "source_name": "hackernews",
+        "query": "Flowdeck pricing complaints",
+        "reason": "empty",
+        "detail": "no results",
+        "http_status": null,
+        "occurred_at": "2026-07-27T12:35:33.315016Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Flowdeck alternatives",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:33.781677Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Flowdeck vs",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:35.433512Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Flowdeck support experience",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:36.403437Z"
+      },
+      {
+        "source_name": "hackernews",
+        "query": "Flowdeck support experience",
+        "reason": "empty",
+        "detail": "no results",
+        "http_status": null,
+        "occurred_at": "2026-07-27T12:35:37.106180Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Asana review",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:37.538861Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Asana pricing complaints",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:38.585412Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Asana alternatives",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:39.605083Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Asana vs",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:40.640760Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Asana support experience",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:41.676379Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "ClickUp review",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:43.251301Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "ClickUp pricing complaints",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:44.445064Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "ClickUp alternatives",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:45.837808Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "ClickUp vs",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:46.881314Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "ClickUp support experience",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:47.934107Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Monday.com review",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:49.112951Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Monday.com pricing complaints",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:50.189049Z"
+      },
+      {
+        "source_name": "hackernews",
+        "query": "Monday.com pricing complaints",
+        "reason": "empty",
+        "detail": "no results",
+        "http_status": null,
+        "occurred_at": "2026-07-27T12:35:50.772871Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Monday.com alternatives",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:51.739082Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Monday.com vs",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:52.956809Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Monday.com support experience",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:54.232680Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Trello review",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:55.905837Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Trello pricing complaints",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:57.006190Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Trello alternatives",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:58.103805Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Trello vs",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:35:59.111582Z"
+      },
+      {
+        "source_name": "reddit",
+        "query": "Trello support experience",
+        "reason": "blocked",
+        "detail": "Reddit returned 403",
+        "http_status": 403,
+        "occurred_at": "2026-07-27T12:36:00.362981Z"
+      }
+    ],
+    "counts_by_platform": {
+      "hackernews": 158
+    }
+  },
+  "claims": [
+    {
+      "id": "36d1f914b1e2bbb4",
+      "company_id": "flowdeck",
+      "company_name": "Flowdeck",
+      "dimension": "features",
+      "statement": "FlowDeck allows developers to trigger builds without switching over to Xcode.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "50ffd85bfaefc0c1",
+          "url": "https://flowdeck.studio/",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "Stop switching to Xcode just to hit Build.",
+          "char_start": 20,
+          "char_end": 62,
+          "published_at": "2026-01-12T17:02:24Z",
+          "author": "afterxleep",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "1d746634bc183376",
+      "company_id": "flowdeck",
+      "company_name": "Flowdeck",
+      "dimension": "positioning",
+      "statement": "Flowdock is widely used for communication within small or closed groups.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "bc745546c683f165",
+          "url": "https://news.ycombinator.com/item?id=7611714",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "For small&#x2F;closed groups, the popular ones are Hipchat and Flowdock.",
+          "char_start": 47,
+          "char_end": 119,
+          "published_at": "2014-04-18T22:42:33Z",
+          "author": "ytjohn",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "209a52a8617dfe3e",
+      "company_id": "flowdeck",
+      "company_name": "Flowdeck",
+      "dimension": "ux",
+      "statement": "Flowdock receives praise for its conversation organization and threading capabilities.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "bc745546c683f165",
+          "url": "https://news.ycombinator.com/item?id=7611714",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "Flowdock gets a lot of great reviews because of how it organizes and threads conversations.",
+          "char_start": 120,
+          "char_end": 211,
+          "published_at": "2014-04-18T22:42:33Z",
+          "author": "ytjohn",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "f0618b8a2721c831",
+      "company_id": "flowdeck",
+      "company_name": "Flowdeck",
+      "dimension": "positioning",
+      "statement": "FlowDock is recommended as a suitable alternative following Grove.io's shutdown.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "14a4e16a392588fc",
+          "url": "https://news.ycombinator.com/item?id=4535262",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "I recommend FlowDock as a good alternative.",
+          "char_start": 24,
+          "char_end": 67,
+          "published_at": "2012-09-17T22:33:09Z",
+          "author": "brendoncrawford",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "dbe1c3e03c1b42c2",
+      "company_id": "monday-com",
+      "company_name": "Monday.com",
+      "dimension": "positioning",
+      "statement": "Monday.com is positioned as a work management platform.",
+      "stance": "neutral",
+      "evidence": [
+        {
+          "document_id": "4d0c05ee60a8ac63",
+          "url": "https://news.ycombinator.com/item?id=40431240",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "opensource work management (monday.com alternative)",
+          "char_start": 21,
+          "char_end": 72,
+          "published_at": "2024-05-21T17:22:13Z",
+          "author": "moshizzlejo",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "2765c0aab7b8a209",
+      "company_id": "monday-com",
+      "company_name": "Monday.com",
+      "dimension": "positioning",
+      "statement": "Monday.com is considered a viable alternative for teams where Linear is not a good fit.",
+      "stance": "positive",
+      "evidence": [
+        {
+          "document_id": "70e88f7793766950",
+          "url": "https://news.ycombinator.com/item?id=33140431",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com.",
+          "char_start": 1235,
+          "char_end": 1349,
+          "published_at": "2022-10-09T12:37:16Z",
+          "author": "voidr",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [
+        "c1be2954775aba79"
+      ],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "c1be2954775aba79",
+      "company_id": "monday-com",
+      "company_name": "Monday.com",
+      "dimension": "positioning",
+      "statement": "Monday.com is suitable for small projects but isn't viable or easy to use in enterprise or large organizations.",
+      "stance": "negative",
+      "evidence": [
+        {
+          "document_id": "70e88f7793766950",
+          "url": "https://news.ycombinator.com/item?id=33140431",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
+          "char_start": 1235,
+          "char_end": 1505,
+          "published_at": "2022-10-09T12:37:16Z",
+          "author": "voidr",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [
+        "2765c0aab7b8a209"
+      ],
+      "extracted_by": "claim_extractor"
+    },
+    {
+      "id": "caa46f7d5779dc77",
+      "company_id": "trello",
+      "company_name": "Trello",
+      "dimension": "positioning",
+      "statement": "Clubhouse is positioned as an alternative to Trello for software teams.",
+      "stance": "neutral",
+      "evidence": [
+        {
+          "document_id": "f85aab344d825d0d",
+          "url": "https://clubhouse.io/vs/trello",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "Clubhouse: Trello Alternative for Software Teams.",
+          "char_start": 0,
+          "char_end": 49,
+          "published_at": "2017-02-06T15:23:14Z",
+          "author": "gk1",
+          "verified": true
+        }
+      ],
+      "confidence": 0.5,
+      "conflicts_with": [],
+      "extracted_by": "claim_extractor"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "bc1cc90f29db638e",
+      "label": "Lack of scalability for enterprise organizations",
+      "description": "Work management tools may work well for small projects but lack the viability and ease of use required for large enterprise organizations.",
+      "scope": "company_specific",
+      "company_ids": [
+        "monday-com"
+      ],
+      "claim_ids": [
+        "c1be2954775aba79"
+      ],
+      "evidence": [
+        {
+          "document_id": "70e88f7793766950",
+          "url": "https://news.ycombinator.com/item?id=33140431",
+          "platform": "hackernews",
+          "source_name": "hackernews",
+          "quote": "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
+          "char_start": 1235,
+          "char_end": 1505,
+          "published_at": "2022-10-09T12:37:16Z",
+          "author": "voidr",
+          "verified": true
+        }
+      ],
+      "platforms": [
+        "hackernews"
+      ],
+      "mention_count": 1,
+      "confidence": 0.7000000000000001
+    }
+  ],
+  "gaps": [
+    {
+      "dimension": "features",
+      "direction": "target_ahead",
+      "summary": "The target has documented features discussion that no seed competitor has grounded evidence for.",
+      "target_claim_ids": [
+        "36d1f914b1e2bbb4"
+      ],
+      "competitor_claim_ids": [],
+      "competitor_ids": []
+    },
+    {
+      "dimension": "ux",
+      "direction": "target_ahead",
+      "summary": "The target has documented ux discussion that no seed competitor has grounded evidence for.",
+      "target_claim_ids": [
+        "209a52a8617dfe3e"
+      ],
+      "competitor_claim_ids": [],
+      "competitor_ids": []
+    }
+  ],
+  "conflicts": [
+    {
+      "subject": "monday-com|positioning",
+      "positions": [
+        {
+          "stance": "positive",
+          "claim_ids": [
+            "2765c0aab7b8a209"
+          ],
+          "evidence": [
+            {
+              "document_id": "70e88f7793766950",
+              "url": "https://news.ycombinator.com/item?id=33140431",
+              "platform": "hackernews",
+              "source_name": "hackernews",
+              "quote": "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com.",
+              "char_start": 1235,
+              "char_end": 1349,
+              "published_at": "2022-10-09T12:37:16Z",
+              "author": "voidr",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "stance": "negative",
+          "claim_ids": [
+            "c1be2954775aba79"
+          ],
+          "evidence": [
+            {
+              "document_id": "70e88f7793766950",
+              "url": "https://news.ycombinator.com/item?id=33140431",
+              "platform": "hackernews",
+              "source_name": "hackernews",
+              "quote": "some viable alternatives include GitHub Issues, Asana, ClickUp, YouTrack, Trello, Pivotal Tracker, and monday.com. None of these are viable in larger organisations, they are fine for small projects, but you would have a lot of trouble with them in an enterprise context.",
+              "char_start": 1235,
+              "char_end": 1505,
+              "published_at": "2022-10-09T12:37:16Z",
+              "author": "voidr",
+              "verified": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "grounding": {
+    "claims_proposed": 8,
+    "claims_accepted": 8,
+    "claims_rejected": 0,
+    "rejections": []
+  },
+  "config": {
+    "orchestration_mode": "pipeline",
+    "model": "gemini-flash-latest",
+    "sources_enabled": [
+      "reddit",
+      "serper",
+      "hackernews"
+    ],
+    "competitor_count": 4,
+    "meets_minimum_competitors": true
+  }
+}
