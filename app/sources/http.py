@@ -8,13 +8,20 @@ _DEFAULT_TIMEOUT = httpx.Timeout(8.0)
 
 
 class HttpResult:
-    def __init__(self, status_code: int | None, json_body: object | None = None, error: Exception | None = None) -> None:
+    def __init__(
+        self, status_code: int | None, json_body: object | None = None, error: Exception | None = None
+    ) -> None:
         self.status_code = status_code
         self.json_body = json_body
         self.error = error
 
 
-async def get_json(url: str, params: dict[str, object] | None = None, headers: dict[str, str] | None = None, retry_on_429: bool = True) -> HttpResult:
+async def get_json(
+    url: str,
+    params: dict[str, str | int] | None = None,
+    headers: dict[str, str] | None = None,
+    retry_on_429: bool = True,
+) -> HttpResult:
     merged_headers = {"User-Agent": USER_AGENT, **(headers or {})}
     try:
         async with httpx.AsyncClient(timeout=_DEFAULT_TIMEOUT) as client:

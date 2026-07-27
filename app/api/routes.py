@@ -55,7 +55,11 @@ async def create_run(request: AnalysisRequest) -> RunCreatedResponse:
     return RunCreatedResponse(
         run_id=run_id,
         status=RunStatus.QUEUED,
-        links={"status": f"/api/v1/runs/{run_id}", "brief": f"/api/v1/runs/{run_id}/brief", "evidence": f"/api/v1/runs/{run_id}/evidence"},
+        links={
+            "status": f"/api/v1/runs/{run_id}",
+            "brief": f"/api/v1/runs/{run_id}/brief",
+            "evidence": f"/api/v1/runs/{run_id}/evidence",
+        },
     )
 
 

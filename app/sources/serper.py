@@ -5,7 +5,7 @@ import httpx
 
 from app.config import get_settings
 from app.domain.enums import Platform, SkipReason
-from app.domain.models import Document, content_hash, document_id
+from app.domain.models import Document, SkippedSource, content_hash, document_id
 from app.sources.base import make_skip
 from app.sources.http import post_json
 from app.sources.normalize import clean_text
@@ -25,7 +25,7 @@ def _platform_for_domain(url: str) -> Platform:
     return Platform.WEB
 
 
-async def search(query: str, company_id: str, limit: int = 10) -> tuple[list[Document], object | None]:
+async def search(query: str, company_id: str, limit: int = 10) -> tuple[list[Document], SkippedSource | None]:
     settings = get_settings()
     if not settings.serper_api_key:
         return [], make_skip(SOURCE_NAME, query, SkipReason.NO_API_KEY, "SERPER_API_KEY not configured")
@@ -46,7 +46,9 @@ async def search(query: str, company_id: str, limit: int = 10) -> tuple[list[Doc
     if result.status_code == 429:
         return [], make_skip(SOURCE_NAME, query, SkipReason.RATE_LIMITED, "Serper returned 429", http_status=429)
     if result.status_code is None or result.status_code >= 400:
-        return [], make_skip(SOURCE_NAME, query, SkipReason.UNREACHABLE, f"HTTP {result.status_code}", http_status=result.status_code)
+        return [], make_skip(
+            SOURCE_NAME, query, SkipReason.UNREACHABLE, f"HTTP {result.status_code}", http_status=result.status_code
+        )
 
     try:
         organic = result.json_body["organic"]  # type: ignore[index]

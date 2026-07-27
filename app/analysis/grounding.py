@@ -9,7 +9,14 @@ from dataclasses import dataclass
 from pydantic import BaseModel
 
 from app.domain.enums import Dimension, Stance
-from app.domain.models import Claim, Document, Evidence, GroundingRejection, GroundingReport, claim_id
+from app.domain.models import (
+    Claim,
+    Document,
+    Evidence,
+    GroundingRejection,
+    GroundingReport,
+    claim_id,
+)
 
 _QUOTE_CHAR_MAP = {
     "‘": "'", "’": "'", "“": '"', "”": '"',

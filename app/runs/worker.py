@@ -15,7 +15,6 @@ from langchain_core.messages import HumanMessage
 from app.agents.schemas import ClaimBatch, PainPointBatch
 from app.agents.store import DocumentStore
 from app.agents.subagents import build_claim_extractor, build_pain_point_clusterer
-from app.analysis.confidence import score_from_evidence
 from app.analysis.conflicts import annotate_conflicts, detect_conflicts
 from app.analysis.dedupe import merge_claims
 from app.analysis.gaps import compute_gaps
@@ -61,11 +60,12 @@ def _rank_and_cap(documents: list[Document], company_id: str, limit: int) -> lis
 async def _extract_claims_for_document(
     extractor: object, company: Competitor, document: Document, validator: GroundingValidator
 ) -> tuple[list[Claim], int, list]:
-    result = await extractor.ainvoke(  # type: ignore[attr-defined]
-        {"messages": [HumanMessage(content=f"Company: {company.name} (id: {company.id})\n\nDocument text:\n{document.text}")]}
-    )
+    prompt = f"Company: {company.name} (id: {company.id})\n\nDocument text:\n{document.text}"
+    result = await extractor.ainvoke({"messages": [HumanMessage(content=prompt)]})  # type: ignore[attr-defined]
     structured = result.get("structured_response")
-    batch: ClaimBatch = structured if isinstance(structured, ClaimBatch) else ClaimBatch.model_validate(structured or {})
+    batch: ClaimBatch = (
+        structured if isinstance(structured, ClaimBatch) else ClaimBatch.model_validate(structured or {})
+    )
 
     raws = [
         RawClaim(
@@ -129,12 +129,17 @@ async def run_pipeline(
     if negative_or_neutral:
         clusterer_runnable = build_pain_point_clusterer()["runnable"]
         claim_summaries = "\n".join(
-            f"- id={c.id} company_id={c.company_id} dimension={c.dimension.value} stance={c.stance.value}: {c.statement}"
+            f"- id={c.id} company_id={c.company_id} dimension={c.dimension.value} "
+            f"stance={c.stance.value}: {c.statement}"
             for c in negative_or_neutral
         )
         result = await clusterer_runnable.ainvoke({"messages": [HumanMessage(content=claim_summaries)]})
         structured = result.get("structured_response")
-        batch: PainPointBatch = structured if isinstance(structured, PainPointBatch) else PainPointBatch.model_validate(structured or {})
+        batch: PainPointBatch = (
+            structured
+            if isinstance(structured, PainPointBatch)
+            else PainPointBatch.model_validate(structured or {})
+        )
         claims_by_id = {c.id: c for c in merged_claims}
         pain_points = build_pain_points(
             [c.model_dump() for c in batch.clusters], claims_by_id, settings.domain_wide_min_companies

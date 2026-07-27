@@ -14,7 +14,6 @@ from langchain_core.tools import BaseTool, tool
 from app.agents.store import DocumentStore
 from app.analysis.intake import make_competitor
 from app.domain.enums import CompetitorStatus
-from app.domain.models import Competitor
 from app.sources.registry import get_source
 
 
@@ -54,13 +53,15 @@ def build_tools(store: DocumentStore) -> list[BaseTool]:
 
     search_hackernews = tool(
         "search_hackernews",
-        description="Search Hacker News (Algolia API) for stories/comments mentioning a company. Keyless fallback source.",
+        description="Search Hacker News (Algolia API) for stories/comments mentioning a company. Keyless fallback.",
     )(_search_tool("hackernews", store))
 
     @tool
-    def list_documents(company_id: str | None = None, platform: str | None = None, limit: int = 50) -> list[dict[str, Any]]:
+    def list_documents(
+        company_id: str | None = None, platform: str | None = None, limit: int = 50
+    ) -> list[dict[str, Any]]:
         """List documents already fetched this run, optionally filtered by company or platform."""
-        docs = store.list(company_id=company_id, platform=platform, limit=limit)
+        docs = store.list_documents(company_id=company_id, platform=platform, limit=limit)
         return [
             {
                 "document_id": d.id,

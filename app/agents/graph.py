@@ -2,13 +2,17 @@
 lives in this file and `subagents.py` -- a version bump touches only these two.
 """
 
-from deepagents import create_deep_agent
+from deepagents import CompiledSubAgent, SubAgent, create_deep_agent
 from langgraph.checkpoint.memory import InMemorySaver
 
 from app.agents.llm import get_llm
 from app.agents.prompts import ORCHESTRATOR_PROMPT
 from app.agents.store import DocumentStore
-from app.agents.subagents import build_claim_extractor, build_pain_point_clusterer, build_research_subagents
+from app.agents.subagents import (
+    build_claim_extractor,
+    build_pain_point_clusterer,
+    build_research_subagents,
+)
 from app.agents.tools import build_tools
 from app.config import get_settings
 from app.domain.state import MarketGapState
@@ -16,7 +20,7 @@ from app.domain.state import MarketGapState
 
 def build_orchestrator(store: DocumentStore) -> object:
     settings = get_settings()
-    subagents = [
+    subagents: list[SubAgent | CompiledSubAgent] = [
         *build_research_subagents(store),
         build_claim_extractor(),
         build_pain_point_clusterer(),

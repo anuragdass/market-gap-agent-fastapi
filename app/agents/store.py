@@ -35,7 +35,9 @@ class DocumentStore:
     def get(self, document_id: str) -> Document | None:
         return self._documents.get(document_id)
 
-    def list(self, company_id: str | None = None, platform: str | None = None, limit: int = 50) -> list[Document]:
+    def list_documents(
+        self, company_id: str | None = None, platform: str | None = None, limit: int = 50
+    ) -> list[Document]:
         docs = list(self._documents.values())
         if company_id:
             docs = [d for d in docs if company_id in d.companies]

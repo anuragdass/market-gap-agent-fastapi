@@ -24,7 +24,9 @@ class SearchToolResult(BaseModel):
     skipped: SkippedSource | None = None
 
 
-def make_skip(source_name: str, query: str, reason: SkipReason, detail: str, http_status: int | None = None) -> SkippedSource:
+def make_skip(
+    source_name: str, query: str, reason: SkipReason, detail: str, http_status: int | None = None
+) -> SkippedSource:
     return SkippedSource(
         source_name=source_name,
         query=query,

@@ -40,7 +40,8 @@ def _reverify_all(claims: list[Claim], pain_points: list[PainPoint], doc_index: 
             doc = doc_index.get(evidence.document_id)
             if doc is None or verify_quote(evidence.quote, doc) is None:
                 raise EvidenceIntegrityError(
-                    f"pain point {pain_point.id} evidence quote is not verifiable against document {evidence.document_id}"
+                    f"pain point {pain_point.id} evidence quote is not verifiable "
+                    f"against document {evidence.document_id}"
                 )
 
 
