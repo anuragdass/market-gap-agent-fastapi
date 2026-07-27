@@ -8,16 +8,21 @@ from app.domain.enums import RunStatus
 
 
 @pytest.fixture
-def client(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> TestClient:
+def client(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     from app import config
+    from app.db import session as db_session
 
     config.get_settings.cache_clear()
+    db_session.get_engine.cache_clear()
+    db_session.get_session_factory.cache_clear()
     monkeypatch.setenv("ARTIFACTS_DIR", str(tmp_path))
     monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key")
+    monkeypatch.setenv("DATABASE_URL", f"sqlite+aiosqlite:///{tmp_path}/test.db")
 
     from app.main import create_app
 
-    return TestClient(create_app())
+    with TestClient(create_app()) as test_client:
+        yield test_client
 
 
 async def _fake_run_pipeline(run_id: str, **kwargs: object) -> dict:

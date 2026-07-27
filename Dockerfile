@@ -12,6 +12,8 @@ COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/pytho
 COPY --from=builder /usr/local/bin /usr/local/bin
 COPY app ./app
 COPY sample_input.json ./sample_input.json
+COPY alembic.ini ./alembic.ini
+COPY migrations ./migrations
 RUN mkdir -p /app/artifacts && chown -R appuser:appuser /app
 USER appuser
 ENV ARTIFACTS_DIR=/app/artifacts

@@ -18,6 +18,10 @@ class Settings(BaseSettings):
 
     orchestration_mode: Literal["agent", "pipeline"] = "agent"
 
+    # Postgres in docker compose (schema owned by Alembic, see migrations/);
+    # sqlite+aiosqlite is the zero-setup fallback for bare `make run`/tests.
+    database_url: str = "sqlite+aiosqlite:///./local.db"
+
     artifacts_dir: Path = Path("./artifacts")
     cache_dir: Path = Path("./.cache")
     max_concurrent_runs: int = 2

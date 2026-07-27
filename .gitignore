@@ -9,7 +9,7 @@ venv/
 .env
 .cache/
 artifacts/*
-!artifacts/demo/
-!artifacts/.gitkeep
+!artifacts/sample-run/
 dist/
 build/
+*.db
