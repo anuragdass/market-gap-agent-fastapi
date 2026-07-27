@@ -72,6 +72,7 @@ def _query_templates(company_name: str) -> list[str]:
 
 
 async def _run_intake_and_research_via_agent(
+    run_id: str,
     store: DocumentStore,
     company_name: str,
     company_description: str,
@@ -97,7 +98,7 @@ async def _run_intake_and_research_via_agent(
     )
     result = await orchestrator.ainvoke(
         {"messages": [HumanMessage(content=task_prompt)]},
-        config={"recursion_limit": 60},
+        config={"recursion_limit": 60, "configurable": {"thread_id": run_id}},
     )
     final_message = result["messages"][-1].content if result.get("messages") else ""
     if store.intake_target is None:
@@ -163,7 +164,7 @@ async def run_pipeline(
     store = DocumentStore()
 
     if settings.orchestration_mode == "agent":
-        await _run_intake_and_research_via_agent(store, company_name, company_description, seed_competitors)
+        await _run_intake_and_research_via_agent(run_id, store, company_name, company_description, seed_competitors)
         # _run_intake_and_research_via_agent raises if this is still None.
         assert store.intake_target is not None
         target = store.intake_target
