@@ -1,0 +1,79 @@
+# Competitive Brief: {{ target.name }}
+
+_Generated {{ generated_at }} · run `{{ run_id }}`_
+
+## Company Overview
+
+**{{ target.name }}** ({{ target.domain or "domain unknown" }}) -- {{ target.one_liner }}
+
+## Competitor Landscape
+
+{% for c in accepted_competitors -%}
+- **{{ c.name }}** ({{ c.domain or "domain unknown" }}) -- {{ c.one_liner }}
+{% endfor %}
+{% if skipped_competitors %}
+Skipped from the seed list:
+{% for c in skipped_competitors -%}
+- **{{ c.name }}** -- {{ c.skip_reason or "unresolved" }}
+{% endfor %}
+{% endif %}
+
+## Feature & Positioning Comparison
+
+{% for dimension, rows in comparison_matrix.items() %}
+### {{ dimension | title }}
+
+| Company | Stance | Claim | Evidence |
+|---|---|---|---|
+{% for row in rows -%}
+| {{ row.company_name }} | {{ row.stance }} | {{ row.statement }} | {% for idx in row.citation_indices %}[{{ idx }}]{% endfor %} |
+{% endfor %}
+{% else %}
+_No grounded claims were collected for any dimension._
+{% endfor %}
+
+## Conflicting Signals
+
+{% if conflicts %}
+{% for conflict in conflicts %}
+**{{ conflict.subject }}** -- opinions diverge:
+
+{% for position in conflict.positions %}
+- _{{ position.stance }}_: {{ position.quotes }}
+{% endfor %}
+{% endfor %}
+{% else %}
+No directly conflicting opinions were found in the collected evidence.
+{% endif %}
+
+## Domain-Wide Pain Points
+
+{% for pp in pain_points %}
+### {{ pp.label }} ({{ pp.scope }})
+
+{{ pp.description }}
+
+Companies affected: {{ pp.company_ids | join(', ') }}. Platforms: {{ pp.platforms | join(', ') }}.
+
+{{ pp.quotes }}
+
+{% else %}
+_No recurring pain points were identified from the collected evidence._
+{% endfor %}
+
+## Opportunities & Gaps for {{ target.name }}
+
+{% for gap in gaps %}
+- **[{{ gap.dimension }} · {{ gap.direction }}]** {{ gap.summary }}
+{% else %}
+_No dimension-level gaps were identified from the collected evidence._
+{% endfor %}
+
+## Methodology & Limitations
+
+- {{ grounding.claims_proposed }} candidate claims were proposed; {{ grounding.claims_accepted }} passed verbatim-quote grounding and {{ grounding.claims_rejected }} were rejected and excluded from this brief.
+- Sources skipped during this run: {{ skipped_sources | length }}.
+{% for s in skipped_sources -%}
+  - {{ s.source_name }} ({{ s.query }}): {{ s.reason }} -- {{ s.detail }}
+{% endfor %}
+- Every claim and pain point above is backed by a verbatim quote from the cited source; see `evidence.json` for full citation details.
